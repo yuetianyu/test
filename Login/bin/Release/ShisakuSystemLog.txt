@@ -1,0 +1,644 @@
+2016/01/06 09:39:57 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 09:39:58 ERROR
+Kanrihyo.iniファイルが存在しません。
+パス => 'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\Kanrihyo.ini'
+
+2016/01/06 09:40:30 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 09:40:30 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:09:19 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:09:19 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:09:29 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:09:29 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:11:18 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:11:18 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:14:54 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:14:54 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:21:21 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:21:21 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:29:13 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:29:13 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:32:29 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:32:29 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:35:21 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:35:21 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 10:43:01 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 10:43:01 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:06:17 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:06:17 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:10:57 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:10:57 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:34:31 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:34:31 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:37:47 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:37:47 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:42:57 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:42:57 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 14:46:02 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 14:46:02 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 15:00:29 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 15:00:29 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 15:13:55 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 15:13:55 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 16:23:10 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 16:23:10 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 16:44:53 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 16:44:53 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 16:50:06 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 16:50:06 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 16:51:43 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 16:51:43 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 17:02:08 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 17:02:08 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 17:05:31 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 17:05:31 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 17:10:55 INFORMATION
+USER ID:'bp0314'
+SDISINI:'D:\2015下期案件\SYSTEM\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 17:10:55 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 19:00:51 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/06 19:00:51 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/06 19:01:12 CRITICAL
+System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   場所 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 EBom.Data.AbstractDbAccess.Open() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 102
+   場所 Login.frm01Login.CanDbConnect() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\frm01Login.vb:行 290
+
+2016/01/21 09:12:23 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 09:12:24 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/21 09:12:46 CRITICAL
+System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   場所 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 EBom.Data.AbstractDbAccess.Open() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 102
+   場所 Login.frm01Login.CanDbConnect() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\frm01Login.vb:行 290
+
+2016/01/21 11:31:51 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 11:31:51 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/21 11:32:09 CRITICAL
+System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   場所 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 EBom.Data.AbstractDbAccess.Open() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 102
+   場所 Login.frm01Login.CanDbConnect() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\frm01Login.vb:行 290
+
+2016/01/21 11:55:04 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 11:55:04 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/21 11:55:22 CRITICAL
+System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   場所 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 EBom.Data.AbstractDbAccess.Open() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 102
+   場所 Login.frm01Login.CanDbConnect() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\frm01Login.vb:行 290
+
+2016/01/21 13:41:05 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 13:41:06 INFORMATION
+kanrihyo.ini  EBom.DB:'Fgnt152' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'Fgnt152' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'Fgnt152' - 'mBOM'
+
+2016/01/21 13:41:26 CRITICAL
+System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   場所 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   場所 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   場所 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 EBom.Data.AbstractDbAccess.Open() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 102
+   場所 Login.frm01Login.CanDbConnect() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\frm01Login.vb:行 290
+
+2016/01/21 13:42:24 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 13:42:24 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/21 13:56:53 CRITICAL
+System.Exception: Exception handled in FpSpread.WndProc ---> System.Exception: 号車名称が取得出来ませんでした。処理を終了します。
+   場所 EventSakusei.TehaichoEdit.TehaichoEditLogic.InitDtGoushaNameList() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Logic\TehaichoEditLogic.vb:行 2184
+   場所 EventSakusei.TehaichoEdit.TehaichoEditLogic.InitializeSpread() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Logic\TehaichoEditLogic.vb:行 636
+   場所 EventSakusei.TehaichoEdit.frm20DispTehaichoEdit.Initialize() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Frm20DispTehaichoEdit.vb:行 161
+   場所 EventSakusei.TehaichoEdit.frm20DispTehaichoEdit..ctor(String shisakuEventCode, String shisakuListCode, Int32 isSisaku1KaFlg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Frm20DispTehaichoEdit.vb:行 118
+   場所 EventSakusei.TehaichoMenu.frm19DispTehaichoMenu.btnHensyu_Click(Object sender, EventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoMenu\Frm19DispTehaichoMenu.vb:行 523
+   場所 System.Windows.Forms.Control.OnClick(EventArgs e)
+   場所 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   場所 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   場所 System.Windows.Forms.Button.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   場所 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   場所 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   場所 EventSakusei.ShisakuBuhinMenu.Frm8DispShisakuBuhinMenu.spdParts_CellDoubleClick(Object sender, CellClickEventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinMenu\Frm8DispShisakuBuhinMenu.vb:行 222
+   場所 FarPoint.Win.Spread.FpSpread.OnCellDoubleClick(CellClickEventArgs e)
+   場所 FarPoint.Win.Spread.FpSpread.a(SpreadView A_0, Int32 A_1, Int32 A_2, Int32 A_3, Int32 A_4, MouseButtons A_5, Boolean A_6, Boolean A_7)
+   場所 FarPoint.Win.Spread.SpreadView.a(Int32 A_0, Int32 A_1, MouseEventArgs A_2)
+   場所 FarPoint.Win.Spread.SpreadView.b(MouseEventArgs A_0)
+   場所 FarPoint.Win.Spread.FpSpread.OnMouseDown(MouseEventArgs e)
+   場所 System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   --- 内部例外スタック トレースの終わり ---
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2016/01/21 13:57:09 CRITICAL
+System.Exception: Exception handled in FpSpread.WndProc ---> System.Exception: 号車名称が取得出来ませんでした。処理を終了します。
+   場所 EventSakusei.TehaichoEdit.TehaichoEditLogic.InitDtGoushaNameList() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Logic\TehaichoEditLogic.vb:行 2184
+   場所 EventSakusei.TehaichoEdit.TehaichoEditLogic.InitializeSpread() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Logic\TehaichoEditLogic.vb:行 636
+   場所 EventSakusei.TehaichoEdit.frm20DispTehaichoEdit.Initialize() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Frm20DispTehaichoEdit.vb:行 161
+   場所 EventSakusei.TehaichoEdit.frm20DispTehaichoEdit..ctor(String shisakuEventCode, String shisakuListCode, Int32 isSisaku1KaFlg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoEdit\Frm20DispTehaichoEdit.vb:行 118
+   場所 EventSakusei.TehaichoMenu.frm19DispTehaichoMenu.btnHensyu_Click(Object sender, EventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\TehaichoMenu\Frm19DispTehaichoMenu.vb:行 523
+   場所 System.Windows.Forms.Control.OnClick(EventArgs e)
+   場所 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   場所 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   場所 System.Windows.Forms.Button.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   場所 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   場所 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   場所 EventSakusei.ShisakuBuhinMenu.Frm8DispShisakuBuhinMenu.spdParts_CellDoubleClick(Object sender, CellClickEventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinMenu\Frm8DispShisakuBuhinMenu.vb:行 222
+   場所 FarPoint.Win.Spread.FpSpread.OnCellDoubleClick(CellClickEventArgs e)
+   場所 FarPoint.Win.Spread.FpSpread.a(SpreadView A_0, Int32 A_1, Int32 A_2, Int32 A_3, Int32 A_4, MouseButtons A_5, Boolean A_6, Boolean A_7)
+   場所 FarPoint.Win.Spread.SpreadView.a(Int32 A_0, Int32 A_1, MouseEventArgs A_2)
+   場所 FarPoint.Win.Spread.SpreadView.b(MouseEventArgs A_0)
+   場所 FarPoint.Win.Spread.FpSpread.OnMouseDown(MouseEventArgs e)
+   場所 System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   --- 内部例外スタック トレースの終わり ---
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2016/01/21 14:05:56 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/21 14:05:56 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 13:30:37 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 13:30:38 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 16:46:14 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 16:46:14 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 16:56:47 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 16:56:48 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 16:57:16 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 16:57:16 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 16:59:55 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 16:59:55 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 17:01:43 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 17:01:43 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 17:02:00 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 17:02:00 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 17:03:08 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/01/29 17:03:08 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/01/29 17:10:11 CRITICAL
+System.Exception: Exception handled in FpSpread.WndProc ---> System.Data.SqlClient.SqlException: オブジェクト名 'mBOM.dbo.T_FUNC_EVENT_PHASE' が無効です。
+   場所 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   場所 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   場所 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   場所 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   場所 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   場所 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   場所 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   場所 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   場所 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   場所 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   場所 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   場所 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   場所 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   場所 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   場所 EBom.Data.AbstractDbAccess.Fill(String sql, DataTable dt) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\EBom\EBom.Data\clsAbstractDbAccess.vb:行 276
+   場所 ShisakuCommon.Db.DbAccessHelper.QueryForList[T](String sql, Object param) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Db\DbAccessHelper.vb:行 23
+   場所 ShisakuCommon.Db.ShisakuDbClient.QueryForList[T](String sql, Object parameter, SqlAccess db) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Db\ShisakuDbClient.vb:行 153
+   場所 ShisakuCommon.Db.ShisakuDbClient.QueryForList[T](String sql, Object parameter) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Db\ShisakuDbClient.vb:行 139
+   場所 ShisakuCommon.Db.ShisakuDbClient.QueryForList[T](String sql) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Db\ShisakuDbClient.vb:行 123
+   場所 EventSakusei.YosanSetteiBuhinEdit.Dao.YosanSetteiBuhinEditHeaderDaoImpl.FindByGenchoEventCode() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinEdit\Dao\YosanSetteiBuhinEditHeaderDaoImpl.vb:行 209
+   場所 EventSakusei.frmYosanLayoutDialog.GetLabelValues_EventCode() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinEdit\frmYosanLayoutDialog.vb:行 139
+   場所 EventSakusei.frmYosanLayoutDialog..ctor() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinEdit\frmYosanLayoutDialog.vb:行 29
+   場所 EventSakusei.YosanSetteiBuhinEdit.frmDispYosanSetteiBuhinEdit.YosanLayOutToolStripMenuItem_Click(Object sender, EventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinEdit\FrmDispYosanSetteiBuhinEdit.vb:行 1786
+   場所 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   場所 System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   場所 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   場所 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   場所 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   場所 System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   場所 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   場所 System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   場所 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   場所 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu.btnTehaichouEDIT_Click(Object sender, EventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 177
+   場所 System.Windows.Forms.Control.OnClick(EventArgs e)
+   場所 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   場所 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   場所 System.Windows.Forms.Button.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   場所 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   場所 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   場所 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   場所 EventSakusei.ShisakuBuhinSakuseiList.DispShisakuBuhinSakuseiList.ToSakuseiMenuUpdateMode(String editMode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\DispShisakuBuhinSakuseiList.vb:行 680
+   場所 EventSakusei.ShisakuBuhinSakuseiList.Frm7DispShisakuBuhinSakuseiList.spdParts_CellDoubleClick(Object sender, CellClickEventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.vb:行 135
+   場所 FarPoint.Win.Spread.FpSpread.OnCellDoubleClick(CellClickEventArgs e)
+   場所 FarPoint.Win.Spread.FpSpread.a(SpreadView A_0, Int32 A_1, Int32 A_2, Int32 A_3, Int32 A_4, MouseButtons A_5, Boolean A_6, Boolean A_7)
+   場所 FarPoint.Win.Spread.SpreadView.a(Int32 A_0, Int32 A_1, MouseEventArgs A_2)
+   場所 FarPoint.Win.Spread.SpreadView.b(MouseEventArgs A_0)
+   場所 FarPoint.Win.Spread.FpSpread.OnMouseDown(MouseEventArgs e)
+   場所 System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   --- 内部例外スタック トレースの終わり ---
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2016/02/01 09:15:49 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/02/01 09:15:50 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/02/01 09:19:04 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/02/01 09:19:04 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/02/01 09:21:28 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/02/01 09:21:28 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+
+2016/02/01 09:23:55 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Release\'
+
+2016/02/01 09:23:55 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM'
+

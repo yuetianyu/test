@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+YakanSekkeiTenakai
+</name>
+</assembly>
+<members>
+<member name="P:YakanSekkeiTenakai.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:YakanSekkeiTenakai.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:YakanSekkeiTenakai.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAri(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriNoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="blockNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAri2(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAri2NoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAri2ByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlockNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLD(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLDNoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLDByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="blockNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLD2(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLD2NoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindAlByShisakuEventBaseIroAriOLD2ByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="blockNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockInstlByShisakuEventBase(System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、試作の構成情報（試作部品編集INSTL情報）をもつ「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「試作設計ブロックINSTL情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockInstlByShisakuEventBaseByBlock(System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、試作の構成情報（試作部品編集INSTL情報）をもつ「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="unitKbn">ユニット区分</param>
+	<param name="blockNo">ブロックNo</param>
+	<returns>該当した「試作設計ブロックINSTL情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockUnit(System.String,System.String)">
+	<summary>
+ ブロックを元に、「開発車機能ブロック」マスタから「ユニット区分」を返す
+ </summary>
+	<param name="BlockNo">ブロック№</param>
+	<param name="KaihatsuFugo">開発符号</param>
+	<returns>該当した「ユニット区分」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockUnitFromSekkeiBlock(System.String,System.String)">
+	<summary>
+ ブロックを元に、試作設計ブロックテーブルから「ユニット区分」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlockNo">ブロック</param>
+	<returns>該当した「ユニット区分」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockInstlHyoujiJun(System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」から最大の「INSTL品番表示順」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="ShisakuBlockNo">試作ブロック№</param>
+	<returns>該当した「Instl品番表示順」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindShisakuBlockInstlHyoujiJun2(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」から最大の「INSTL品番表示順」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="ShisakuBlockNo">試作ブロック№</param>
+	<returns>該当した「Instl品番表示順」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuEventBase(System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「試作イベントベース車情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>該当した「試作イベントベース車情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindRHAC2210(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「RHAC2210」を抽出して返す
+ </summary>
+	<param name="KaihatsuFugo">開発符号</param>
+	<param name="SobiKaiteiNo">装備改訂№</param>
+	<param name="KatashikiScd7">7桁型式識別コード</param>
+	<param name="ShimukechiCode">仕向地コード</param>
+	<param name="OpCode">OPコード</param>
+	<returns>該当した「RHAC2210」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuEvent(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="SobiKaiteiNo">装備改訂№</param>
+	<param name="KaihatsuFugo">開発符号</param>
+	<param name="KatashikiScd7">7桁型式識別コード</param>
+	<param name="ShimukechiCode">仕向地コード</param>
+	<param name="OpCode">OPコード</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindSekkeiBlock(System.String,System.String,System.String,System.String)">
+	<summary>
+ テーブル値の検索結果を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロック№</param>
+	<param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+	<returns>該当レコード</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindSekkeiBlockInstl(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ テーブル値の検索結果を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロック№</param>
+	<param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+	<param name="shisakuGousya">試作号車</param>
+	<param name="instlDataKbn">INSTLデータ区分</param>
+	<param name="instlHinban">INSTL品番</param>
+	<param name="instlHinbanKbn">INSTL品番区分</param>
+	<returns>該当レコード</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuEvent(System.String)">
+	<summary>
+ 「試作イベント情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>試作イベント情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuBlockAll(System.String)">
+	<summary>
+ 「試作設計ブロック情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>設計ブロック情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuBlockAllGroupByBlockNo(System.String)">
+	<summary>
+ 「試作設計ブロック情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>設計ブロック情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuSekkeiBlockInstl(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>設計ブロックINSTL情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.FindByShisakuBuhinEditInstl(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ 「部品編集INSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロックNo</param>
+	<returns>部品編集INSTL情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDaoImpl.DeleteByShisakuBuhinEditInstl(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報と試作設計ブロック情報」を削除する
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロックNo</param>
+	<remarks></remarks>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuEventCode">
+	<summary>試作イベントコード</summary>
+	<value>試作イベントコード</value>
+	<returns>試作イベントコード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBukaCode">
+	<summary>試作部課コード</summary>
+	<value>試作部課コード</value>
+	<returns>試作部課コード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBlockNo">
+	<summary>試作ブロック№</summary>
+	<value>試作ブロック№</value>
+	<returns>試作ブロック№</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBlockNoKaiteiNo">
+	<summary>試作ブロック№改訂№</summary>
+	<value>試作ブロック№改訂№</value>
+	<returns>試作ブロック№改訂№</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinNoHyoujiJun">
+	<summary>部品番号表示順</summary>
+	<value>部品番号表示順</value>
+	<returns>部品番号表示順</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.Level">
+	<summary>レベル</summary>
+	<value>レベル</value>
+	<returns>レベル</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShukeiCode">
+	<summary>国内集計コード</summary>
+	<value>国内集計コード</value>
+	<returns>国内集計コード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.SiaShukeiCode">
+	<summary>海外SIA集計コード</summary>
+	<value>海外SIA集計コード</value>
+	<returns>海外SIA集計コード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.GencyoCkdKbn">
+	<summary>現調CKD区分</summary>
+	<value>現調CKD区分</value>
+	<returns>現調CKD区分</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.KyoukuSection">
+	<summary>供給セクション 2012/01/17</summary>
+	<value>供給セクション</value>
+	<returns>供給セクション</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.MakerCode">
+	<summary>取引先コード</summary>
+	<value>取引先コード</value>
+	<returns>取引先コード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.MakerName">
+	<summary>取引先名称</summary>
+	<value>取引先名称</value>
+	<returns>取引先名称</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinNo">
+	<summary>部品番号</summary>
+	<value>部品番号</value>
+	<returns>部品番号</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinNoKbn">
+	<summary>部品番号試作区分</summary>
+	<value>部品番号試作区分</value>
+	<returns>部品番号試作区分</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinNoKaiteiNo">
+	<summary>部品番号改訂No.</summary>
+	<value>部品番号改訂No.</value>
+	<returns>部品番号改訂No.</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.EdaBan">
+	<summary>枝番</summary>
+	<value>枝番</value>
+	<returns>枝番</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinName">
+	<summary>部品名称</summary>
+	<value>部品名称</value>
+	<returns>部品名称</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.Saishiyoufuka">
+	<summary>再使用不可</summary>
+	<value>再使用不可</value>
+	<returns>再使用不可</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShutuzuYoteiDate">
+	<summary>出図予定日</summary>
+	<value>出図予定日</value>
+	<returns>出図予定日</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ZaishituKikaku1">
+	<summary>材質・規格１</summary>
+	<value>材質・規格１</value>
+	<returns>材質・規格１</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ZaishituKikaku2">
+	<summary>材質・規格２</summary>
+	<value>材質・規格２</value>
+	<returns>材質・規格２</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ZaishituKikaku3">
+	<summary>材質・規格３</summary>
+	<value>材質・規格３</value>
+	<returns>材質・規格３</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ZaishituMekki">
+	<summary>材質・メッキ</summary>
+	<value>材質・メッキ</value>
+	<returns>材質・メッキ</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBankoSuryo">
+	<summary>板厚・板厚</summary>
+	<value>板厚・板厚</value>
+	<returns>板厚・板厚</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBankoSuryoU">
+	<summary>板厚・ｕ</summary>
+	<value>板厚・ｕ</value>
+	<returns>板厚・ｕ</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataSeisaku">
+	<summary>作り方・製作方法</summary>
+	<value>作り方・製作方法</value>
+	<returns>作り方・製作方法</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataKatashiyou1">
+	<summary>作り方・型仕様1</summary>
+	<value>作り方・型仕様1</value>
+	<returns>作り方・型仕様1</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataKatashiyou2">
+	<summary>作り方・型仕様2</summary>
+	<value>作り方・型仕様2</value>
+	<returns>作り方・型仕様2</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataKatashiyou3">
+	<summary>作り方・型仕様3</summary>
+	<value>作り方・型仕様3</value>
+	<returns>作り方・型仕様3</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataTigu">
+	<summary>作り方・治具</summary>
+	<value>作り方・治具</value>
+	<returns>作り方・治具</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataNounyu">
+	<summary>作り方・納入見通し</summary>
+	<value>作り方・納入見通し</value>
+	<returns>作り方・納入見通し</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.TsukurikataKibo">
+	<summary>作り方・部品製作規模・概要</summary>
+	<value>作り方・部品製作規模・概要</value>
+	<returns>作り方・部品製作規模・概要</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BaseBuhinFlg">
+	<summary>ベース情報フラグ</summary>
+	<value>ベース情報フラグ</value>
+	<returns>ベース情報フラグ</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.MaterialInfoLength">
+	<summary>材料情報・製品長</summary>
+	<value>材料情報・製品長</value>
+	<returns>材料情報・製品長</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.MaterialInfoWidth">
+	<summary>材料情報・製品幅</summary>
+	<value>材料情報・製品幅</value>
+	<returns>材料情報・製品幅</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.DataItemKaiteiNo">
+	<summary>データ項目・改訂№</summary>
+	<value>データ項目・改訂№</value>
+	<returns>データ項目・改訂№</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.DataItemAreaName">
+	<summary>データ項目・エリア名</summary>
+	<value>データ項目・エリア名</value>
+	<returns>データ項目・エリア名</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.DataItemSetName">
+	<summary>データ項目・セット名</summary>
+	<value>データ項目・セット名</value>
+	<returns>データ項目・セット名</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.DataItemKaiteiInfo">
+	<summary>データ項目・改訂情報</summary>
+	<value>データ項目・改訂情報</value>
+	<returns>データ項目・改訂情報</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuBuhinHi">
+	<summary>試作部品費（円）</summary>
+	<value>試作部品費（円）</value>
+	<returns>試作部品費（円）</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuKataHi">
+	<summary>試作型費（千円）</summary>
+	<value>試作型費（千円）</value>
+	<returns>試作型費（千円）</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.Bikou">
+	<summary>備考</summary>
+	<value>備考</value>
+	<returns>備考</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.EditTourokubi">
+	<summary>編集登録日</summary>
+	<value>編集登録日</value>
+	<returns>編集登録日</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.EditTourokujikan">
+	<summary>編集登録時間</summary>
+	<value>編集登録時間</value>
+	<returns>編集登録時間</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.KaiteiHandanFlg">
+	<summary>改訂判断フラグ</summary>
+	<value>改訂判断フラグ</value>
+	<returns>改訂判断フラグ</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.ShisakuListCode">
+	<summary>試作リストコード</summary>
+	<value>試作リストコード</value>
+	<returns>試作リストコード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.CreatedUserId">
+	<summary>作成ユーザーID</summary>
+	<value>作成ユーザーID</value>
+	<returns>作成ユーザーID</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.CreatedDate">
+	<summary>作成日</summary>
+	<value>作成日</value>
+	<returns>作成日</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.CreatedTime">
+	<summary>作成時</summary>
+	<value>作成時</value>
+	<returns>作成時</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.UpdatedUserId">
+	<summary>更新ユーザーID</summary>
+	<value>更新ユーザーID</value>
+	<returns>更新ユーザーID</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.UpdatedDate">
+	<summary>更新日</summary>
+	<value>更新日</value>
+	<returns>更新日</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.UpdatedTime">
+	<summary>更新時間</summary>
+	<value>更新時間</value>
+	<returns>更新時間</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo.BuhinNote">
+	<summary>部品ノート</summary>
+	<value>部品ノート</value>
+	<returns>部品ノート</returns>
+</member><member name="T:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVo">
+	<summary>
+ 試作部品編集情報
+ </summary>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ShisakuBuhinMenu.Logic.Impl.YakanSekkeiTenkaiCommand.UpdateTShisakuEventStatus(System.String,System.String,ShisakuCommon.ShisakuDate,System.DateTime,System.String)">
+	<summary>
+ 試作イベント情報のステータスを更新する
+ </summary>
+	<param name="eventCode">試作イベントコード</param>
+	<param name="status">ステータス</param>
+	<param name="aShisakuDate">試作システム日付</param>
+	<param name="kaiteiSyochiBi">改訂処置日</param>
+	<param name="tenkaiStatus">0:未展開 1:展開済み</param>
+	<remarks>展開ステータスは処理はじめに０を設定し、処理終了後１に更新する</remarks>
+</member><member name="M:YakanSekkeiTenakai.ShisakuBuhinMenu.Logic.Impl.YakanSekkeiTenkaiCommand.UpdateTShisakuEventStatus(EventSakusei.ShisakuBuhinMenu.Dao.IShisakuEventDao,System.String,System.String,ShisakuCommon.ShisakuDate,System.DateTime,System.String)">
+	<summary>
+ 試作イベント情報のステータスを更新する
+ </summary>
+	<param name="eventCode">試作イベントコード</param>
+	<param name="status">ステータス</param>
+	<param name="aShisakuDate">試作システム日付</param>
+	<param name="kaiteiSyochiBi">改訂処置日</param>
+	<param name="tenkaiStatus">0:未展開 1:展開済み</param>
+	<remarks>展開ステータスは処理はじめに０を設定し、処理終了後１に更新する</remarks>
+</member><member name="M:YakanSekkeiTenakai.ShisakuBuhinMenu.Logic.Impl.YakanSekkeiTenkaiCommand.UpdateTShisakuEventBase(System.String)">
+	<summary>
+ 試作イベント情報のステータスを更新する
+ </summary>
+	<param name="eventCode">試作イベントコード</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.mainsub.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:YakanSekkeiTenakai.mainsub">
+	<summary>
+	</summary>
+	<remarks>  ''↓↓2014/08/05 Ⅰ.5.EBOM差分出力  ax) (TES)施 ADD </remarks>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo.ShisakuBlockName">
+	<summary>ブロック名称</summary>
+	<value>ブロック名称</value>
+	<returns>ブロック名称</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo.BaseShisakuGousya">
+	<summary>ベース車情報の号車</summary>
+	<value>ベース車情報の号車</value>
+	<returns>ベース車情報の号車</returns>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuEventBase(System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「試作イベントベース車情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>該当した「試作イベントベース車情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindRHAC2210(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「RHAC2210」を抽出して返す
+ </summary>
+	<param name="KaihatsuFugo">開発符号</param>
+	<param name="SobiKaiteiNo">装備改訂№</param>
+	<param name="KatashikiScd7">7桁型式識別コード</param>
+	<param name="ShimukechiCode">仕向地コード</param>
+	<param name="OpCode">OPコード</param>
+	<returns>該当した「RHAC2210」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuEvent(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="SobiKaiteiNo">装備改訂№</param>
+	<param name="KaihatsuFugo">開発符号</param>
+	<param name="KatashikiScd7">7桁型式識別コード</param>
+	<param name="ShimukechiCode">仕向地コード</param>
+	<param name="OpCode">OPコード</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBase(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseNoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks>高速化対応のため部品は取得しない</remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlokNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBase2(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBase2NoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBase2ByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlokNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLD(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLDNoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLDByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlokNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLD2(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLD2NoBuhin(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindAlByShisakuEventBaseOLD2ByBlock(System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、「A/Lの素情報」を抽出して返す
+ 　　ベース車情報に指定した仕様情報№－１で抽出する。
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlokNo">ブロックNo</param>
+	<returns>該当した「A/Lの素情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockInstlByShisakuEventBase(System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、試作の構成情報（試作部品編集INSTL情報）をもつ「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="HyojiJunNo">表示順</param>
+	<returns>該当した「試作設計ブロックINSTL情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockInstlByShisakuEventBaseByBlock(System.String,System.String,System.String)">
+	<summary>
+ 試作イベントベース車情報を元に、試作の構成情報（試作部品編集INSTL情報）をもつ「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="unitKbn">ユニット区分</param>
+	<param name="blockNo">ブロックNo</param>
+	<returns>該当した「試作設計ブロックINSTL情報」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockUnit(System.String,System.String)">
+	<summary>
+ ブロックを元に、「開発車機能ブロック」マスタから「ユニット区分」を返す
+ </summary>
+	<param name="BlockNo">ブロック</param>
+	<returns>該当した「ユニット区分」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockUnitFromSekkeiBlock(System.String,System.String)">
+	<summary>
+ ブロックを元に、試作設計ブロックテーブルから「ユニット区分」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="BlockNo">ブロック</param>
+	<returns>該当した「ユニット区分」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockInstlHyoujiJun(System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」から最大の「INSTL品番表示順」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="ShisakuBlockNo">試作ブロック№</param>
+	<returns>該当した「Instl品番表示順」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindShisakuBlockInstlHyoujiJun2(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」から最大の「INSTL品番表示順」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="ShisakuBlockNo">試作ブロック№</param>
+	<param name="InstlHinban">INSTL品番</param>
+	<returns>該当した「Instl品番表示順」</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindSekkeiBlock(System.String,System.String,System.String,System.String)">
+	<summary>
+ テーブル値の検索結果を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロック№</param>
+	<param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+	<returns>該当レコード</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindSekkeiBlockInstl(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ テーブル値の検索結果を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロック№</param>
+	<param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+	<param name="shisakuGousya">試作号車</param>
+	<param name="instlDataKbn">INSTLデータ区分</param>
+	<param name="instlHinban">INSTL品番</param>
+	<param name="instlHinbanKbn">INSTL品番区分</param>
+	<returns>該当レコード</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuEvent(System.String)">
+	<summary>
+ 「試作イベント情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>試作イベント情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuBlockAll(System.String)">
+	<summary>
+ 「試作設計ブロック情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>設計ブロック情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuSekkeiBlockInstl(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロックNo</param>
+	<returns>設計ブロックINSTL情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuBuhinEditInstl(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ 「部品編集INSTL情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロックNo</param>
+	<returns>部品編集INSTL情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.DeleteByShisakuBuhinEditInstl(System.String,System.String,System.String)">
+	<summary>
+ 「試作設計ブロックINSTL情報と試作設計ブロック情報」を削除する
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<param name="shisakuBukaCode">試作部課コード</param>
+	<param name="shisakuBlockNo">試作ブロックNo</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiBlockDao.FindByShisakuBlockAllGroupByBlockNo(System.String)">
+	<summary>
+ 「試作設計ブロック情報」を返す
+ </summary>
+	<param name="shisakuEventCode">試作イベントコード</param>
+	<returns>設計ブロック情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockSupplier.Register(ShisakuCommon.LoginInfo,ShisakuCommon.Db.EBom.Dao.TShisakuSekkeiBlockEbomKanshiDao,ShisakuCommon.ShisakuDate)">
+	<summary>
+ 試作設計ブロック情報へ登録する
+ </summary>
+	<param name="login">ログイン情報</param>
+	<param name="shisakuSekkeiBlockEbomKanshiDao">試作設計ブロック情報Dao</param>
+	<param name="aShisakuDate">試作システム日付</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockSupplier.GroupBukaCodeBlockNos(System.Collections.Generic.List{EventSakusei.ShisakuBuhinMenu.Dao.SekkeiBlockAlResultVo},System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo})">
+	<summary>
+ 設計課とブロックNoでグループ化した情報を返す
+ </summary>
+	<param name="alVos">A/Lの素の一覧</param>
+	<param name="instlVos">試作設計ブロックINSTL情報の一覧</param>
+	<returns>グループ化した情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockSupplier.ExtractBlockNames(System.Collections.Generic.List{EventSakusei.ShisakuBuhinMenu.Dao.SekkeiBlockAlResultVo},System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo})">
+	<summary>
+ ブロックNoに対する名称をもつDictionaryを返す
+ </summary>
+	<param name="alVos">A/Lの素の一覧</param>
+	<param name="instlVos">試作設計ブロックINSTL情報の一覧</param>
+	<returns>ブロック名称をもつDictionary</returns>
+	<remarks></remarks>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._InstlHinbanHyoujiJun">
+	<summary>INSTL品番表示順</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._ShisakuGousya">
+	<summary>試作号車</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._InsuSuryo">
+	<summary>員数数量</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._HyojijunNo">
+	<summary>号車表示順</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._UserId">
+	<summary>担当ユーザーID</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._TelNo">
+	<summary>電話番号</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._ZairyoKijutsu">
+	<summary>材質</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._BankoSuryo">
+	<summary>板厚</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._ZumenKaiteiNo">
+	<summary>改訂</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._TsuchishoNo">
+	<summary>改訂</summary>
+</member><member name="F:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel._Symbol">
+	<summary>シンボル</summary>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.InstlHinbanHyoujiJun">
+	<summary>INSTL品番表示順</summary>
+	<value>INSTL品番表示順</value>
+	<returns>INSTL品番表示順</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.ShisakuGousya">
+	<summary>試作号車</summary>
+	<value>試作号車</value>
+	<returns>試作号車</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.UserId">
+	<summary>担当ユーザーID</summary>
+	<value>担当ユーザーID</value>
+	<returns>担当ユーザーID</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.TelNo">
+	<summary>電話番号</summary>
+	<value>電話番号</value>
+	<returns>電話番号</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.InsuSuryo">
+	<summary>員数数量</summary>
+	<value>員数数量</value>
+	<returns>員数数量</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.HyojijunNo">
+	<summary>号車表示順</summary>
+	<value>号車表示順</value>
+	<returns>号車表示順</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.ZairyoKijutsu">
+	<summary>材質</summary>
+	<value>材質</value>
+	<returns>材質</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.BankoSuryo">
+	<summary>板厚</summary>
+	<value>板厚</value>
+	<returns>板厚</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.ZumenKaiteiNo">
+	<summary>改訂</summary>
+	<value>改訂</value>
+	<returns>改訂</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel.Symbol">
+	<summary>シンボル</summary>
+	<value>シンボル</value>
+	<returns>シンボル</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.BuhinNo">
+	<summary>部品番号</summary>
+	<value>部品番号</value>
+	<returns>部品番号</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.ZumenNo">
+	<summary>図面番号</summary>
+	<value>図面番号</value>
+	<returns>図面番号</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.ZumenKaiteiNo">
+	<summary>図面改訂No.</summary>
+	<value>図面改訂No.</value>
+	<returns>図面改訂No.</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.BankoSuryo">
+	<summary>板厚</summary>
+	<value>板厚</value>
+	<returns>板厚</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.ZairyoKijutsu">
+	<summary>材料・材質</summary>
+	<value>材料・材質</value>
+	<returns>材料・材質</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouVo.TsuchishoNo">
+	<summary>設計通知書番号</summary>
+	<value>設計通知書番号</value>
+	<returns>設計通知書番号</returns>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockInstlSupplier.MakeRegisterValues(ShisakuCommon.LoginInfo)">
+	<summary>
+	</summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockInstlSupplier.Conv0532HinbanByRule(System.String)">
+	<summary>
+ 品番を##品番にして返す
+ </summary>
+	<param name="instlHinban">品番</param>
+	<returns>##品番</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockInstlSupplier.Register(ShisakuCommon.LoginInfo,ShisakuCommon.Db.EBom.Dao.TShisakuSekkeiBlockInstlEbomKanshiDao,ShisakuCommon.ShisakuDate)">
+	<summary>
+ 試作設計ブロックINSTL情報へ登録する
+ </summary>
+	<param name="login">ログイン情報</param>
+	<param name="instlDao">試作設計ブロックINSTL情報Dao</param>
+	<param name="aShisakuDate">試作システム日付</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockInstlSupplier.GroupBukaCodeBlockNos(System.Collections.Generic.List{EventSakusei.ShisakuBuhinMenu.Dao.SekkeiBlockAlResultVo},System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo})">
+	<summary>
+ 設計課とブロックNo・号車・付加F品番でグループ化した情報を返す
+ </summary>
+	<param name="alVos">A/Lの素の一覧</param>
+	<param name="instlVos">試作設計ブロックINSTL情報の一覧</param>
+	<returns>グループ化した情報</returns>
+	<remarks>表示順は、設計課＆ブロックNoごと</remarks>
+</member><member name="M:YakanSekkeiTenakai.Logic.YakanSekkeiBlockInstlSupplier.ExtractBlockNames(System.Collections.Generic.List{EventSakusei.ShisakuBuhinMenu.Dao.SekkeiBlockAlResultVo},System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockInstlResultVo})">
+	<summary>
+ ブロックNoに対する名称をもつDictionaryを返す
+ </summary>
+	<param name="alVos">A/Lの素の一覧</param>
+	<param name="instlVos">試作設計ブロックINSTL情報の一覧</param>
+	<returns>ブロック名称をもつDictionary</returns>
+	<remarks></remarks>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.ShisakuEventCode">
+	<summary>試作イベントコード</summary>
+	<value>試作イベントコード</value>
+	<returns>試作イベントコード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.ShisakuBukaCode">
+	<summary>試作部課コード</summary>
+	<value>試作部課コード</value>
+	<returns>試作部課コード</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.ShisakuBlockNo">
+	<summary>試作ブロック№</summary>
+	<value>試作ブロック№</value>
+	<returns>試作ブロック№</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.ShisakuBlockNoKaiteiNo">
+	<summary>試作ブロック№改訂№</summary>
+	<value>試作ブロック№改訂№</value>
+	<returns>試作ブロック№改訂№</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.BuhinNoHyoujiJun">
+	<summary>部品番号表示順</summary>
+	<value>部品番号表示順</value>
+	<returns>部品番号表示順</returns>
+</member><member name="P:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo.BuhinNo">
+	<summary>部品番号</summary>
+	<value>部品番号</value>
+	<returns>部品番号</returns>
+</member><member name="T:YakanSekkeiTenakai.Vo.YakanSekkeiGetForCreateTsuchishoAndZairyouTargetVo">
+	<summary>
+ 試作部品編集情報(EBOM設変)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.InitYakanSekkeiTenkai">
+	<summary>
+ 夜間設計展開の初期化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.GetKanshiTaisyouEventCode">
+	<summary>
+ 監視対象イベントコード取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.GetShisakuBuhinEditEbomKanshi(System.String)">
+	<summary>
+ 試作部品編集情報(EBOM設変)を取得.
+ </summary>
+	<param name="shisakuEventCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.GetShisakuBuhinEditEbomKanshiForCreateTsuchishoAndZairyou(System.String)">
+	<summary>
+ 試作部品編集情報(EBOM設変)を取得（通知、材料作成用）.
+ </summary>
+	<param name="shisakuEventCode"></param>
+	<returns></returns>
+	<remarks>取得項目を指定した</remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.GetKanshiTaisyouEventCodeByKaiteiNo">
+	<summary>
+ 監視対象イベントコード取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.FindByAllBuhinEdit(System.String)">
+	<summary>
+ 該当する部品編集情報を取得
+ </summary>
+	<param name="shisakuEventCode">イベントコード</param>
+	<returns>部品編集情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.FindByEvent(System.String)">
+	<summary>
+ イベント情報を取得
+ </summary>
+	<param name="shisakuEventCode">イベントコード</param>
+	<returns>イベント情報</returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.Dao.YakanSekkeiTenkaiDaoImpl.FindByShainName(System.String)">
+	<summary>
+ 社員名を返す
+ </summary>
+	<param name="shainId">社員ID</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.#ctor(System.String,System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel},System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel})">
+	<summary>
+ Excel出力
+ </summary>
+	<param name="strEventCode">試作イベントコード</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetYakanSekkeiBlockExcel(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel},ShisakuCommon.Db.EBom.Vo.TShisakuEventVo)">
+	<summary>
+ Excel出力　試作部品表
+ </summary>
+	<param name="xls">目的Excelファイル</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetColumnNo">
+	<summary>
+ 各カラム名に数値を設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetHeader(ShisakuCommon.Ui.ShisakuExcel,ShisakuCommon.Db.EBom.Vo.TShisakuEventVo)">
+	<summary>
+ Excel出力　試作部品表ヘッダー部
+ </summary>
+	<param name="xls">目的Excelファイル</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetTitle(ShisakuCommon.Ui.ShisakuExcel)">
+	<summary>
+ Excel出力　試作部品表タイトル部
+ </summary>
+	<param name="xls">目的Excelファイル</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetBody(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{YakanSekkeiTenakai.Vo.YakanSekkeiBlockVoHelperExcel})">
+	<summary>
+ Excel出力　試作部品表ボディ部
+ </summary>
+	<param name="xls">目的Excelファイル</param>
+	<remarks></remarks>
+</member><member name="M:YakanSekkeiTenakai.ExcelProcess.ExportYakanSekkeiBlockExcel.SetColumnRow(ShisakuCommon.Ui.ShisakuExcel)">
+	<summary>
+ 行と列の調整
+ </summary>
+	<param name="xls">目的Excelファイル</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

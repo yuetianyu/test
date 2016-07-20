@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SendMail
+</name>
+</assembly>
+<members>
+<member name="P:SendMail.SendMail.Dao.MailAddressVo.UserId">
+	<summary>ユーザーＩＤ</summary>
+	<value>ユーザーＩＤ</value>
+	<returns>ユーザーＩＤ</returns>
+</member><member name="P:SendMail.SendMail.Dao.MailAddressVo.MailAddress">
+	<summary>メールアドレス</summary>
+	<value>メールアドレス</value>
+	<returns>メールアドレス</returns>
+</member><member name="P:SendMail.SendMail.Dao.MailAddressVo.Description">
+	<summary>所属</summary>
+	<value>所属</value>
+	<returns>所属</returns>
+</member><member name="T:SendMail.SendMail.Dao.MailAddressVo">
+	<summary>
+ ユーザーメールアドレス情報
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SendMail.mainsub.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SendMail.subSendMailEventInfo.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SendMail.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SendMail.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SendMail.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SendMail.subSendMailSeisakuIchiranInfo.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0A5A9E4-CEFA-453C-8A7F-9CD7F757EDB5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>YosansyoTool.My.MyApplication</StartupObject>
+    <RootNamespace>YosansyoTool</RootNamespace>
+    <AssemblyName>YosansyoTool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>YosansyoTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>YosansyoTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>YosansyoTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>YosansyoTool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.XVLPlayer3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\XVL\AxInterop.XVLPlayer3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\試作システム新DB対応\ソース\EBom\EBom.Common\bin\Release\EBom.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Controls\bin\Debug\EBom.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Data\bin\Debug\EBom.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Excel, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.FpSpread, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.FpSpread\bin\Debug\EBom.FpSpread.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Excel, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.SpreadWrapperJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.TextRenderer, Version=2.5.2001.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="Interop.XVLPlayer3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\XVL\Interop.XVLPlayer3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\Net\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm03Syorichu.designer.vb">
+      <DependentUpon>frm03Syorichu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm03Syorichu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZColorMarker.designer.vb">
+      <DependentUpon>frmZColorMarker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmZColorMarker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XVLView\FrmVeiwerImge.designer.vb">
+      <DependentUpon>FrmVeiwerImge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\FrmVeiwerImge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\Logic\ViewerImgeSubject.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Frm41DispYosanBuhinEdit00.designer.vb">
+      <DependentUpon>Frm41DispYosanBuhinEdit00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Frm41DispYosanBuhinEdit00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Frm41IchijiHozonKakunin.designer.vb">
+      <DependentUpon>Frm41IchijiHozonKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Frm41IchijiHozonKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\frm41Sort.Designer.vb">
+      <DependentUpon>frm41Sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\frm41Sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\ASCYNAA010Dao.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\ASCYNAA010DaoImpl.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\ASCYNAA010Vo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\MakeStructureResultDao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\MakeStructureResultDaoImpl.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\Rhac0530MakerNameVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\Rhac0532BuhinNoteVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\Rhac0532MakerNameVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\Rhac0533BuhinNoteVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Dao\Rhac0533MakerNameVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Frm41DispYosanBuhinEdit20.designer.vb">
+      <DependentUpon>Frm41DispYosanBuhinEdit20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Frm41DispYosanBuhinEdit20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\BuhinEditKoseiEditInstlSupplier.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\BuhinEditKoseiEditSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\BuhinEditKoseiSubject.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\BuhinKoseiInsuCellVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\BuhinKoseiRecordVo.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Matrix\BuhinKoseiMatrix.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Matrix\InstlColumnBag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Matrix\MakeStructureResult.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Matrix\MakeStructureResultImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\IBuhinNodeAccessor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\MergeInstlColumnBag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\MergeMatrix.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\MergeNodeList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\Rhac0551NodeAccessor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\Rhac0553NodeAccessor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Merge\RhacNodeAccessor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Tree\BuhinNode.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Tree\BuhinSingleMatrix.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Logic\Tree\BuhinTreeMaker.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Ui\SpdKoseiCellTypeFactory.vb" />
+    <Compile Include="YosanBuhinEdit\Kosei\Ui\SpdKoseiObserver.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\BlockListFilterAndSortVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\BuhinListFilterAndSortVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\KouseiBuhinSelectorDao.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\KouseiBuhinSelectorDaoImpl.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Rhac2270XVLDao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Rhac2270XVLDaoImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\ShiyouJyouhouDao.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\ShiyouJyouhouDaoImpl.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\BlockListVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\BuhinListVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\FinalHinbanListVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\GousyaListVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\OpListVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\OpSpecListVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\Rhac2270XVLVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\SystemKbnVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Dao\Vo\XVLExistVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispBlockList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispBuhinList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispGousyaList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispKubunList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispPatternList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\DispShiyouJyouhouList.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Frm41EventKanseiSelector.Designer.vb">
+      <DependentUpon>Frm41EventKanseiSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Frm41EventKanseiSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Frm41KouseiBuhinSelector.Designer.vb">
+      <DependentUpon>Frm41KouseiBuhinSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Frm41KouseiBuhinSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\GousyaListFilterAndSortVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\KubunListFilterAndSortVo.vb" />
+    <Compile Include="YosanBuhinEdit\KouseiBuhin\Logic\KouseiBuhinSelectorSubject.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\BuhinEditHeaderSubject.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\BuhinEditInsu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Logic\BuhinEditSubject.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\Detect\DetectLatestStructure.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\Detect\DetectLatestStructureImpl.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\Detect\StructureResult.vb" />
+    <Compile Include="YosanBuhinEdit\Logic\MakerNameResolver.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Logic\ShisakuRule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Logic\TehaichoEditBuhinStructure.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanBuhinEdit\Ui\BuhinEditSpreadUtil.vb" />
+    <Compile Include="YosanEventListExcel\Dao\Impl\YosanEventListExcelDaoImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanEventListExcel\Dao\YosanEventListExcelDao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanEventListExcel\frmYosanEventExcelShorichu.designer.vb">
+      <DependentUpon>frmYosanEventExcelShorichu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventListExcel\frmYosanEventExcelShorichu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventListExcel\FrmYosanEventListExcel.Designer.vb">
+      <DependentUpon>FrmYosanEventListExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventListExcel\FrmYosanEventListExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventListExcel\Logic\DispYosanEventListExcel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YosanEventListExcel\Logic\CreateSumExcelSheet.vb" />
+    <Compile Include="YosanEventListExcel\Logic\YosanEventListExcelExport.vb" />
+    <Compile Include="YosanEventList\Dao\Impl\YosanEventListDaoImpl.vb" />
+    <Compile Include="YosanEventList\Dao\YosanEventListDao.vb" />
+    <Compile Include="YosanEventList\FrmPartsPriceSelect.Designer.vb">
+      <DependentUpon>FrmPartsPriceSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventList\FrmPartsPriceSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventList\FrmExcelSheetSelect.designer.vb">
+      <DependentUpon>FrmExcelSheetSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventList\FrmExcelSheetSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventList\FrmYosanEventEdit.Designer.vb">
+      <DependentUpon>FrmYosanEventEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventList\FrmYosanEventEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventList\FrmYosanEventList.Designer.vb">
+      <DependentUpon>FrmYosanEventList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventList\FrmYosanEventList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventList\Logic\DispYosanEventList.vb" />
+    <Compile Include="YosanEventList\FrmYosanCodeAndDateSelect.Designer.vb">
+      <DependentUpon>FrmYosanCodeAndDateSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventList\FrmYosanCodeAndDateSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventNew\Dao\YosanEventNewDao.vb" />
+    <Compile Include="YosanEventNew\Dao\Impl\YosanEventNewDaoImpl.vb" />
+    <Compile Include="YosanEventNew\FrmYosanEventNew.Designer.vb">
+      <DependentUpon>FrmYosanEventNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanEventNew\FrmYosanEventNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanEventNew\Logic\DispYosanEventNew.vb" />
+    <Compile Include="YosanEventNew\Logic\DispYosanEventNewHeader.vb" />
+    <Compile Include="YosanshoEdit\Dao\Impl\FrmYosanshoEdit.vb" />
+    <Compile Include="YosanshoEdit\Dao\Impl\YosanshoExportDaoImpl.vb" />
+    <Compile Include="YosanshoEdit\Dao\YosanshoEditDao.vb" />
+    <Compile Include="YosanshoEdit\Dao\YosanshoExportDao.vb" />
+    <Compile Include="YosanshoEdit\FrmAddBuhin.Designer.vb">
+      <DependentUpon>FrmAddBuhin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddBuhin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmSelectPattern.Designer.vb">
+      <DependentUpon>FrmSelectPattern.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmSelectPattern.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddKanazai.Designer.vb">
+      <DependentUpon>FrmAddKanazai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddKanazai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddKojiShirei.Designer.vb">
+      <DependentUpon>FrmAddKojiShirei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddKojiShirei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmInsertMonth.Designer.vb">
+      <DependentUpon>FrmInsertMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmInsertMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmInsertMonthKakunin.Designer.vb">
+      <DependentUpon>FrmInsertMonthKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmInsertMonthKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddPattern.Designer.vb">
+      <DependentUpon>FrmAddPattern.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmAddPattern.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmYosanshoEdit.Designer.vb">
+      <DependentUpon>FrmYosanshoEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanshoEdit\FrmYosanshoEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanshoEdit\Logic\DispYosanshoEdit.vb" />
+    <Compile Include="YosanshoEdit\Logic\YosanShoExportExcel.vb" />
+    <Compile Include="YosanshoEdit\SeisakuAsKounyuYosanVo.vb" />
+    <Compile Include="YosanshoEdit\YosanInsuBuhinHiVo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm03Syorichu.resx">
+      <DependentUpon>frm03Syorichu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZColorMarker.resx">
+      <DependentUpon>frmZColorMarker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\FrmVeiwerImge.resx">
+      <DependentUpon>FrmVeiwerImge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\Frm41DispYosanBuhinEdit00.resx">
+      <DependentUpon>Frm41DispYosanBuhinEdit00.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\Frm41IchijiHozonKakunin.resx">
+      <DependentUpon>Frm41IchijiHozonKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\frm41Sort.resx">
+      <DependentUpon>frm41Sort.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\Kosei\Frm41DispYosanBuhinEdit20.resx">
+      <DependentUpon>Frm41DispYosanBuhinEdit20.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\KouseiBuhin\Frm41EventKanseiSelector.resx">
+      <DependentUpon>Frm41EventKanseiSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanBuhinEdit\KouseiBuhin\Frm41KouseiBuhinSelector.resx">
+      <DependentUpon>Frm41KouseiBuhinSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventListExcel\frmYosanEventExcelShorichu.resx">
+      <DependentUpon>frmYosanEventExcelShorichu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventListExcel\FrmYosanEventListExcel.resx">
+      <DependentUpon>FrmYosanEventListExcel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventList\FrmExcelSheetSelect.resx">
+      <DependentUpon>FrmExcelSheetSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventList\FrmPartsPriceSelect.resx">
+      <DependentUpon>FrmPartsPriceSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventList\FrmYosanEventEdit.resx">
+      <DependentUpon>FrmYosanEventEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventList\FrmYosanEventList.resx">
+      <DependentUpon>FrmYosanEventList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventList\FrmYosanCodeAndDateSelect.resx">
+      <DependentUpon>FrmYosanCodeAndDateSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanEventNew\FrmYosanEventNew.resx">
+      <DependentUpon>FrmYosanEventNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmAddBuhin.resx">
+      <DependentUpon>FrmAddBuhin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmAddKanazai.resx">
+      <DependentUpon>FrmAddKanazai.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmAddKojiShirei.resx">
+      <DependentUpon>FrmAddKojiShirei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmInsertMonth.resx">
+      <DependentUpon>FrmInsertMonth.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmInsertMonthKakunin.resx">
+      <DependentUpon>FrmInsertMonthKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmAddPattern.resx">
+      <DependentUpon>FrmAddPattern.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmSelectPattern.resx">
+      <DependentUpon>FrmSelectPattern.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanshoEdit\FrmYosanshoEdit.resx">
+      <DependentUpon>FrmYosanshoEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventSakusei\EventSakusei.vbproj">
+      <Project>{DA500BB8-E00F-45F6-B5F8-C1DB549F7DAD}</Project>
+      <Name>EventSakusei</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShisakuCommon\ShisakuCommon.vbproj">
+      <Project>{27D1C542-BF21-4134-8008-E62C51223A8F}</Project>
+      <Name>ShisakuCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\COLOR.PNG" />
+    <Content Include="Resources\Excel2.PNG" />
+    <Content Include="Resources\lion-ss.ico" />
+    <Content Include="Resources\ひよこ.GIF" />
+    <Content Include="Resources\ロゴ.PNG" />
+    <None Include="Resources\ロゴ1.PNG" />
+    <Content Include="Resources\戻す.gif" />
+    <Content Include="Resources\戻る.PNG" />
+    <Content Include="Resources\終了.PNG" />
+    <Content Include="Resources\進む.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

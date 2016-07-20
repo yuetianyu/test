@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{035BE784-620F-4CDE-8772-4410EB54BAF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Login.My.MyApplication</StartupObject>
+    <RootNamespace>Login</RootNamespace>
+    <AssemblyName>ShisakuSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.2.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ShisakuSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ShisakuSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>ShisakuSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>ShisakuSystem.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EBom.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Common\bin\Debug\EBom.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Controls\bin\Release\EBom.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Data\bin\Release\EBom.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Excel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.Excel\bin\Release\EBom.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.FpSpread, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBom\EBom.FpSpread\bin\Release\EBom.FpSpread.dll</HintPath>
+    </Reference>
+    <Reference Include="EBomMenu.Authentication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EBomMenu\EBomMenu.Authentication\bin\Release\EBomMenu.Authentication.exe</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Excel, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.SpreadWrapperJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.TextRenderer, Version=2.5.2001.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\Net\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="SearchCost01, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\SearchCost01.dll</HintPath>
+    </Reference>
+    <Reference Include="SisakuCostSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\SisakuCostSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YosanKoujiLink, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\YosanKoujiLink.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="frm01Login.Designer.vb">
+      <DependentUpon>frm01Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm01Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm2NORMALmenu02.Designer.vb">
+      <DependentUpon>frm2NORMALmenu02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm2NORMALmenu02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm49LoginADMIN.Designer.vb">
+      <DependentUpon>frm49LoginADMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm49LoginADMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm4NORMALmenu04.Designer.vb">
+      <DependentUpon>frm4NORMALmenu04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm4NORMALmenu04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm50ADMINmenu.Designer.vb">
+      <DependentUpon>frm50ADMINmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm50ADMINmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginLogic.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frm2NORMALmenu01.Designer.vb">
+      <DependentUpon>frm2NORMALmenu01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm2NORMALmenu01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm3NORMALmenu02.Designer.vb">
+      <DependentUpon>frm3NORMALmenu02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm3NORMALmenu02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm01Login.resx">
+      <DependentUpon>frm01Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2NORMALmenu02.resx">
+      <DependentUpon>frm2NORMALmenu02.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm49LoginADMIN.resx">
+      <DependentUpon>frm49LoginADMIN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm4NORMALmenu04.resx">
+      <DependentUpon>frm4NORMALmenu04.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm50ADMINmenu.resx">
+      <DependentUpon>frm50ADMINmenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2NORMALmenu01.resx">
+      <DependentUpon>frm2NORMALmenu01.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm3NORMALmenu02.resx">
+      <DependentUpon>frm3NORMALmenu02.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelOutput\ExcelOutput.vbproj">
+      <Project>{B1793ACE-A2AB-4FA7-B3EC-357F41377DA9}</Project>
+      <Name>ExcelOutput</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EventSakusei\EventSakusei.vbproj">
+      <Project>{DA500BB8-E00F-45F6-B5F8-C1DB549F7DAD}</Project>
+      <Name>EventSakusei</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Master\Master.vbproj">
+      <Project>{9D86759E-5E77-439C-9D6A-4D139E9A22E7}</Project>
+      <Name>Master</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShisakuCommon\ShisakuCommon.vbproj">
+      <Project>{27D1C542-BF21-4134-8008-E62C51223A8F}</Project>
+      <Name>ShisakuCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YosansyoTool\YosansyoTool.vbproj">
+      <Project>{E0A5A9E4-CEFA-453C-8A7F-9CD7F757EDB5}</Project>
+      <Name>YosansyoTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows インストーラ 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\終了.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ロゴ.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subaru360M11.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="Resources\login.JPG" />
+    <Content Include="Resources\subaru360M01.GIF" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\subaru360M011.GIF" />
+    <Content Include="Resources\subaru360M02.GIF" />
+    <None Include="Resources\subaru360M021.GIF" />
+    <Content Include="Resources\subaru360M03.GIF" />
+    <None Include="Resources\subaru360M031.GIF" />
+    <Content Include="Resources\subaru360M04.GIF" />
+    <None Include="Resources\subaru360M041.GIF" />
+    <Content Include="Resources\subaru360M05.GIF" />
+    <None Include="Resources\subaru360M051.GIF" />
+    <Content Include="Resources\subaru360M06.GIF" />
+    <None Include="Resources\subaru360M061.GIF" />
+    <Content Include="Resources\subaru360M07.GIF" />
+    <None Include="Resources\subaru360M071.GIF" />
+    <Content Include="Resources\subaru360M08.GIF" />
+    <None Include="Resources\subaru360M081.GIF" />
+    <Content Include="Resources\subaru360M09.GIF" />
+    <None Include="Resources\subaru360M091.GIF" />
+    <Content Include="Resources\subaru360M10.GIF" />
+    <Content Include="Resources\yamaarasi-ss.ico" />
+    <None Include="Resources\subaru360M101.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

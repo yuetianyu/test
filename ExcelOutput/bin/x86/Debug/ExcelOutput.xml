@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ExcelOutput
+</name>
+</assembly>
+<members>
+<member name="T:ExcelOutput.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:ExcelOutput.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:ExcelOutput.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="P:ExcelOutput.My.Resources.Resources.ロゴ">
+<summary>
+  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+</summary>
+</member>
+<member name="T:ExcelOutput.NitteiDbComFunc">
+ <summary>
+ DB関連共通メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.setDefault``1(ShisakuCommon.ShisakuDate)">
+ <summary>
+ テーブル(Propperty)の共通情報を設定し返す
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="aDate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.ConvListToDataTable``1(System.Collections.Generic.IList{``0})">
+ <summary>
+ ListからDataTableを作成
+ </summary>
+ <typeparam name="T">Listの型</typeparam>
+ <param name="data">データ</param>
+ <returns>データを格納したDataTable</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.Decamelize(System.String)">
+ <summary>
+ キャメル記法を"_"記法して返す
+ </summary>
+ <param name="str">キャメル記法の文字列</param>
+ <returns>"_"記法の文字列</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.ConvDataTableToList``1(System.Data.DataTable)">
+ <summary>
+ データテーブルからリストを作成
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="aDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.ConvDataRowToVo``1(System.Data.DataRow,System.Data.DataColumnCollection)">
+ <summary>
+ レコードからVOを作成
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="aDataRow"></param>
+ <param name="aDataColumns"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.GetConnectString">
+ <summary>
+ SqlConnection用の接続文字列を戻します
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.NitteiDbComFunc.GetParam(System.String,System.String)">
+ <summary>
+ 接続文字から指定された要素の値を返す
+ </summary>
+ <param name="connectionStr">接続文字列</param>
+ <param name="val">要素名</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindByBuhinEditInstl(System.String,System.String)">
+ <summary>
+ 試作部品表編集INSTL情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作部品表編集INSTL情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindByBuhinEdit(System.String,System.String)">
+ <summary>
+ 試作部品表編集情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作部品表編集情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindBySekkeiBlockInstl(System.String)">
+ <summary>
+ 試作設計ブロックINSTL情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作設計ブロックINSTL情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindByEvent(System.String)">
+ <summary>
+ 試作イベント情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作イベント情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindByBase(System.String)">
+ <summary>
+ 試作ベース車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作ベース車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.GetTotalInsuSuryo(System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ 合計員数数量を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロックNo</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロックNo改訂No</param>
+ <param name="buhinNoHyoujiJun">部品番号表示順</param>
+ <returns>合計員数数量</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.GetGousyaBuhinInsuSuryo(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ 号車と関わる部品の員数を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロックNo</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロックNo改訂No</param>
+ <param name="buhinNoHyoujiJun">部品番号表示順</param>
+ <returns>員数数量</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDao.FindByShisakuBlockNo(System.String,System.String,System.String,System.String)">
+ <summary>
+ 試作設計ブロック情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロック№</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+ <returns>ユニット区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindByBuhinEdit(System.String,System.String)">
+ <summary>
+ 試作部品表編集情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作部品表編集情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindByBuhinEditInstl(System.String,System.String)">
+ <summary>
+ 試作部品表編集INSTL情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作部品表編集INSTL情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindBySekkeiBlockInstl(System.String)">
+ <summary>
+ 試作設計ブロックINSTL情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作設計ブロックINSTL情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindByEvent(System.String)">
+ <summary>
+ 試作イベント情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作イベント情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindByKansei(System.String)">
+ <summary>
+ 試作完成車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作イベント完成車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.GetTotalInsuSuryo(System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ 合計員数数量を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロックNo</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロックNo改訂No</param>
+ <param name="buhinNoHyoujiJun">部品番号表示順</param>
+ <returns>合計員数数量</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.GetGousyaBuhinInsuSuryo(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ 号車と関わる部品の員数を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロックNo</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロックNo改訂No</param>
+ <param name="buhinNoHyoujiJun">部品番号表示順</param>
+ <returns>員数数量</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Dao.ShisakuBuhinExcelDaoImpl.FindByShisakuBlockNo(System.String,System.String,System.String,System.String)">
+ <summary>
+ 試作設計ブロック情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロック№</param>
+ <param name="shisakuBlockNoKaiteiNo">試作ブロック№改訂№</param>
+ <returns>ユニット区分</returns>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.m_view">
+ <summary>ビュー</summary>
+</member>
+<member name="F:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.m_spCom">
+ <summary>FpSpread 共通</summary>
+</member>
+<member name="F:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.lstExcelTitle">
+ <summary>Excel出力タイトル</summary>
+</member>
+<member name="F:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.lstExcelItem">
+ <summary>Excel出力項目</summary>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.#ctor(ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.InitView">
+ <summary>
+ ビューの初期化
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.ExcelBtnClick(System.String)">
+ <summary>
+ EXCELボタンを押す。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSheetTag(FarPoint.Win.Spread.SheetView)">
+ <summary>
+　列タグを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSheetTitle(FarPoint.Win.Spread.SheetView)">
+ <summary>
+ 列タイトルを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSheetDataField(FarPoint.Win.Spread.SheetView)">
+ <summary>
+ データフィールドを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.GetExcelData">
+ <summary>
+ Excel出力用データを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetTitleAndItemList">
+ <summary>
+ EXCEl列タイトルと項目を取得する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSpdExcelColPro(FarPoint.Win.Spread.FpSpread)">
+ <summary>
+ 列のセルの水平方向の配置を設定する。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSpdDataField">
+ <summary>
+ SPREADの列のデータフィールドを設定する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetSpdColTag">
+ <summary>
+ SPREADの列のタグ値を設定する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetExcelLock">
+ <summary>
+ EXCEL出力ボタンを使用不可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.SetExcelUnlock">
+ <summary>
+ EXCEL出力ボタンを使用可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.GetBuhinSakuseiList">
+ <summary>
+ 画面でデータを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.DispShisakuBuhinExcel.GetBuhinSakuseiListExcel">
+ <summary>
+ excel出力のデータを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetShisakuBuhinExcel(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper},ShisakuCommon.Db.EBom.Vo.TShisakuEventVo,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetHeader(ShisakuCommon.Ui.ShisakuExcel,ShisakuCommon.Db.EBom.Vo.TShisakuEventVo)">
+ <summary>
+ Excel出力　試作部品表ヘッダー部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetTitle(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表タイトル部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetBody(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper},ShisakuCommon.Db.EBom.Vo.TShisakuEventVo,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表ボディ部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetBodyOLD(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper},System.Collections.Generic.List{ExcelOutput.BuhinEditInstlVoHelper},System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuSekkeiBlockInstlVo},ShisakuCommon.Db.EBom.Vo.TShisakuEventVo,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表ボディ部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.CheckGousyaKihon(ShisakuCommon.Db.EBom.Vo.TShisakuBuhinEditVo,ShisakuCommon.Db.EBom.Vo.TShisakuBuhinEditInstlVo)">
+ <summary>
+ 基本情報に紐付く号車情報を検索
+ </summary>
+ <param name="aBuhinKaiteiVo">部品編集改訂情報</param>
+ <param name="aGousyaKaiteiVo">部品編集号車改訂情報</param>
+ <returns>基本情報に紐付いた号車情報であればTrue</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetColumnNo">
+ <summary>
+ 各カラム名に数値を設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetIdxColumnNo">
+ <summary>
+ 各カラム名に数値を設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.GetTotalInsuSuryo(ShisakuCommon.Db.EBom.Vo.TShisakuBuhinEditVo,ShisakuCommon.Db.EBom.Vo.TShisakuBuhinEditInstlVo)">
+ <summary>
+ 合計員数を計算
+ </summary>
+ <param name="aBuhinKaiteiVo">部品編集改訂情報</param>
+ <param name="aGousyaKaiteiVo">部品編集号車改訂情報</param>
+ <returns>員数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.CheckMerge(ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper,ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper)">
+ <summary>
+ マージするか計算
+ </summary>
+ <param name="NowBuhinEditVo">現在の部品編集情報</param>
+ <param name="BeforeBuhinEditVo">直前の部品編集情報</param>
+ <returns>マージ可能ならTrue</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Excel.ExportShisakuBuhinExcel.SetColumnRow(ShisakuCommon.Ui.ShisakuExcel)">
+ <summary>
+ 行と列の調整
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="T:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel">
+ <summary>
+ 試作部品表リスト画面
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.m_buhinSakuseiList">
+ <summary>ロジック</summary>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.Frm44ShisakuBuhinExcel_Load(System.Object,System.EventArgs)">
+ <summary>
+ 画面初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.spdParts_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ ユーザーがセル内でマウスの左ボタンを押したら　処理する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.btnBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ 戻るボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.btnEND_Click(System.Object,System.EventArgs)">
+ <summary>
+ アプリケーション終了ボタンを押したら　アプリケーションは終了する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Frm44ShisakuBuhinExcel.btnExcelExport_Click(System.Object,System.EventArgs)">
+ <summary>
+ EXCEl出力ボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper.InsuSuryo">
+ <summary>員数数量</summary>
+ <value>員数数量</value>
+ <returns>員数数量</returns>
+</member>
+<member name="P:ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper.HyojijunNo">
+ <summary>試作号車表示順</summary>
+ <value>試作号車表示順</value>
+ <returns>試作号車表示順</returns>
+</member>
+<member name="P:ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper.InstlHinbanHyoujiJun">
+ <summary>INSTL表示順</summary>
+ <value>INSTL表示順</value>
+ <returns>INSTL表示順</returns>
+</member>
+<member name="P:ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper.BaseInstlFlg">
+ <summary>INSTLフラグ</summary>
+ <value>INSTLフラグ</value>
+ <returns>INSTLフラグ</returns>
+</member>
+<member name="M:ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper.Comparison(ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper,ExcelOutput.ShisakuBuhinExcel.Vo.BuhinEditVoHelper)">
+ <summary>
+ リストソート用Comparison
+ </summary>
+ <param name="x">比較元</param>
+ <param name="y">比較先</param>
+ <returns>比較結果</returns>
+ <remarks>2014/12/17 新規：生方</remarks>
+</member>
+<member name="P:ExcelOutput.BuhinEditInstlVoHelper.ShisakuGousya">
+ <summary>試作号車</summary>
+ <value>試作号車</value>
+ <returns>試作号車</returns>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByTehaiKihon(System.String,System.String)">
+ <summary>
+ 試作手配基本情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuListCode">試作リストコード</param>
+ <returns>試作手配基本情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByTehaiGousya(System.String)">
+ <summary>
+ 試作手配号車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作手配号車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByEvent(System.String)">
+ <summary>
+ 試作イベント情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作イベント情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByEventBase(System.String,System.String)">
+ <summary>
+ 試作ベース車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuListCode">試作リストコード</param>
+ <returns>試作ベース車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByShisakuBlockNo(System.String,System.String,System.String)">
+ <summary>
+ 試作設計ブロック情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロック№</param>
+ <returns>ユニット区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByBuhinFile(System.String,System.String,System.String,System.String)">
+ <summary>
+ 試作部品表ファイル情報を取得
+ </summary>
+ <param name="shisakuEventCode">イベントコード</param>
+ <param name="shisakuListCode">リストコード</param>
+ <param name="shisakuListCodekaiteiNo">リストコード改訂No</param>
+ <returns>試作部品表ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByORPF32(System.String,System.String,System.String,System.String)">
+ <summary>
+ 発注納入状況ファイル情報を取得
+ </summary>
+ <param name="KOBA">工事No</param>
+ <param name="KBBA">管理No(行ID)</param>
+ <param name="BNBA">ブロックNo</param>
+ <param name="KoujiShireiNo">工事指令No</param>
+ <returns>発注納入状況ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByORPF60(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 新調達手配進捗ファイル情報を取得
+ </summary>
+ <param name="SGISBA">作業依頼書No</param>
+ <param name="KBBA">管理No</param>
+ <param name="CMBA">注文書No</param>
+ <param name="NOKM">納入区分</param>
+ <param name="HAYM">発注年月日</param>
+ <returns>新調達手配進捗ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByORPF57(System.String,System.String,System.String)">
+ <summary>
+ 現調品発注控情報を取得
+ </summary>
+ <param name="LSCD">旧リストコード</param>
+ <param name="KBBA">管理No(行ID)</param>
+ <param name="GyouId">行ID</param>
+ <returns>現調品発注控情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByORPF61(System.String,System.String)">
+ <summary>
+ 現調品手配進捗情報を取得
+ </summary>
+ <param name="GRNO">グループNo</param>
+ <param name="SRNO">シリアルNo</param>
+ <returns>現調品手配進捗情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDao.FindByListCode(System.String,System.String)">
+ <summary>
+ 試作リストコード情報を取得
+ </summary>
+ <param name="shisakuEventCode">イベントコード</param>
+ <param name="shisakuListCode">リストコード</param>
+ <returns>リストコード情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByBuhinFile(System.String,System.String,System.String,System.String)">
+ <summary>
+ 試作部品表ファイル情報を取得
+ </summary>
+ <param name="shisakuEventCode">イベントコード</param>
+ <param name="shisakuListCode">リストコード</param>
+ <param name="shisakuListCodekaiteiNo">リストコード改訂No</param>
+ <returns>試作部品表ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByORPF32(System.String,System.String,System.String,System.String)">
+ <summary>
+ 発注納入状況ファイル情報を取得
+ </summary>
+ <param name="KOBA">工事No</param>
+ <param name="KBBA">管理No(行ID)</param>
+ <param name="BNBA">ブロックNo</param>
+ <param name="KoujiShireiNo">工事指令No</param>
+ <returns>発注納入状況ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByORPF57(System.String,System.String,System.String)">
+ <summary>
+ 現調品発注控情報を取得
+ </summary>
+ <param name="LSCD">旧リストコード</param>
+ <param name="KBBA">管理No(行ID)</param>
+ <param name="GyouId">行ID</param>
+ <returns>現調品発注控情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByORPF60(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 新調達手配進捗ファイル情報を取得
+ </summary>
+ <param name="SGISBA">作業依頼書No</param>
+ <param name="KBBA">管理No</param>
+ <param name="CMBA">注文書No</param>
+ <param name="NOKM">納入区分</param>
+ <param name="HAYM">発注年月日</param>
+ <returns>新調達手配進捗ファイル情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByORPF61(System.String,System.String)">
+ <summary>
+ 現調品手配進捗情報を取得
+ </summary>
+ <param name="GRNO">グループNo</param>
+ <param name="SRNO">シリアルNo</param>
+ <returns>現調品手配進捗情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByTehaiGousya(System.String)">
+ <summary>
+ 試作手配号車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作手配号車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByTehaiKihon(System.String,System.String)">
+ <summary>
+ 試作手配基本情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作手配基本情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByEvent(System.String)">
+ <summary>
+ 試作イベント情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <returns>試作イベント情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByEventBase(System.String,System.String)">
+ <summary>
+ 試作ベース車情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuListCode">試作リストコード</param>
+ <returns>試作ベース車情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByListCode(System.String,System.String)">
+ <summary>
+ 試作リストコード情報を取得
+ </summary>
+ <param name="shisakuEventCode">イベントコード</param>
+ <param name="shisakuListCode">リストコード</param>
+ <returns>リストコード情報</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Dao.TehaichoExcelDaoImpl.FindByShisakuBlockNo(System.String,System.String,System.String)">
+ <summary>
+ 試作設計ブロック情報を取得
+ </summary>
+ <param name="shisakuEventCode">試作イベントコード</param>
+ <param name="shisakuBukaCode">試作部課コード</param>
+ <param name="shisakuBlockNo">試作ブロック№</param>
+ <returns>ユニット区分</returns>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.m_view">
+ <summary>ビュー</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.m_spCom">
+ <summary>FpSpread 共通</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.lstExcelTitle">
+ <summary>Excel出力タイトル</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.lstExcelItem">
+ <summary>Excel出力項目</summary>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.#ctor(ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.InitView">
+ <summary>
+ ビューの初期化        ''' </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.SetSpdDataField">
+ <summary>
+ SPREADの列のデータフィールドを設定する        ''' </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.SetSpdColTag">
+ <summary>
+ SPREADの列のタグ値を設定する        ''' </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.SetSelectLock">
+ <summary>
+ 選択ボタンを使用不可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.SetSelectUnlock">
+ <summary>
+ 呼出しボタンを使用可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispShisakuBuhinList.GetBuhinSakuseiList">
+ <summary>
+ 画面でデータを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispTehaichoExcel.m_view">
+ <summary>ビュー</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispTehaichoExcel.m_spCom">
+ <summary>FpSpread 共通</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispTehaichoExcel.lstExcelTitle">
+ <summary>Excel出力タイトル</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispTehaichoExcel.lstExcelItem">
+ <summary>Excel出力項目</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.DispTehaichoExcel.TAG_RIREKI">
+ <summary>SPREADのTAG設定</summary>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.#ctor(ExcelOutput.TehaichoExcel.Frm46TehaichoExcel)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.InitView(System.String)">
+ <summary>
+ ビューの初期化
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.ExcelBtnClick(System.String,System.String)">
+ <summary>
+ EXCELボタンを押す。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSheetTag(FarPoint.Win.Spread.SheetView)">
+ <summary>
+　列タグを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSheetTitle(FarPoint.Win.Spread.SheetView)">
+ <summary>
+ 列タイトルを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSheetDataField(FarPoint.Win.Spread.SheetView)">
+ <summary>
+ データフィールドを設定する
+ </summary>
+ <param name="sheetExcel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.GetExcelData">
+ <summary>
+ Excel出力用データを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetTitleAndItemList">
+ <summary>
+ EXCEl列タイトルと項目を取得する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSpdExcelColPro(FarPoint.Win.Spread.FpSpread)">
+ <summary>
+ 列のセルの水平方向の配置を設定する。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSpdDataField">
+ <summary>
+ SPREADの列のデータフィールドを設定する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetSpdColTag">
+ <summary>
+ SPREADの列のタグ値を設定する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetExcelLock">
+ <summary>
+ EXCEL出力ボタンを使用不可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.SetExcelUnlock">
+ <summary>
+ EXCEL出力ボタンを使用可とする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.GetTehaichoExcelList(System.String)">
+ <summary>
+ 画面でデータを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.DispTehaichoExcel.GetTehaichoExcel">
+ <summary>
+ excel出力のデータを取得する
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetTehaichoExcel(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper},System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuTehaiGousyaVo},ShisakuCommon.Db.EBom.Vo.TShisakuEventVo,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo},ShisakuCommon.Db.EBom.Vo.TShisakuListcodeVo)">
+ <summary>
+ Excel出力　試作部品表
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetHeader(ShisakuCommon.Ui.ShisakuExcel,ShisakuCommon.Db.EBom.Vo.TShisakuEventVo,ShisakuCommon.Db.EBom.Vo.TShisakuListcodeVo)">
+ <summary>
+ Excel出力　試作部品表ヘッダー部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetTitle(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表タイトル部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetBody(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper},System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表ボディ部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <param name="aKihonListVo">手配基本情報リスト</param>
+ <param name="aBaseListVo">ベース車情報リスト</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetBodyOLD(ShisakuCommon.Ui.ShisakuExcel,System.Collections.Generic.List{ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper},System.Collections.Generic.List{ShisakuCommon.Db.EBom.Vo.TShisakuEventBaseVo})">
+ <summary>
+ Excel出力　試作部品表ボディ部
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <param name="aKihonListVo">手配基本情報リスト</param>
+ <param name="aBaseListVo">ベース車情報リスト</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetColumnNo">
+ <summary>
+ 各カラム名に数値を設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetAs400(ShisakuCommon.Db.EBom.Vo.AsORPF32Vo,ShisakuCommon.Db.EBom.Vo.AsORPF57Vo,ShisakuCommon.Db.EBom.Vo.AsORPF60Vo,ShisakuCommon.Db.EBom.Vo.AsORPF61Vo,ShisakuCommon.Db.EBom.Vo.AsORPF32Vo,ShisakuCommon.Db.EBom.Vo.AsORPF57Vo)">
+ <summary>
+ AS400データのセット
+ </summary>
+ <param name="orpf32Vo"></param>
+ <param name="orpf57Vo"></param>
+ <param name="orpf60Vo"></param>
+ <param name="orpf61Vo"></param>
+ <param name="orpf32Nokm7Vo"></param>
+ <param name="orpf57Nokm7Vo"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.SetColumnRow(ShisakuCommon.Ui.ShisakuExcel)">
+ <summary>
+ 行と列の調整
+ </summary>
+ <param name="xls">目的Excelファイル</param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel.NewAS400">
+ <summary>
+ AS400の部品を初期化
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._HakkoNo">
+ <summary>発行No</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._HacyuDate">
+ <summary>発注年月日</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Doki">
+ <summary>同期</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Bunno">
+ <summary>分納</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Neck">
+ <summary>ネック</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Zank">
+ <summary>暫定・欠品</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Sonota">
+ <summary>その他</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Biko">
+ <summary>備考</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito1">
+ <summary>納期回答１</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei1">
+ <summary>納入予定数２</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuKbn">
+ <summary>納入区分</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._KensyuDate">
+ <summary>検収年月日</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuTotal">
+ <summary>納入累計数</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._HikitoriDate">
+ <summary>引取り検収年月日</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._HikitoriTotal">
+ <summary>引取り累計数</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuJissekiMark">
+ <summary>納入実績マーク</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._TorikeshiDate">
+ <summary>取消年月日</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._TorikeshiTotal">
+ <summary>取消数</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito2">
+ <summary>納期回答２</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei2">
+ <summary>納入予定数２</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito3">
+ <summary>納期回答３</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei3">
+ <summary>納入予定数３</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito4">
+ <summary>納期回答４</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei4">
+ <summary>納入予定数４</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito5">
+ <summary>納期回答５</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei5">
+ <summary>納入予定数５</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito6">
+ <summary>納期回答６</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei6">
+ <summary>納入予定数６</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito7">
+ <summary>納期回答７</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei7">
+ <summary>納入予定数７</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NokiKaito8">
+ <summary>納期回答８</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._NonyuYotei8">
+ <summary>納入予定数８</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Syochi">
+ <summary>処置</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Riyu">
+ <summary>理由</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Taio">
+ <summary>対応</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Busho">
+ <summary>部署</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._SekkeiTantosya">
+ <summary>設計担当者</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Tel">
+ <summary>TEL</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._ZanteiHinNonyubi">
+ <summary>暫定品納入日</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._SeikiOrKoukan">
+ <summary>正規扱いOr後交換有り</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._StsrNew">
+ <summary>設通No(最新)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._StsrJisseki">
+ <summary>設通No(実績)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._ShutuzuYoteiDate">
+ <summary>出図予定日(最新)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._ShutuzuJissekiDate">
+ <summary>出図実績日(最新)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Kata">
+ <summary>型</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Koho">
+ <summary>工法</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._MakerBuhinHi">
+ <summary>メーカー見積り部品費(円)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._MakerKatahi">
+ <summary>メーカー見積り型費(円)</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._KoujiKbn">
+ <summary>工事区分</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._YosanKbn">
+ <summary>予算区分</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Excel.ExportTehaichoExcel._Teban">
+ <summary>手番</summary>
+</member>
+<member name="T:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList">
+ <summary>
+ 部品構成表示画面
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.m_shisakuBuhinList">
+ <summary>ロジック</summary>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.Frm46DispShisakuBuhinList_Load(System.Object,System.EventArgs)">
+ <summary>
+ 画面初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.spdParts_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ ユーザーがセル内でマウスの左ボタンを押したら　処理する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.btnCall_Click(System.Object,System.EventArgs)">
+ <summary>
+ 呼出しボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.spdParts_CellDoubleClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ ダブルクリックしたら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.btnBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ 戻るボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46DispShisakuBuhinList.btnEND_Click(System.Object,System.EventArgs)">
+ <summary>
+ アプリケーション終了ボタンを押したら　アプリケーションは終了する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel">
+ <summary>
+ 手配帳リスト画面
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.m_TehaichoList">
+ <summary>ロジック</summary>
+</member>
+<member name="F:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.eventCode">
+ <summary>前画面からもらったイベントコード</summary>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.Frm46TehaichoExcel_Load(System.Object,System.EventArgs)">
+ <summary>
+ 画面初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.spdParts_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ ユーザーがセル内でマウスの左ボタンを押したら　処理する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.btnBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ 戻るボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.btnEND_Click(System.Object,System.EventArgs)">
+ <summary>
+ アプリケーション終了ボタンを押したら　アプリケーションは終了する。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ExcelOutput.TehaichoExcel.Frm46TehaichoExcel.btnExcelExport_Click(System.Object,System.EventArgs)">
+ <summary>
+ EXCEl出力ボタンを押したら　処理する
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper.ShisakuGousya">
+ <summary>試作号車</summary>
+ <value>試作号車</value>
+ <returns>試作号車</returns>
+</member>
+<member name="P:ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper.InsuSuryo">
+ <summary>員数数量</summary>
+ <value>員数数量</value>
+ <returns>員数数量</returns>
+</member>
+<member name="P:ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper.ShisakuGousyaHyoujiJun">
+ <summary>試作号車表示順</summary>
+ <value>試作号車表示順</value>
+ <returns>試作号車表示順</returns>
+</member>
+<member name="P:ExcelOutput.TehaichoExcel.Vo.TShisakuTehaiKihonVoHelper.Flag">
+ <summary>表示順変わったフラグ</summary>
+ <value>表示順変わったフラグ</value>
+ <returns>表示順変わったフラグ</returns>
+</member>
+</members>
+</doc>

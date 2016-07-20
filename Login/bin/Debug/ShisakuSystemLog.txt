@@ -1,0 +1,1319 @@
+2015/10/08 18:27:58 INFORMATION
+**************************************************
+
+2015/10/08 18:27:58 INFORMATION
+--ログイン！
+
+2015/10/08 18:27:58 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:28:02 ERROR
+Kanrihyo.iniファイルが存在しません。
+パス => 'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\Kanrihyo.ini'
+
+2015/10/08 18:33:43 INFORMATION
+**************************************************
+
+2015/10/08 18:33:43 INFORMATION
+--ログイン！
+
+2015/10/08 18:33:43 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:33:43 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/08 18:34:36 INFORMATION
+**************************************************
+
+2015/10/08 18:34:36 INFORMATION
+--ログイン！
+
+2015/10/08 18:34:36 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:34:36 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/08 18:34:44 INFORMATION
+**************************************************
+
+2015/10/08 18:34:44 INFORMATION
+--ログイン！
+
+2015/10/08 18:34:44 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:34:44 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/08 18:39:23 INFORMATION
+**************************************************
+
+2015/10/08 18:39:23 INFORMATION
+--ログイン！
+
+2015/10/08 18:39:23 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:39:23 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/08 18:39:46 INFORMATION
+**************************************************
+
+2015/10/08 18:39:46 INFORMATION
+--ログイン！
+
+2015/10/08 18:39:46 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/08 18:39:46 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/09 11:11:03 INFORMATION
+**************************************************
+
+2015/10/09 11:11:03 INFORMATION
+--ログイン！
+
+2015/10/09 11:11:03 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/09 11:11:04 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/09 13:20:41 INFORMATION
+**************************************************
+
+2015/10/09 13:20:41 INFORMATION
+--ログイン！
+
+2015/10/09 13:20:41 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/09 13:20:41 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/09 16:40:09 INFORMATION
+**************************************************
+
+2015/10/09 16:40:09 INFORMATION
+--ログイン！
+
+2015/10/09 16:40:09 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/09 16:40:09 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/09 16:41:48 INFORMATION
+**************************************************
+
+2015/10/09 16:41:48 INFORMATION
+--ログイン！
+
+2015/10/09 16:41:48 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/09 16:41:48 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 11:02:12 INFORMATION
+**************************************************
+
+2015/10/10 11:02:12 INFORMATION
+--ログイン！
+
+2015/10/10 11:02:13 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 11:02:13 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 11:05:19 INFORMATION
+**************************************************
+
+2015/10/10 11:05:19 INFORMATION
+--ログイン！
+
+2015/10/10 11:05:19 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 11:05:19 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 11:09:28 INFORMATION
+**************************************************
+
+2015/10/10 11:09:28 INFORMATION
+--ログイン！
+
+2015/10/10 11:09:28 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 11:09:28 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 11:13:32 INFORMATION
+**************************************************
+
+2015/10/10 11:13:32 INFORMATION
+--ログイン！
+
+2015/10/10 11:13:32 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 11:13:32 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 13:26:51 INFORMATION
+**************************************************
+
+2015/10/10 13:26:51 INFORMATION
+--ログイン！
+
+2015/10/10 13:26:51 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 13:26:52 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 13:47:25 INFORMATION
+**************************************************
+
+2015/10/10 13:47:26 INFORMATION
+--ログイン！
+
+2015/10/10 13:47:26 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 13:47:26 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 13:52:20 INFORMATION
+**************************************************
+
+2015/10/10 13:52:20 INFORMATION
+--ログイン！
+
+2015/10/10 13:52:20 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 13:52:20 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 13:55:10 INFORMATION
+**************************************************
+
+2015/10/10 13:55:10 INFORMATION
+--ログイン！
+
+2015/10/10 13:55:10 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 13:55:10 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 14:15:49 INFORMATION
+**************************************************
+
+2015/10/10 14:15:49 INFORMATION
+--ログイン！
+
+2015/10/10 14:15:49 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 14:15:49 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 14:17:56 INFORMATION
+**************************************************
+
+2015/10/10 14:17:56 INFORMATION
+--ログイン！
+
+2015/10/10 14:17:56 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 14:17:56 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 14:22:44 INFORMATION
+**************************************************
+
+2015/10/10 14:22:44 INFORMATION
+--ログイン！
+
+2015/10/10 14:22:44 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 14:22:44 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 14:24:51 INFORMATION
+**************************************************
+
+2015/10/10 14:24:51 INFORMATION
+--ログイン！
+
+2015/10/10 14:24:51 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 14:24:51 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 15:14:16 INFORMATION
+**************************************************
+
+2015/10/10 15:14:16 INFORMATION
+--ログイン！
+
+2015/10/10 15:14:16 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 15:14:16 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 15:32:53 INFORMATION
+**************************************************
+
+2015/10/10 15:32:53 INFORMATION
+--ログイン！
+
+2015/10/10 15:32:53 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 15:32:53 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 15:58:16 INFORMATION
+**************************************************
+
+2015/10/10 15:58:16 INFORMATION
+--ログイン！
+
+2015/10/10 15:58:16 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 15:58:16 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 15:59:50 INFORMATION
+**************************************************
+
+2015/10/10 15:59:50 INFORMATION
+--ログイン！
+
+2015/10/10 15:59:50 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 15:59:50 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:01:15 INFORMATION
+**************************************************
+
+2015/10/10 16:01:15 INFORMATION
+--ログイン！
+
+2015/10/10 16:01:15 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:01:15 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:34:14 INFORMATION
+**************************************************
+
+2015/10/10 16:34:14 INFORMATION
+--ログイン！
+
+2015/10/10 16:34:14 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:34:14 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:36:22 CRITICAL
+System.Exception: Exception handled in FpSpread.WndProc ---> System.InvalidCastException: 型 'EventSakusei.YosanSetteiBuhinMenu.Logic.Impl.ListCodeDaoImpl' のオブジェクトを型 'EventSakusei.YosanSetteiBuhinMenu.Dao.ListCodeDao' にキャストできません。
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu.setSpreadData(String shisakuEventCode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 303
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu.UpdateObserver(Observable observable, Object arg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 395
+   場所 ShisakuCommon.Util.Observable.NotifyObservers(Object arg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Util\Observable.vb:行 68
+   場所 ShisakuCommon.Util.Observable.NotifyObservers() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Util\Observable.vb:行 48
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu..ctor(String shisakuEventCode, String editMode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 273
+   場所 EventSakusei.ShisakuBuhinSakuseiList.DispShisakuBuhinSakuseiList.ToSakuseiMenuUpdateMode(String editMode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\DispShisakuBuhinSakuseiList.vb:行 657
+   場所 EventSakusei.ShisakuBuhinSakuseiList.Frm7DispShisakuBuhinSakuseiList.spdParts_CellDoubleClick(Object sender, CellClickEventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.vb:行 134
+   場所 FarPoint.Win.Spread.FpSpread.OnCellDoubleClick(CellClickEventArgs e)
+   場所 FarPoint.Win.Spread.FpSpread.a(SpreadView A_0, Int32 A_1, Int32 A_2, Int32 A_3, Int32 A_4, MouseButtons A_5, Boolean A_6, Boolean A_7)
+   場所 FarPoint.Win.Spread.SpreadView.a(Int32 A_0, Int32 A_1, MouseEventArgs A_2)
+   場所 FarPoint.Win.Spread.SpreadView.b(MouseEventArgs A_0)
+   場所 FarPoint.Win.Spread.FpSpread.OnMouseDown(MouseEventArgs e)
+   場所 System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   --- 内部例外スタック トレースの終わり ---
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2015/10/10 16:38:28 INFORMATION
+**************************************************
+
+2015/10/10 16:38:28 INFORMATION
+--ログイン！
+
+2015/10/10 16:38:28 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:38:28 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:40:15 INFORMATION
+**************************************************
+
+2015/10/10 16:40:15 INFORMATION
+--ログイン！
+
+2015/10/10 16:40:15 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:40:15 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:43:44 INFORMATION
+**************************************************
+
+2015/10/10 16:43:44 INFORMATION
+--ログイン！
+
+2015/10/10 16:43:44 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:43:44 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:49:44 INFORMATION
+**************************************************
+
+2015/10/10 16:49:44 INFORMATION
+--ログイン！
+
+2015/10/10 16:49:44 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:49:44 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 16:55:18 INFORMATION
+**************************************************
+
+2015/10/10 16:55:18 INFORMATION
+--ログイン！
+
+2015/10/10 16:55:18 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 16:55:18 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 17:01:20 INFORMATION
+**************************************************
+
+2015/10/10 17:01:20 INFORMATION
+--ログイン！
+
+2015/10/10 17:01:20 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 17:01:20 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/10 17:03:25 INFORMATION
+**************************************************
+
+2015/10/10 17:03:25 INFORMATION
+--ログイン！
+
+2015/10/10 17:03:25 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/10 17:03:25 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 09:29:18 INFORMATION
+**************************************************
+
+2015/10/12 09:29:18 INFORMATION
+--ログイン！
+
+2015/10/12 09:29:18 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 09:29:19 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 10:18:44 INFORMATION
+**************************************************
+
+2015/10/12 10:18:45 INFORMATION
+--ログイン！
+
+2015/10/12 10:18:45 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 10:18:45 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 10:25:43 INFORMATION
+**************************************************
+
+2015/10/12 10:25:43 INFORMATION
+--ログイン！
+
+2015/10/12 10:25:43 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 10:25:43 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 10:32:39 INFORMATION
+**************************************************
+
+2015/10/12 10:32:39 INFORMATION
+--ログイン！
+
+2015/10/12 10:32:39 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 10:32:39 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 11:49:21 INFORMATION
+**************************************************
+
+2015/10/12 11:49:21 INFORMATION
+--ログイン！
+
+2015/10/12 11:49:21 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 11:49:21 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 15:52:03 INFORMATION
+**************************************************
+
+2015/10/12 15:52:03 INFORMATION
+--ログイン！
+
+2015/10/12 15:52:03 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 15:52:03 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 16:11:08 INFORMATION
+**************************************************
+
+2015/10/12 16:11:08 INFORMATION
+--ログイン！
+
+2015/10/12 16:11:08 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 16:11:08 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 16:35:29 INFORMATION
+**************************************************
+
+2015/10/12 16:35:29 INFORMATION
+--ログイン！
+
+2015/10/12 16:35:29 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 16:35:29 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 17:21:32 INFORMATION
+**************************************************
+
+2015/10/12 17:21:32 INFORMATION
+--ログイン！
+
+2015/10/12 17:21:33 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 17:21:33 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 17:30:10 INFORMATION
+**************************************************
+
+2015/10/12 17:30:10 INFORMATION
+--ログイン！
+
+2015/10/12 17:30:10 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 17:30:10 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 18:20:28 INFORMATION
+**************************************************
+
+2015/10/12 18:20:28 INFORMATION
+--ログイン！
+
+2015/10/12 18:20:28 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 18:20:28 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/12 18:21:24 INFORMATION
+**************************************************
+
+2015/10/12 18:21:24 INFORMATION
+--ログイン！
+
+2015/10/12 18:21:24 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/12 18:21:24 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 08:50:44 INFORMATION
+**************************************************
+
+2015/10/13 08:50:44 INFORMATION
+--ログイン！
+
+2015/10/13 08:50:44 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 08:50:44 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:10:32 INFORMATION
+**************************************************
+
+2015/10/13 13:10:32 INFORMATION
+--ログイン！
+
+2015/10/13 13:10:32 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:10:32 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:24:55 INFORMATION
+**************************************************
+
+2015/10/13 13:24:55 INFORMATION
+--ログイン！
+
+2015/10/13 13:24:55 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:24:55 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:28:49 INFORMATION
+**************************************************
+
+2015/10/13 13:28:49 INFORMATION
+--ログイン！
+
+2015/10/13 13:28:49 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:28:49 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:30:16 INFORMATION
+**************************************************
+
+2015/10/13 13:30:16 INFORMATION
+--ログイン！
+
+2015/10/13 13:30:16 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:30:16 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:32:55 INFORMATION
+**************************************************
+
+2015/10/13 13:32:55 INFORMATION
+--ログイン！
+
+2015/10/13 13:32:55 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:32:55 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:41:02 INFORMATION
+**************************************************
+
+2015/10/13 13:41:02 INFORMATION
+--ログイン！
+
+2015/10/13 13:41:02 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:41:02 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:48:35 INFORMATION
+**************************************************
+
+2015/10/13 13:48:35 INFORMATION
+--ログイン！
+
+2015/10/13 13:48:35 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:48:35 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:49:11 CRITICAL
+System.Exception: Exception handled in FpSpread.WndProc ---> System.IndexOutOfRangeException: Invalid column index: 9
+   場所 FarPoint.Win.Spread.Columns.get_Item(Int32 column)
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu.setSpreadStyle() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 337
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu.UpdateObserver(Observable observable, Object arg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 367
+   場所 ShisakuCommon.Util.Observable.NotifyObservers(Object arg) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Util\Observable.vb:行 68
+   場所 ShisakuCommon.Util.Observable.NotifyObservers() 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\ShisakuCommon\Util\Observable.vb:行 48
+   場所 EventSakusei.YosanSetteiBuhinMenu.FrmDispYosanSetteiBuhinMenu..ctor(String shisakuEventCode, String editMode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb:行 257
+   場所 EventSakusei.ShisakuBuhinSakuseiList.DispShisakuBuhinSakuseiList.ToSakuseiMenuUpdateMode(String editMode) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\DispShisakuBuhinSakuseiList.vb:行 657
+   場所 EventSakusei.ShisakuBuhinSakuseiList.Frm7DispShisakuBuhinSakuseiList.spdParts_CellDoubleClick(Object sender, CellClickEventArgs e) 場所 D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\EventSakusei\ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.vb:行 134
+   場所 FarPoint.Win.Spread.FpSpread.OnCellDoubleClick(CellClickEventArgs e)
+   場所 FarPoint.Win.Spread.FpSpread.a(SpreadView A_0, Int32 A_1, Int32 A_2, Int32 A_3, Int32 A_4, MouseButtons A_5, Boolean A_6, Boolean A_7)
+   場所 FarPoint.Win.Spread.SpreadView.a(Int32 A_0, Int32 A_1, MouseEventArgs A_2)
+   場所 FarPoint.Win.Spread.SpreadView.b(MouseEventArgs A_0)
+   場所 FarPoint.Win.Spread.FpSpread.OnMouseDown(MouseEventArgs e)
+   場所 System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   場所 System.Windows.Forms.Control.WndProc(Message& m)
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   --- 内部例外スタック トレースの終わり ---
+   場所 FarPoint.Win.Spread.FpSpread.WndProc(Message& m)
+   場所 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   場所 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2015/10/13 13:50:54 INFORMATION
+**************************************************
+
+2015/10/13 13:50:54 INFORMATION
+--ログイン！
+
+2015/10/13 13:50:54 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:50:54 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:55:21 INFORMATION
+**************************************************
+
+2015/10/13 13:55:22 INFORMATION
+--ログイン！
+
+2015/10/13 13:55:22 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:55:22 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 13:57:13 INFORMATION
+**************************************************
+
+2015/10/13 13:57:13 INFORMATION
+--ログイン！
+
+2015/10/13 13:57:13 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 13:57:13 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:16:27 INFORMATION
+**************************************************
+
+2015/10/13 14:16:27 INFORMATION
+--ログイン！
+
+2015/10/13 14:16:27 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:16:27 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:21:06 INFORMATION
+**************************************************
+
+2015/10/13 14:21:06 INFORMATION
+--ログイン！
+
+2015/10/13 14:21:06 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:21:06 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:22:23 INFORMATION
+**************************************************
+
+2015/10/13 14:22:23 INFORMATION
+--ログイン！
+
+2015/10/13 14:22:23 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:22:23 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:25:01 INFORMATION
+**************************************************
+
+2015/10/13 14:25:01 INFORMATION
+--ログイン！
+
+2015/10/13 14:25:01 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:25:01 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:29:39 INFORMATION
+**************************************************
+
+2015/10/13 14:29:39 INFORMATION
+--ログイン！
+
+2015/10/13 14:29:39 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:29:39 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:36:55 INFORMATION
+**************************************************
+
+2015/10/13 14:36:55 INFORMATION
+--ログイン！
+
+2015/10/13 14:36:55 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:36:55 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:40:36 INFORMATION
+**************************************************
+
+2015/10/13 14:40:37 INFORMATION
+--ログイン！
+
+2015/10/13 14:40:37 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:40:37 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:43:57 INFORMATION
+**************************************************
+
+2015/10/13 14:43:57 INFORMATION
+--ログイン！
+
+2015/10/13 14:43:57 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:43:57 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:51:34 INFORMATION
+**************************************************
+
+2015/10/13 14:51:34 INFORMATION
+--ログイン！
+
+2015/10/13 14:51:34 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:51:34 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 14:57:09 INFORMATION
+**************************************************
+
+2015/10/13 14:57:09 INFORMATION
+--ログイン！
+
+2015/10/13 14:57:09 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 14:57:09 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:02:06 INFORMATION
+**************************************************
+
+2015/10/13 15:02:06 INFORMATION
+--ログイン！
+
+2015/10/13 15:02:06 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:02:06 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:16:09 INFORMATION
+**************************************************
+
+2015/10/13 15:16:09 INFORMATION
+--ログイン！
+
+2015/10/13 15:16:09 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:16:09 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:19:13 INFORMATION
+**************************************************
+
+2015/10/13 15:19:13 INFORMATION
+--ログイン！
+
+2015/10/13 15:19:13 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:19:13 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:21:52 INFORMATION
+**************************************************
+
+2015/10/13 15:21:52 INFORMATION
+--ログイン！
+
+2015/10/13 15:21:52 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:21:52 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:25:49 INFORMATION
+**************************************************
+
+2015/10/13 15:25:49 INFORMATION
+--ログイン！
+
+2015/10/13 15:25:49 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:25:49 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:28:22 INFORMATION
+**************************************************
+
+2015/10/13 15:28:22 INFORMATION
+--ログイン！
+
+2015/10/13 15:28:22 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:28:22 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:31:53 INFORMATION
+**************************************************
+
+2015/10/13 15:31:53 INFORMATION
+--ログイン！
+
+2015/10/13 15:31:53 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:31:53 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 15:56:26 INFORMATION
+**************************************************
+
+2015/10/13 15:56:26 INFORMATION
+--ログイン！
+
+2015/10/13 15:56:26 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 15:56:26 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 16:06:01 INFORMATION
+**************************************************
+
+2015/10/13 16:06:01 INFORMATION
+--ログイン！
+
+2015/10/13 16:06:01 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 16:06:01 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/13 16:17:21 INFORMATION
+**************************************************
+
+2015/10/13 16:17:21 INFORMATION
+--ログイン！
+
+2015/10/13 16:17:21 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/13 16:17:21 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:09:42 INFORMATION
+**************************************************
+
+2015/10/14 11:09:42 INFORMATION
+--ログイン！
+
+2015/10/14 11:09:42 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:09:42 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:11:21 INFORMATION
+**************************************************
+
+2015/10/14 11:11:21 INFORMATION
+--ログイン！
+
+2015/10/14 11:11:21 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:11:21 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:12:09 INFORMATION
+**************************************************
+
+2015/10/14 11:12:09 INFORMATION
+--ログイン！
+
+2015/10/14 11:12:09 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:12:09 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:12:59 INFORMATION
+**************************************************
+
+2015/10/14 11:12:59 INFORMATION
+--ログイン！
+
+2015/10/14 11:12:59 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:12:59 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:14:01 INFORMATION
+**************************************************
+
+2015/10/14 11:14:01 INFORMATION
+--ログイン！
+
+2015/10/14 11:14:01 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:14:01 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:14:25 INFORMATION
+**************************************************
+
+2015/10/14 11:14:25 INFORMATION
+--ログイン！
+
+2015/10/14 11:14:25 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:14:25 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+
+2015/10/14 11:15:19 INFORMATION
+**************************************************
+
+2015/10/14 11:15:19 INFORMATION
+--ログイン！
+
+2015/10/14 11:15:19 INFORMATION
+USER ID:'保夫'
+SDISINI:'D:\DATA\SVN\OHTA\svn-TrialManufacture\branches\TrialManufactureVer8\Login\bin\Debug\'
+
+2015/10/14 11:15:19 INFORMATION
+kanrihyo.ini  EBom.DB:'DANIEL-YAGIPC' - 'RHACLIBF_GJ1TST'
+kanrihyo.ini  WORK.DB:'DANIEL-YAGIPC' - 'EBOM'
+kanrihyo.ini  mBOM.DB:'DANIEL-YAGIPC' - 'mBOM_GJ1TST'
+

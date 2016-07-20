@@ -1,0 +1,1766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA500BB8-E00F-45F6-B5F8-C1DB549F7DAD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EventSakusei.My.MyApplication</StartupObject>
+    <RootNamespace>EventSakusei</RootNamespace>
+    <AssemblyName>EventSakusei</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EventSakusei.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EventSakusei.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>EventSakusei.xml</DocumentationFile>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>EventSakusei.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.XVLPlayer3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\XVL\AxInterop.XVLPlayer3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\試作システム新DB対応\ソース\EBom\EBom.Data\bin\Release\EBom.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Excel, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.FpSpread, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\試作システム新DB対応\ソース\EBom\EBom.FpSpread\bin\Release\EBom.FpSpread.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Excel, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.SpreadWrapperJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="Interop.XVLPlayer3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\XVL\Interop.XVLPlayer3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\Net\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dictionary2.vb" />
+    <Compile Include="EventEdit\Dao\EventEditCompleteCarRirekiDao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Dao\EventEditCompleteCarRirekiDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\EventEditCopyDao.vb" />
+    <Compile Include="EventEdit\Dao\EventEditCopyDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\EventEditCopyResultVo.vb" />
+    <Compile Include="EventEdit\Dao\EventEditMShisakuSoubiDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\EventEditOptionRirekiDao.vb" />
+    <Compile Include="EventEdit\Dao\EventEditOptionRirekiDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\EventEditRegistDao.vb" />
+    <Compile Include="EventEdit\Dao\EventEditRegistDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\ExportShisakuEventInfoExcelDao.vb" />
+    <Compile Include="EventEdit\Dao\ExportShisakuEventInfoExcelDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\SeisakuIchiranDao.vb" />
+    <Compile Include="EventEdit\Dao\SeisakuIchiranDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\SendMailUserAddressVo.vb" />
+    <Compile Include="EventEdit\Dao\EventEditMShisakuSoubiDao.vb" />
+    <Compile Include="EventEdit\EventUtil.vb" />
+    <Compile Include="EventEdit\ExcelProcess\Excel2EventEdit.vb" />
+    <Compile Include="EventEdit\ExcelProcess\ExportShisakuEventInfoExcel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditBaseCarVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditBaseTenkaiCarVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditCompleteCarVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditHeaderVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditOptionTitleVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditOptionVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventEditReferenceCarVo.vb" />
+    <Compile Include="EventEdit\ExcelProcess\VO\EventSoubiVo.vb" />
+    <Compile Include="EventEdit\Frm9DispSeisakuIchiranSelect.Designer.vb">
+      <DependentUpon>Frm9DispSeisakuIchiranSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispSeisakuIchiranSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispSeisakuIchiranSelectKaiteiNo.Designer.vb">
+      <DependentUpon>Frm9DispSeisakuIchiranSelectKaiteiNo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispSeisakuIchiranSelectKaiteiNo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Logic\EventEditBaseCarKaiteiVo.vb" />
+    <Compile Include="EventEdit\Logic\EventEditBaseTenkaiCar.vb" />
+    <Compile Include="EventEdit\Logic\EventEditEnabled.vb" />
+    <Compile Include="EventEdit\Frm9SpdObserver.vb" />
+    <Compile Include="EventEdit\Frm9SpdSetter.vb" />
+    <Compile Include="EventEdit\Logic\EventEditCopy.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncBaseTenkai.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncBaseTenkaiImpl.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncEbomKanshi.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncEbomKanshiImpl.vb" />
+    <Compile Include="EventEdit\Logic\EventEditEbomKanshi.vb" />
+    <Compile Include="EventEdit\SpdBaseTenkaiCarObserver.vb" />
+    <Compile Include="EventEdit\Ui\EventSpreadDragDrop.vb" />
+    <Compile Include="EventEdit\Ui\SeisakuIchiranTorikomiSpreadUtil.vb" />
+    <Compile Include="EventEdit\Ui\SpdEventCopyObserver.vb" />
+    <Compile Include="EventEdit\SpdEbomKanshiObserver.vb" />
+    <Compile Include="frm02Kakunin.designer.vb">
+      <DependentUpon>frm02Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm02Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm03Syorichu.designer.vb">
+      <DependentUpon>frm03Syorichu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm03Syorichu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm04Kakunin.designer.vb">
+      <DependentUpon>frm04Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm04Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConditionSelect.Designer.vb">
+      <DependentUpon>frmConditionSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConditionSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHacchuSakusei.Designer.vb">
+      <DependentUpon>frmHacchuSakusei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHacchuSakusei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GousyabetsuShiyousyo\Dao\Impl\GousyabetsuShiyousyoDaoImpl.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Dao\Impl\SeisakuNeedNameDaoImpl.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Dao\Vo\GousyabetsuShiyousyoVo.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Dao\Vo\SeiSakuGouSya.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Dao\Vo\SeisakuoOikomiVo.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Dao\Vo\SeisakuOPVo.vb" />
+    <Compile Include="GousyabetsuShiyousyo\Logic\GousyabetsuShiyousyoSubject.vb" />
+    <Compile Include="HoyouBuhinFrm00Kakunin.designer.vb">
+      <DependentUpon>HoyouBuhinFrm00Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HoyouBuhinFrm00Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NitteiDbComFunc.vb" />
+    <Compile Include="NokiIkkatuSettei\NokiIkkatsuSetteiLogic.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\BuhinEditBaseDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\BuhinEditBaseDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ExclusiveControlBlockDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ExclusiveControlTantoDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\HoyouEventDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\AuthorityUserDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ExclusiveControlBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ExclusiveControlTantoDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\HoyouEventDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\KaRyakuNameDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ShisakuBuhinEditDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ShisakuEventDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ShisakuBuhinEditInstlDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\IShisakuBuhinEditDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\SekkeiBlockDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\SekkeiBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuEventBaseDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuEventBaseDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuEventDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuSekkeiBlockInstlDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuSekkeiBlockInstlDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelBody1Vo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelPointVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle1BodyVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle1VoHelper.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle2BodyVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle2Vo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle3BodyVo..vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\KaRyakuNameDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\IAuthorityUserDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\IShisakuBuhinEditBlockDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle4Vo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlockExcelBlockInstlVoHelper.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\InsuSuryoVoHelpler.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\SekkeiBlockAlResultVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\SekkeiBlockInstlResultVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\ShisakuBuhinBlockVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\ShisakuBuhinEditBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\KabetuJyoutaiVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\ShisakuEventBaseResultVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\TShisakuBuhinEditVoHelper.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\ShisakuBuhinEditInstlDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ExportShisakuBuhinEditALConditionExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ExportShisakuBuhinEditBuhinConditionExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ExportShisakuBuhinEditConditonMultiBlockExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ExportShisakuBuhinEditGousyaConditionExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditBlock2AllExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\TShisakuBuhinEditVoHelperExcel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditBlock2ExcelSheet2.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditBlock2ExcelSheet3.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditBlock2ExcelSheet4.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditCondition.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispEventEdit.designer.vb">
+      <DependentUpon>Frm38DispEventEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispEventEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcelAll.designer.vb">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlockExcelAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcelAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38SpdObserver.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Frm38SpdSetter.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EventEdit.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EventEditBaseCar.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EventEditBaseCarVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EventEditEnabled.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EventEditHeader.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\EzSyncShubetsuGosha.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\NumberingShisakuEventCode.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\NumberingShisakuRetuKoumokuCode.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\BuhinEditBaseSupplier.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\BuhinEditEzTunnel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\BuhinEditInstlHinban.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\BuhinEditInstlSupplier.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\BuhinEditTenkaiSubject.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Logic\Tenkai\SekkeiBlockInstlSupplier.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\SpdBaseCarObserver.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Ui\BlockSpreadUtil.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Ui\EventControlFactory.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Ui\EventSpreadUtil.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\IShisakuBuhinEditBlockDao.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\KabetuJyoutaiVo.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\Rhac1860VoHelper.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\ShisakuBuhinEditBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\ShisakuBuhinEditBlocktxtDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Dao\IShiakuBuhinEditBlocktxtDao.vb" />
+    <Compile Include="ShisakuBuhinEditSekkei\Frm31MiShoninEventList.Designer.vb">
+      <DependentUpon>Frm31MiShoninEventList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditSekkei\Frm31MiShoninEventList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Dao\BuhinEditAlDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Dao\BuhinEditAlDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Dao\BuhinEditAlEventVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Dao\HoyouBuhinBuhinEditAlDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Dao\HoyouBuhinBuhinEditAlDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41KaiteiKakunin.Designer.vb">
+      <DependentUpon>Frm41KaiteiKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41KaiteiKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41KaiteiSourceSelector.Designer.vb">
+      <DependentUpon>Frm41KaiteiSourceSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41KaiteiSourceSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BfBuhinNoResolver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BfBuhinNoResolverImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlInstlSupplier.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlEvent.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlMemoSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlOption.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlShowColumnBag.vb" />
+    <Compile Include="ShisakuBuhinEdit\frm41SaiKakunin.Designer.vb">
+      <DependentUpon>frm41SaiKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41SaiKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41SaiKakuninMin.Designer.vb">
+      <DependentUpon>frm41SaiKakuninMin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41SaiKakuninMin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\FindByBuhinColorConditionVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Fmr41DispKosei.Designer.vb">
+      <DependentUpon>Fmr41DispKosei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Fmr41DispKosei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Vo\DispKoseiVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\HoyouBuhinfrm41HikakuResultSelectorVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuResultSelector.Designer.vb">
+      <DependentUpon>HoyouBuhinFrm41HikakuResultSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuResultSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuSourceSelector.Designer.vb">
+      <DependentUpon>HoyouBuhinFrm41HikakuSourceSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuSourceSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41KouseiErrorDisp.Designer.vb">
+      <DependentUpon>Frm41KouseiErrorDisp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41KouseiErrorDisp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41KouseiSourceSelector.Designer.vb">
+      <DependentUpon>Frm41KouseiSourceSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41KouseiSourceSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41ShiyouKakunin.designer.vb">
+      <DependentUpon>Frm41ShiyouKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41ShiyouKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41Sort.Designer.vb">
+      <DependentUpon>frm41Sort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41Sort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41TourokuKakunin.designer.vb">
+      <DependentUpon>frm41TourokuKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\frm41TourokuKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\HoyouBuhinFrm41DispShisakuBuhinEdit00.Designer.vb">
+      <DependentUpon>HoyouBuhinFrm41DispShisakuBuhinEdit00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\HoyouBuhinFrm41DispShisakuBuhinEdit00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Dao\BuhinEditIkkatsuDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Dao\BuhinEditIkkatsuDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Logic\BuhinEditIkkatsuSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Logic\BuhinEditIkkatsuVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\BuhinKouseiSourceSelectorDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\BuhinKouseiSourceSelectorDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\HoyouBuhinMakeStructureResultDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\HoyouBuhinMakeStructureResultDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\MakeShisakuBlockDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\MakeShisakuBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\MakeStructureResultDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\Rhac0530MakerNameVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\Rhac0532BuhinNoteVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\Rhac0532MakerNameVo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\Rhac0533BuhinNoteVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\Rhac0533MakerNameVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Frm41FinalSourceSelector.Designer.vb">
+      <DependentUpon>Frm41FinalSourceSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41FinalSourceSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\HoyouBuhinFrm41DispShisakuBuhinEdit20.designer.vb">
+      <DependentUpon>HoyouBuhinFrm41DispShisakuBuhinEdit20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\HoyouBuhinFrm41DispShisakuBuhinEdit20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinEditKoseiEditInstlSupplier.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinEditKoseiInstlTitle.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinEditKoseiSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinEditKoseiEditSupplier.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinKoseiRecordVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\BuhinKoseiInsuCellVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\HoyouBuhinBuhinEditKoseiEditSupplier.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\HoyouBuhinBuhinEditKoseiSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\HoyouBuhinBuhinKoseiRecordVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\HoyouBuhinBuhinKoseiMatrix.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\HoyouBuhinInstlColumnBag.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\HoyouBuhinMakeStructureResult.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\HoyouBuhinMakeStructureResultImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\MakeShisakuBlockKey.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\MakeShisakuBlockKeyImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\MakeStructureResult.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\MakeStructureResultImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Dao\MakeStructureResultDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\HoyouBuhinMergeInstlColumnBag.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\HoyouBuhinMergeMatrix.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\HoyouBuhinMergeNodeList.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\Rhac0551NodeAccessor.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\Rhac0553NodeAccessor.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\MergeInstlColumnBag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\MergeMatrix.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\MergeNodeList.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\BuhinKoseiMatrix.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\IBuhinNodeAccessor.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Matrix\InstlColumnBag.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\RhacNodeAccessor.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Merge\ShisakuNodeAccessor.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Tree\BuhinNode.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Tree\BuhinSingleMatrix.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Logic\Tree\BuhinTreeMaker.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Ui\HoyouBuhinSpdKoseiCellTypeFactory.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Ui\HoyouBuhinSpdKoseiObserver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Vo\BuhinEditInstlKoseiVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\BuhinListFilterAndSortVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\KouseiBuhinSelectorDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\KouseiBuhinSelectorDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Rhac1320EventDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Rhac1320EventDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Rhac2270XVLDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Rhac2270XVLDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\ShiyouJyouhouDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\ShiyouJyouhouDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\BlockListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\BuhinListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\FinalHinbanListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\GousyaListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\OpListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\OpSpecListVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\Rhac1320EventVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\Rhac2270XVLVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\SystemKbnVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Dao\Vo\XVLExistVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\DispBlockList.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\DispBuhinList.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\DispGousyaList.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\DispKubunList.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\DispShiyouJyouhouList.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41DispOldBuhinSelector.designer.vb">
+      <DependentUpon>HoyouBuhinFrm41DispOldBuhinSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41DispOldBuhinSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41EventKanseiSelector.designer.vb">
+      <DependentUpon>HoyouBuhinFrm41EventKanseiSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41EventKanseiSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\GousyaListFilterAndSortVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41KouseiBuhinSelector.Designer.vb">
+      <DependentUpon>HoyouBuhinFrm41KouseiBuhinSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41KouseiBuhinSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\KubunListFilterAndSortVo.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Logic\HoyouBuhinKouseiBuhinSelectorSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\KouseiBuhin\Logic\HoyouBuhinOldBuhinSelectorSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\HoyouBuhinDetectLatestStructure.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\HoyouBuhinDetectLatestStructureImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\HoyouBuhinStructureResult.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\HoyouBuhinBuhinEditHeaderSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\HoyouBuhinBuhinEditSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\HoyouBuhinEzTunnelAlKoseiImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\MakerNameResolver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Ui\SpdKoseiCellTypeFactory.vb" />
+    <Compile Include="ShisakuBuhinEdit\Kosei\Ui\SpdKoseiObserver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\BuhinEditInsu.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\DetectLatestStructure.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\DetectLatestStructureImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\Detect\StructureResult.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\EzTunnelAlKosei.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\EzTunnelAlKoseiImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\EzSyncInstlHinban.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\EzSyncInstlHinbanImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\ShisakuRule.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Dao\DispEventBuhinCopySelectorDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Dao\DispEventBuhinCopySelectorDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Frm44DispEventBuhinCopySelector.Designer.vb">
+      <DependentUpon>Frm44DispEventBuhinCopySelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\Frm44DispEventBuhinCopySelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\Logic\BuhinEditSelectorBaseCompleteSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Logic\BuhinEditSelectorSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Logic\BuhinEditSelectorOptionSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Logic\EventBuhinCopySubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Ui\SpdSelectorOptionObserver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Selector\Ui\SpdSelectorBaseCompleteObserver.vb" />
+    <Compile Include="ShisakuBuhinEdit\Sort\SortSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\SourceSelector\Dao\SourceSelectorDao.vb" />
+    <Compile Include="ShisakuBuhinEdit\SourceSelector\Dao\SourceSelectorDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEdit\SourceSelector\Logic\SourceSelectorSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\SourceSelector\Logic\SourceSelectorVo.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\Impl\KaRyakuNameDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\Impl\MUserMailAddressDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\Impl\ShisakuBuhinKaiteiBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\Impl\ShisakuBuhinKaiteiBlockTsuchiDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\IShisakuBuhinKaiteiBlockDao.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\IShisakuBuhinKaiteiBlockTsuchiDao.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\KaRyakuNameDao.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\MUserMailAddressDao.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Dao\Vo\ShisakuBuhinBlockVo.vb" />
+    <Compile Include="ShisakuBuhinKaiteiBlock\Frm60DispShisakuBuhinKaiteiBlock.Designer.vb">
+      <DependentUpon>Frm60DispShisakuBuhinKaiteiBlock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinKaiteiBlock\Frm60DispShisakuBuhinKaiteiBlock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinKaiteiBlock\Ui\KaiteiBlockSpreadUtil.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\Block4UpdateBlockNoHyoujiJunVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BlockInstl4UpdateInstlHinbanHyoujiJunVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\Buhin4UpdateBuhinHyoujiJunVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\Buhin4UpdateBukaCodeBuhinNoHyoujiJun.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\Buhin4UpdateInstlHyoujiJunVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinEditBaseDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinEditBaseDaoImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinEditInstlVoEx.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinEditVoEx.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinInstl4UpdateBukaBuhinJunInstlJun.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ListCodeDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\SekkeiBlockAlConditionVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuBlockSekkeikaTmp4EbomVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuEventBaseDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuEventBaseDaoImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuEventBaseResultVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlock4EbomVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockInstlDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockInstlDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\TSeisakuHakouDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\TSeisakuHakouDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuBlockSekkeikaTmpDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuBlockSekkeikaTmpDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\TShisakuSekkeiBlockInstlVoEx.vb" />
+    <Compile Include="ShisakuBuhinMenu\Frm8DispSekkeika.Designer.vb">
+      <DependentUpon>Frm8DispSekkeika.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8DispSekkeika.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8SpdObserver.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\ListCodeDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinEditBaseSupplier.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinEditEzTunnel.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinEditInstlHinban.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinEditInstlSupplier.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinEditTenkaiSubject.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\SekkeiBlockInstlSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\SekkeiBlockSupplier.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Logic\ShisakuBuhinMenu.vb" />
+    <Compile Include="ShisakuBuhinMenu\spdListObserver.vb" />
+    <Compile Include="ShisakuBuhinMenu\Ui\BuhinMenuSpreadUtil.vb" />
+    <Compile Include="ShisakuBuhinSakuseiList\Dao\ExclusiveControlEventDao.vb" />
+    <Compile Include="ShisakuBuhinSakuseiList\Dao\ExclusiveControlEventDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinSakuseiList\FrmDispEditModeSelect.Designer.vb">
+      <DependentUpon>FrmDispEditModeSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinSakuseiList\FrmDispEditModeSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soubi\EventSoubiReader.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Logic\BuhinEditAlSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\BuhinEditSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Logic\BuhinEditHeaderSubject.vb" />
+    <Compile Include="ShisakuBuhinEdit\Ui\BuhinEditSpreadUtil.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Ui\SpdAlObserver.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinResultVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\SekkeiBlockAlResultVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\SekkeiBlockDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\SekkeiBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\SekkeiBlockInstlResultVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinKouseiDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinKouseiDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\BuhinKouseiResultVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinSupplier.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Command.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\ChushiCommand.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\KanryoCommand.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\SashimodoshiCommand.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\SekkeiTenkaiCommand.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\ShochiShimekiriCommand.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BuhinKouseiSupplier.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\Impl\Tenkai\BukaCodeBlockNoVo.vb" />
+    <Compile Include="EventEdit\Dao\EventEditBaseCarDao.vb" />
+    <Compile Include="EventEdit\Dao\EventEditBaseCarDaoImpl.vb" />
+    <Compile Include="EventEdit\Dao\EventEditBaseCarParamVo.vb" />
+    <Compile Include="Soubi\EventSoubiDao.vb" />
+    <Compile Include="Soubi\EventSoubiDaoImpl.vb" />
+    <Compile Include="Soubi\TShisakuEventSoubiNameVo.vb" />
+    <Compile Include="EventEdit\Dao\EventEditReferenceCarDao.vb" />
+    <Compile Include="EventEdit\Dao\EventEditReferenceCarDaoImpl.vb" />
+    <Compile Include="EventEdit\Logic\EventEditReferenceCar.vb" />
+    <Compile Include="EventEdit\SpdReferenceCarObserver.vb" />
+    <Compile Include="EventEdit\Ui\EventControlFactory.vb" />
+    <Compile Include="EventEdit\ExcelProcess\EventEdit2Excel.vb" />
+    <Compile Include="EventEdit\Ui\EventSpreadUtil.vb" />
+    <Compile Include="EventEdit\Logic\EventEdit.vb" />
+    <Compile Include="EventEdit\Logic\EventEditBaseCar.vb" />
+    <Compile Include="EventEdit\Logic\EventEditBaseCarVo.vb" />
+    <Compile Include="EventEdit\Logic\EventEditCompleteCar.vb" />
+    <Compile Include="EventEdit\Logic\EventEditCompleteCarVo.vb" />
+    <Compile Include="EventEdit\Logic\EventEditHeader.vb" />
+    <Compile Include="EventEdit\Logic\EventEditInquiry.vb" />
+    <Compile Include="EventEdit\Logic\EventEditOption.vb" />
+    <Compile Include="EventEdit\Logic\EventEditOptionVo.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncShubetsuGosha.vb" />
+    <Compile Include="EventEdit\Logic\EzSyncShubetsuGoshaImpl.vb" />
+    <Compile Include="EventEdit\Logic\NumberingShisakuEventCode.vb" />
+    <Compile Include="EventEdit\Logic\NumberingShisakuRetuKoumokuCode.vb" />
+    <Compile Include="EventEdit\SpdBaseCarObserver.vb" />
+    <Compile Include="EventEdit\SpdCompleteCarObserver.vb" />
+    <Compile Include="EventEdit\SpdOptionObserver.vb" />
+    <Compile Include="frm01Kakunin.designer.vb">
+      <DependentUpon>frm01Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm01Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Frm10DispEventCopy.Designer.vb">
+      <DependentUpon>Frm10DispEventCopy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventEdit\Frm10DispEventCopy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Dao\EditBlock2ExcelDao.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Impl\EditBlock2ExcelDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelParamVo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Dao\Vo\EditBlock2ExcelTitle1Vo.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Export2Excel\ShisakuBuhinEditBlock2Excel.vb" />
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcel.designer.vb">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlockExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditList\DispShisakuBuhinEditList.vb" />
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41DispShisakuBuhinEdit10.designer.vb">
+      <DependentUpon>Frm41DispShisakuBuhinEdit10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Al\Frm41DispShisakuBuhinEdit10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Frm41DispShisakuBuhinEdit20.designer.vb">
+      <DependentUpon>Frm41DispShisakuBuhinEdit20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Kosei\Frm41DispShisakuBuhinEdit20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41IchijiHozonKakunin.designer.vb">
+      <DependentUpon>Frm41IchijiHozonKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41IchijiHozonKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinKaiteiEditList\DispShisakuBuhinKaiteiEditList.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\IShisakuEventDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\IShisakuSekkeiBlockDao.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuEventDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockCountVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockDaoImpl.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockHeadVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\Dao\ShisakuSekkeiBlockMeisaiVo.vb" />
+    <Compile Include="ShisakuBuhinMenu\ExcelProcess\ExportShisakuBuhinMenu2Excel.vb" />
+    <Compile Include="ShisakuBuhinMenu\Logic\ShisakuBuhinMenuBtnEnable.vb" />
+    <Compile Include="ShisakuBuhinSakuseiList\DispShisakuBuhinSakuseiList.vb" />
+    <Compile Include="ShisakuBuhinSakuseiList\ShisakuBuhinSakuseiListFilterAndSortVo.vb" />
+    <Compile Include="TehaichoEdit\Dao\SqlTehaichoEdit.vb" />
+    <Compile Include="TehaichoEdit\Dao\TehaichoEditImpl.vb" />
+    <Compile Include="TehaichoEdit\Dao\TehaichoHeaderDao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Dao\TehaichoHeaderDaoImpl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\ExcelProcess\BuhinhyoExportShinchotatsu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20BuhinhyoExcelOutput.Designer.vb">
+      <DependentUpon>Frm20BuhinhyoExcelOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20BuhinhyoExcelOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20DispTehaichoEditFuka.designer.vb">
+      <DependentUpon>Frm20DispTehaichoEditFuka.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20DispTehaichoEditFuka.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelCellSelect.designer.vb">
+      <DependentUpon>Frm20ExcelCellSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelCellSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelKeyDataSelect.designer.vb">
+      <DependentUpon>Frm20ExcelKeyDataSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelKeyDataSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelSheetSelect.designer.vb">
+      <DependentUpon>Frm20ExcelSheetSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ExcelSheetSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20GousyaNoukiSettei.designer.vb">
+      <DependentUpon>Frm20GousyaNoukiSettei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20GousyaNoukiSettei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\frm20GousyaTenkaiKakunin.designer.vb">
+      <DependentUpon>frm20GousyaTenkaiKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\frm20GousyaTenkaiKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\frm20Kakunin.designer.vb">
+      <DependentUpon>frm20Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\frm20Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20KojiShireiExport.Designer.vb">
+      <DependentUpon>Frm20KojiShireiExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20KojiShireiExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20OrderExport.Designer.vb">
+      <DependentUpon>Frm20OrderExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20OrderExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20OutputDataSelect.Designer.vb">
+      <DependentUpon>Frm20OutputDataSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20OutputDataSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuKaiteiRireki.designer.vb">
+      <DependentUpon>Frm20ShutuzuKaiteiRireki.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuKaiteiRireki.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuOrikomi.designer.vb">
+      <DependentUpon>Frm20ShutuzuOrikomi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuOrikomi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuTorikomi.designer.vb">
+      <DependentUpon>Frm20ShutuzuTorikomi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20ShutuzuTorikomi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20SikyuuExport.Designer.vb">
+      <DependentUpon>Frm20SikyuuExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20SikyuuExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\KojiShireiExcelVo.vb" />
+    <Compile Include="TehaichoEdit\Logic\HoyouBuhinTehaichoEditBuhinStructure.vb" />
+    <Compile Include="TehaichoEdit\Logic\TehaichoEditBuhinStructure.vb" />
+    <Compile Include="TehaichoEdit\Logic\TehaichoEditHeader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Logic\TehaichoEditLogic.vb" />
+    <Compile Include="TehaichoEdit\Logic\TehaichoFuka.vb" />
+    <Compile Include="TehaichoEdit\MakerCsvVo.vb" />
+    <Compile Include="TehaichoEdit\TantoCsvVo.vb" />
+    <Compile Include="TehaichoEdit\TehaichoEditNames.vb" />
+    <Compile Include="TehaichoEdit\Ui\TehaichoCellTypeFactory.vb" />
+    <Compile Include="TehaichoEdit\Ui\TehaichoEditInputSupport.vb" />
+    <Compile Include="TehaichoEdit\Ui\TehaichoEditRightClickEvent.vb" />
+    <Compile Include="TehaichoEdit\Ui\TehaichoEditSpreadUtil.vb" />
+    <Compile Include="TehaichoMenu\Dao\KaiteiChusyutuDao.vb" />
+    <Compile Include="TehaichoMenu\Dao\KaiteiUpDao.vb" />
+    <Compile Include="TehaichoMenu\Dao\TehaichoMenuDao.vb" />
+    <Compile Include="TehaichoMenu\Dao\TeiseiTsuchiDao.vb" />
+    <Compile Include="TehaichoMenu\Dao\TeiseiTsuchiExcelVo.vb" />
+    <Compile Include="TehaichoMenu\ExcelProcess\ExportKaiteChushutuExcel.vb" />
+    <Compile Include="TehaichoMenu\ExcelProcess\ExportShinchotatsu.vb" />
+    <Compile Include="TehaichoMenu\ExcelProcess\ExportTehaiMenuErrorExcel.vb" />
+    <Compile Include="TehaichoMenu\ExcelProcess\ExportTeiseiExcel.vb" />
+    <Compile Include="TehaichoMenu\Frm19TehaichoMenu.vb" />
+    <Compile Include="TehaichoMenu\frm1KaiteiCyushutu.Designer.vb">
+      <DependentUpon>frm1KaiteiCyushutu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoMenu\frm1KaiteiCyushutu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoMenu\Impl\KaiteiChusyutuDaoImpl.vb" />
+    <Compile Include="TehaichoMenu\Impl\KaiteiUpDaoImpl.vb" />
+    <Compile Include="TehaichoMenu\Impl\TehaichoMenuDaoImpl.vb" />
+    <Compile Include="TehaichoMenu\Impl\TeiseiTsuchiDaoImpl.vb" />
+    <Compile Include="TehaichoMenu\TehaichoErrorCheck.vb" />
+    <Compile Include="TehaichoMenu\Vo\TehaichoKaiteiChusyutu.vb" />
+    <Compile Include="TehaichoMenu\Vo\TehaiMenuErrorExcelVo.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuBuhinEditKaiteiVoHelper.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuBuhinEditVoHelperExcel.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuBuhinEditVoSekkeiHelper.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuTehaiKaiteiBlockVoHelper.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuTehaiKihonVoHelper.vb" />
+    <Compile Include="TehaichoMenu\Vo\TShisakuTehaiTeiseiKihonVoHelper.vb" />
+    <Compile Include="TehaichoSakusei\Dao\BuhinKoseiDao.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Impl\BuhinKoseiDaoImpl.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Impl\TehaichoHikakuDaoImpl.vb" />
+    <Compile Include="TehaichoSakusei\Dao\TehaichoHikakuDao.vb" />
+    <Compile Include="TehaichoSakusei\Dao\TehaichoSakuseiDao.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Impl\TehaichoSakuseiDaoImpl.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Vo\SekkeiBlockInstlVoHelper.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Vo\TehaichoBuhinEditTmpVo.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Vo\TehaichoSakuseiVo.vb" />
+    <Compile Include="TehaichoSakusei\Dao\Vo\TehaiHikakuVoHelper.vb" />
+    <Compile Include="TehaichoSakusei\Frm18DispTehaichoSakusei.Designer.vb">
+      <DependentUpon>Frm18DispTehaichoSakusei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoSakusei\Frm18DispTehaichoSakusei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditSekkei\Frm37DispShisakuBuhinEditSekkei.Designer.vb">
+      <DependentUpon>Frm37DispShisakuBuhinEditSekkei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditSekkei\Frm37DispShisakuBuhinEditSekkei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit00.Designer.vb">
+      <DependentUpon>Frm41DispShisakuBuhinEdit00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit00.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.Designer.vb">
+      <DependentUpon>Frm7DispShisakuBuhinSakuseiList.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenu.designer.vb">
+      <DependentUpon>Frm8DispShisakuBuhinMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenuDATE.Designer.vb">
+      <DependentUpon>Frm8DispShisakuBuhinMenuDATE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenuDATE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispEventEdit.designer.vb">
+      <DependentUpon>Frm9DispEventEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispEventEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispEventEditInquiry.designer.vb">
+      <DependentUpon>Frm9DispEventEditInquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EventEdit\Frm9DispEventEditInquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFilterOption.designer.vb">
+      <DependentUpon>frmFilterOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFilterOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZColorMarker.designer.vb">
+      <DependentUpon>frmZColorMarker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmZColorMarker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventSakuseiModule.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditList\Frm35DispShisakuBuhinEditList.Designer.vb">
+      <DependentUpon>Frm35DispShisakuBuhinEditList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditList\Frm35DispShisakuBuhinEditList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlock.Designer.vb">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\Frm43DispShisakuBuhinEditSelector.Designer.vb">
+      <DependentUpon>Frm43DispShisakuBuhinEditSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Selector\Frm43DispShisakuBuhinEditSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Frm48DispShisakuBuhinEditIkkatsu.Designer.vb">
+      <DependentUpon>Frm48DispShisakuBuhinEditIkkatsu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Ikkatsu\Frm48DispShisakuBuhinEditIkkatsu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinKaiteiEditList\Frm36DispShisakuBuhinKaiteiEditList.Designer.vb">
+      <DependentUpon>Frm36DispShisakuBuhinKaiteiEditList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinKaiteiEditList\Frm36DispShisakuBuhinKaiteiEditList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoMenu\Frm19DispTehaichoMenu.designer.vb">
+      <DependentUpon>Frm19DispTehaichoMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoMenu\Frm19DispTehaichoMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit21.designer.vb">
+      <DependentUpon>Frm41DispShisakuBuhinEdit21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit25.designer.vb">
+      <DependentUpon>Frm41DispShisakuBuhinEdit25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm00Kakunin.designer.vb">
+      <DependentUpon>frm00Kakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm00Kakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20DispTehaichoEdit.designer.vb">
+      <DependentUpon>Frm20DispTehaichoEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TehaichoEdit\Frm20DispTehaichoEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NokiIkkatuSettei\Frm21DispNokiIkkatuSettei.Designer.vb">
+      <DependentUpon>Frm21DispNokiIkkatuSettei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NokiIkkatuSettei\Frm21DispNokiIkkatuSettei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm25DispTehaichoEditKaitei.designer.vb">
+      <DependentUpon>frm25DispTehaichoEditKaitei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm25DispTehaichoEditKaitei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm29DispTehaichoEditHachuExcel.designer.vb">
+      <DependentUpon>frm29DispTehaichoEditHachuExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm29DispTehaichoEditHachuExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TehaichoSakusei\Logic\BuhinKosei.vb" />
+    <Compile Include="TehaichoSakusei\Logic\TehaichoHikaku.vb" />
+    <Compile Include="TehaichoSakusei\Logic\TehaichoSakusei.vb" />
+    <Compile Include="XVLView\Dao\Impl\BodyMSTMainteImpl.vb" />
+    <Compile Include="XVLView\Dao\Impl\ConditionSelectDaoImpl.vb" />
+    <Compile Include="XVLView\Dao\Impl\RHAC2270DaoImpl.vb" />
+    <Compile Include="XVLView\Dao\Impl\ShisakuBuhinEditGousyaTmp3DDaoImpl.vb" />
+    <Compile Include="XVLView\Dao\Impl\ShisakuBuhinEditTmp3DDaoImpl.vb" />
+    <Compile Include="XVLView\Dao\Vo\BodyMSTMainteVO.vb" />
+    <Compile Include="XVLView\Dao\Vo\ConditionSelectVo.vb" />
+    <Compile Include="XVLView\Dao\Vo\RHAC2270VO.vb" />
+    <Compile Include="XVLView\frmBodySelect.Designer.vb">
+      <DependentUpon>frmBodySelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\frmBodySelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\frmParts.Designer.vb">
+      <DependentUpon>frmParts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\frmParts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\frmPartsForTehai.Designer.vb">
+      <DependentUpon>frmPartsForTehai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\frmPartsForTehai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\frmPreViewParentForTehai.Designer.vb">
+      <DependentUpon>frmPreViewParentForTehai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\frmPreViewParentForTehai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\FrmVeiwerImge.designer.vb">
+      <DependentUpon>FrmVeiwerImge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\FrmVeiwerImge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\HoyouBuhinFrmVeiwerImge.designer.vb">
+      <DependentUpon>HoyouBuhinFrmVeiwerImge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\HoyouBuhinFrmVeiwerImge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XVLView\Logic\BodySelectSubject.vb" />
+    <Compile Include="XVLView\Logic\ConditionSelectSubject.vb" />
+    <Compile Include="XVLView\Logic\HoyouBuhinViewerImgeSubject.vb" />
+    <Compile Include="XVLView\Logic\PreViewParentForTehaiSubject.vb" />
+    <Compile Include="XVLView\Logic\PreViewParentSubject.vb" />
+    <Compile Include="XVLView\Logic\ViewerImgeSubject.vb" />
+    <Compile Include="XVLView\Logic\ViewerImgeVo.vb" />
+    <Compile Include="XVLView\PreViewParent.Designer.vb">
+      <DependentUpon>PreViewParent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XVLView\PreViewParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GousyabetsuShiyousyo\frmGousyabetsuShiyousyo.Designer.vb">
+      <DependentUpon>frmGousyabetsuShiyousyo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GousyabetsuShiyousyo\frmGousyabetsuShiyousyo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\Dao\SqlYosanSetteiBuhinEdit.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Dao\YosanSetteiBuhinEditHeaderDao.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Dao\YosanSetteiBuhinEditHeaderDaoImpl.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Dao\YosanSetteiBuhinEditImpl.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\frmCostSearchDialog.Designer.vb">
+      <DependentUpon>frmCostSearchDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmCostSearchDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmDispYosanSetteiBuhinEdit.designer.vb">
+      <DependentUpon>FrmDispYosanSetteiBuhinEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmDispYosanSetteiBuhinEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelCellSelect.designer.vb">
+      <DependentUpon>FrmExcelCellSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelCellSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelKeyDataSelect.designer.vb">
+      <DependentUpon>FrmExcelKeyDataSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelKeyDataSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelSheetSelect.designer.vb">
+      <DependentUpon>FrmExcelSheetSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\FrmExcelSheetSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmKakunin.designer.vb">
+      <DependentUpon>frmKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmPartsPriceFractionDialog.Designer.vb">
+      <DependentUpon>frmPartsPriceFractionDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmPartsPriceFractionDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmPurchaseRequestDialog.Designer.vb">
+      <DependentUpon>frmPurchaseRequestDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmPurchaseRequestDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmStandardSetting.Designer.vb">
+      <DependentUpon>frmStandardSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmStandardSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmStandardSettingNameDialog.Designer.vb">
+      <DependentUpon>frmStandardSettingNameDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmStandardSettingNameDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmYosanFunction.Designer.vb">
+      <DependentUpon>frmYosanFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmYosanFunction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmYosanLayoutDialog.Designer.vb">
+      <DependentUpon>frmYosanLayoutDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmYosanLayoutDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\Logic\YosanCompareLatest.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Logic\YosanSetteiBuhinEditFuka.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Logic\YosanSetteiBuhinEditHeader.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Logic\YosanSetteiBuhinEditLogic.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Logic\YosanSetteiBuhinEditStructure.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\PartsMultiSetting.Designer.vb">
+      <DependentUpon>PartsMultiSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\PartsMultiSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\YosanSetteiBuhinEditNames.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Ui\YosanSetteiBuhinEditCellTypeFactory.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Ui\YosanSetteiBuhinEditInputSupport.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Ui\YosanSetteiBuhinEditRightClickEvent.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\Ui\YosanSetteiBuhinEditSpreadUtil.vb" />
+    <Compile Include="YosanSetteiBuhinEdit\frmFractionKakunin.designer.vb">
+      <DependentUpon>frmFractionKakunin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinEdit\frmFractionKakunin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinMenu\Dao\ListCodeDao.vb" />
+    <Compile Include="YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.designer.vb">
+      <DependentUpon>FrmDispYosanSetteiBuhinMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinMenu\FrmSpdObserver.vb" />
+    <Compile Include="YosanSetteiBuhinMenu\Logic\Impl\ListCodeDaoImpl.vb" />
+    <Compile Include="YosanSetteiBuhinMenu\Logic\YosanSetteiBuhinMenu.vb" />
+    <Compile Include="YosanSetteiBuhinMenu\spdListObserver.vb" />
+    <Compile Include="YosanSetteiBuhinMenu\Ui\YosanSetteiBuhinMenuSpreadUtil.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\BuhinKoseiDao.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Impl\BuhinKoseiDaoImpl.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Impl\YosanSetteiBuhinHikakuDaoImpl.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Impl\YosanSetteiBuhinSakuseiDaoImpl.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\YosanSetteiBuhinHikakuDao.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Vo\SekkeiBlockInstlVoHelper.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Vo\YosanSetteiBuhinEditTmpVo.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Vo\YosanSetteiBuhinHikakuVoHelper.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\Vo\YosanSetteiBuhinSakuseiVo.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Dao\YosanSetteiBuhinSakuseiDao.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\FrmDispYosanSetteiBuhinSakusei.Designer.vb">
+      <DependentUpon>FrmDispYosanSetteiBuhinSakusei.vb</DependentUpon>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinSakusei\FrmDispYosanSetteiBuhinSakusei.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YosanSetteiBuhinSakusei\Logic\BuhinKosei.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Logic\YosanSetteiBuhinHikaku.vb" />
+    <Compile Include="YosanSetteiBuhinSakusei\Logic\YosanSetteiBuhinSakusei.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EventEdit\Frm9DispSeisakuIchiranSelect.resx">
+      <DependentUpon>Frm9DispSeisakuIchiranSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventEdit\Frm9DispSeisakuIchiranSelectKaiteiNo.resx">
+      <DependentUpon>Frm9DispSeisakuIchiranSelectKaiteiNo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm01Kakunin.resx">
+      <DependentUpon>frm01Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventEdit\Frm10DispEventCopy.resx">
+      <DependentUpon>Frm10DispEventCopy.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm02Kakunin.resx">
+      <DependentUpon>frm02Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm03Syorichu.resx">
+      <DependentUpon>frm03Syorichu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm04Kakunin.resx">
+      <DependentUpon>frm04Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConditionSelect.resx">
+      <DependentUpon>frmConditionSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHacchuSakusei.resx">
+      <DependentUpon>frmHacchuSakusei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoyouBuhinFrm00Kakunin.resx">
+      <DependentUpon>HoyouBuhinFrm00Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditBlock\Frm38DispEventEdit.resx">
+      <DependentUpon>Frm38DispEventEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcel.resx">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlockExcel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlockExcelAll.resx">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlockExcelAll.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditSekkei\Frm31MiShoninEventList.resx">
+      <DependentUpon>Frm31MiShoninEventList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Al\Frm41DispShisakuBuhinEdit10.resx">
+      <DependentUpon>Frm41DispShisakuBuhinEdit10.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Al\Frm41KaiteiKakunin.resx">
+      <DependentUpon>Frm41KaiteiKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Al\Frm41KaiteiSourceSelector.resx">
+      <DependentUpon>Frm41KaiteiSourceSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\frm41SaiKakunin.resx">
+      <DependentUpon>frm41SaiKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\frm41SaiKakuninMin.resx">
+      <DependentUpon>frm41SaiKakuninMin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Kosei\Fmr41DispKosei.resx">
+      <DependentUpon>Fmr41DispKosei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41FinalSourceSelector.resx">
+      <DependentUpon>Frm41FinalSourceSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41KouseiErrorDisp.resx">
+      <DependentUpon>Frm41KouseiErrorDisp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41KouseiSourceSelector.resx">
+      <DependentUpon>Frm41KouseiSourceSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41ShiyouKakunin.resx">
+      <DependentUpon>Frm41ShiyouKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\frm41Sort.resx">
+      <DependentUpon>frm41Sort.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\frm41TourokuKakunin.resx">
+      <DependentUpon>frm41TourokuKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\HoyouBuhinFrm41DispShisakuBuhinEdit00.resx">
+      <DependentUpon>HoyouBuhinFrm41DispShisakuBuhinEdit00.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuResultSelector.resx">
+      <DependentUpon>HoyouBuhinFrm41HikakuResultSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Selector\HoyouBuhinFrm41HikakuSourceSelector.resx">
+      <DependentUpon>HoyouBuhinFrm41HikakuSourceSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Kosei\Frm41DispShisakuBuhinEdit20.resx">
+      <DependentUpon>Frm41DispShisakuBuhinEdit20.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41IchijiHozonKakunin.resx">
+      <DependentUpon>Frm41IchijiHozonKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Kosei\HoyouBuhinFrm41DispShisakuBuhinEdit20.resx">
+      <DependentUpon>HoyouBuhinFrm41DispShisakuBuhinEdit20.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41DispOldBuhinSelector.resx">
+      <DependentUpon>HoyouBuhinFrm41DispOldBuhinSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41EventKanseiSelector.resx">
+      <DependentUpon>HoyouBuhinFrm41EventKanseiSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\KouseiBuhin\HoyouBuhinFrm41KouseiBuhinSelector.resx">
+      <DependentUpon>HoyouBuhinFrm41KouseiBuhinSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Selector\Frm44DispEventBuhinCopySelector.resx">
+      <DependentUpon>Frm44DispEventBuhinCopySelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinKaiteiBlock\Frm60DispShisakuBuhinKaiteiBlock.resx">
+      <DependentUpon>Frm60DispShisakuBuhinKaiteiBlock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinMenu\Frm8DispSekkeika.resx">
+      <DependentUpon>Frm8DispSekkeika.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinSakuseiList\FrmDispEditModeSelect.resx">
+      <DependentUpon>FrmDispEditModeSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20BuhinhyoExcelOutput.resx">
+      <DependentUpon>Frm20BuhinhyoExcelOutput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20DispTehaichoEditFuka.resx">
+      <DependentUpon>Frm20DispTehaichoEditFuka.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ExcelCellSelect.resx">
+      <DependentUpon>Frm20ExcelCellSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ExcelKeyDataSelect.resx">
+      <DependentUpon>Frm20ExcelKeyDataSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ExcelSheetSelect.resx">
+      <DependentUpon>Frm20ExcelSheetSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20GousyaNoukiSettei.resx">
+      <DependentUpon>Frm20GousyaNoukiSettei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\frm20GousyaTenkaiKakunin.resx">
+      <DependentUpon>frm20GousyaTenkaiKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\frm20Kakunin.resx">
+      <DependentUpon>frm20Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20KojiShireiExport.resx">
+      <DependentUpon>Frm20KojiShireiExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20OrderExport.resx">
+      <DependentUpon>Frm20OrderExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20OutputDataSelect.resx">
+      <DependentUpon>Frm20OutputDataSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ShutuzuKaiteiRireki.resx">
+      <DependentUpon>Frm20ShutuzuKaiteiRireki.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ShutuzuOrikomi.resx">
+      <DependentUpon>Frm20ShutuzuOrikomi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20ShutuzuTorikomi.resx">
+      <DependentUpon>Frm20ShutuzuTorikomi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20SikyuuExport.resx">
+      <DependentUpon>Frm20SikyuuExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoMenu\frm1KaiteiCyushutu.resx">
+      <DependentUpon>frm1KaiteiCyushutu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoSakusei\Frm18DispTehaichoSakusei.resx">
+      <DependentUpon>Frm18DispTehaichoSakusei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditSekkei\Frm37DispShisakuBuhinEditSekkei.resx">
+      <DependentUpon>Frm37DispShisakuBuhinEditSekkei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit00.resx">
+      <DependentUpon>Frm41DispShisakuBuhinEdit00.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinSakuseiList\Frm7DispShisakuBuhinSakuseiList.resx">
+      <DependentUpon>Frm7DispShisakuBuhinSakuseiList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenu.resx">
+      <DependentUpon>Frm8DispShisakuBuhinMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinMenu\Frm8DispShisakuBuhinMenuDATE.resx">
+      <DependentUpon>Frm8DispShisakuBuhinMenuDATE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventEdit\Frm9DispEventEdit.resx">
+      <DependentUpon>Frm9DispEventEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventEdit\Frm9DispEventEditInquiry.resx">
+      <DependentUpon>Frm9DispEventEditInquiry.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFilterOption.resx">
+      <DependentUpon>frmFilterOption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZColorMarker.resx">
+      <DependentUpon>frmZColorMarker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditList\Frm35DispShisakuBuhinEditList.resx">
+      <DependentUpon>Frm35DispShisakuBuhinEditList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEditBlock\Frm38DispShisakuBuhinEditBlock.resx">
+      <DependentUpon>Frm38DispShisakuBuhinEditBlock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Selector\Frm43DispShisakuBuhinEditSelector.resx">
+      <DependentUpon>Frm43DispShisakuBuhinEditSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Ikkatsu\Frm48DispShisakuBuhinEditIkkatsu.resx">
+      <DependentUpon>Frm48DispShisakuBuhinEditIkkatsu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinKaiteiEditList\Frm36DispShisakuBuhinKaiteiEditList.resx">
+      <DependentUpon>Frm36DispShisakuBuhinKaiteiEditList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoMenu\Frm19DispTehaichoMenu.resx">
+      <DependentUpon>Frm19DispTehaichoMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit21.resx">
+      <DependentUpon>Frm41DispShisakuBuhinEdit21.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShisakuBuhinEdit\Frm41DispShisakuBuhinEdit25.resx">
+      <DependentUpon>Frm41DispShisakuBuhinEdit25.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm00Kakunin.resx">
+      <DependentUpon>frm00Kakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TehaichoEdit\Frm20DispTehaichoEdit.resx">
+      <DependentUpon>Frm20DispTehaichoEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NokiIkkatuSettei\Frm21DispNokiIkkatuSettei.resx">
+      <DependentUpon>Frm21DispNokiIkkatuSettei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm25DispTehaichoEditKaitei.resx">
+      <DependentUpon>frm25DispTehaichoEditKaitei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm29DispTehaichoEditHachuExcel.resx">
+      <DependentUpon>frm29DispTehaichoEditHachuExcel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\frmBodySelect.resx">
+      <DependentUpon>frmBodySelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\frmParts.resx">
+      <DependentUpon>frmParts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\frmPartsForTehai.resx">
+      <DependentUpon>frmPartsForTehai.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\frmPreViewParentForTehai.resx">
+      <DependentUpon>frmPreViewParentForTehai.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\FrmVeiwerImge.resx">
+      <DependentUpon>FrmVeiwerImge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\HoyouBuhinFrmVeiwerImge.resx">
+      <DependentUpon>HoyouBuhinFrmVeiwerImge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XVLView\PreViewParent.resx">
+      <DependentUpon>PreViewParent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GousyabetsuShiyousyo\frmGousyabetsuShiyousyo.resx">
+      <DependentUpon>frmGousyabetsuShiyousyo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmCostSearchDialog.resx">
+      <DependentUpon>frmCostSearchDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\FrmDispYosanSetteiBuhinEdit.resx">
+      <DependentUpon>FrmDispYosanSetteiBuhinEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\FrmExcelCellSelect.resx">
+      <DependentUpon>FrmExcelCellSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\FrmExcelKeyDataSelect.resx">
+      <DependentUpon>FrmExcelKeyDataSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\FrmExcelSheetSelect.resx">
+      <DependentUpon>FrmExcelSheetSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmKakunin.resx">
+      <DependentUpon>frmKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmPartsPriceFractionDialog.resx">
+      <DependentUpon>frmPartsPriceFractionDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmPurchaseRequestDialog.resx">
+      <DependentUpon>frmPurchaseRequestDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmStandardSetting.resx">
+      <DependentUpon>frmStandardSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmStandardSettingNameDialog.resx">
+      <DependentUpon>frmStandardSettingNameDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmYosanFunction.resx">
+      <DependentUpon>frmYosanFunction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmYosanLayoutDialog.resx">
+      <DependentUpon>frmYosanLayoutDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\PartsMultiSetting.resx">
+      <DependentUpon>PartsMultiSetting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinEdit\frmFractionKakunin.resx">
+      <DependentUpon>frmFractionKakunin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinMenu\FrmDispYosanSetteiBuhinMenu.resx">
+      <DependentUpon>FrmDispYosanSetteiBuhinMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YosanSetteiBuhinSakusei\FrmDispYosanSetteiBuhinSakusei.resx">
+      <DependentUpon>FrmDispYosanSetteiBuhinSakusei.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\戻る.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\終了.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ロゴ.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\進む.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\戻す.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\COLOR.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShisakuCommon\ShisakuCommon.vbproj">
+      <Project>{27D1C542-BF21-4134-8008-E62C51223A8F}</Project>
+      <Name>ShisakuCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\lion-ss.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

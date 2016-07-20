@@ -1,0 +1,498 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBom.FpSpread
+</name>
+</assembly>
+<members>
+<member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.NONE">
+	<summary>フォーカスを移動しません.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.NEXT_COLUMN">
+	<summary>フォーカスをシートの同じ行の次の列のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.NEXT_COLUMN_WARP">
+	<summary>フォーカスをシートの同じ行の次の列のセルに移動します.行の終わりに達したら, 折り返して次の行の先頭のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.NEXT_ROW">
+	<summary>フォーカスをシートの同じ列の次ページの行のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.NEXT_ROW_WARP">
+	<summary>フォーカスをシートの同じ列の次の行のセルに移動します.列の終わりに達したら, 折り返して次の列の先頭のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.PREVIOUS_COLUMN">
+	<summary>フォーカスをシートの同じ行の前の列のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.PREVIOUS_COLUMN_WARP">
+	<summary>フォーカスをシートの同じ行の前の列のセルに移動します.行の始めに達したら, 折り返して前の行の一番右のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.PREVIOUS_ROW">
+	<summary>フォーカスをシートの同じ列の前ページの行のセルに移動します.</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION.PREVIOUS_ROW_WARP">
+	<summary>フォーカスをシートの同じ列の前の行のセルに移動します。列の始めに達したら, 折り返して前の列の一番下のセルに移動します.</summary>
+</member><member name="T:EBom.FpSpread.EBomSpread.MOVE_ENTER_DIRECTION">
+	<summary>Enterキー押下後のアクティブセル移動方向</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.m_moveEnterDirection">
+	<summary>Enterキー押下後のセルフォーカス移動方向</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.m_focusRendererColor">
+	<summary>フォーカスの色</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.m_focusThicness">
+	<summary>フォーカスの線幅</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.m_allowDeleteCell">
+	<summary>DELキーでセルの削除を有効</summary>
+</member><member name="F:EBom.FpSpread.EBomSpread.m_enterCellValue">
+	<summary>ENTER CELL 時の値</summary>
+</member><member name="M:EBom.FpSpread.EBomSpread.OnEnterCell(FarPoint.Win.Spread.EnterCellEventArgs)">
+	<summary>
+ セル フォーカス取得時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.OnLeaveCell(FarPoint.Win.Spread.LeaveCellEventArgs)">
+	<summary>
+ セル フォーカス喪失時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ キー 押下時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.InitLayout">
+	<summary>
+ デザイナと実行時のコントロール配置時に発生する？
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.OnGotFocus(System.EventArgs)">
+	<summary>
+ フォーカス取得時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.OnLostFocus(System.EventArgs)">
+	<summary>
+ フォーカス喪失時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.IsInDesignMode">
+	<summary>
+ デザインモードかどうかを返します.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetMoveEnterDirection">
+	<summary>
+ Enterキー押下後のセルフォーカス移動方向を設定します.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetManualBinding">
+	<summary>
+ データ連結時の設定を手動で行うように変更します.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetTagToDataField">
+	<summary>
+ 列タグの内容を列のデータフィールドに設定する
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetActiveCell(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ アクティブセルを設定し, フォーカスを移動します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="col">列インデックス</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.AddSheet(System.String)">
+	<summary>
+ シートの追加
+ </summary>
+	<param name="sheetName">シート名</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.AddColumn(EBom.FpSpread.EBomColumn)">
+	<summary>
+ 列設定
+ </summary>
+	<param name="col">追加するEBOM列オブジェクト</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.AddColumn(System.Collections.Generic.List{EBom.FpSpread.EBomColumn})">
+	<summary>
+ 列設定(複数)
+ </summary>
+	<param name="cols">追加するEBOM列オブジェクトのリスト</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.MergeColHeader(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 列ヘッダーの結合を行います.
+ </summary>
+	<param name="tag"></param>
+	<param name="colCnt"></param>
+	<param name="rowIdx"></param>
+	<param name="rowCnt"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetCell(System.Int32,System.String)">
+	<summary>
+ アクティブシートの指定された行インデックス・列タグを元にセルを取得します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetCell(System.String,System.Int32,System.String)">
+	<summary>
+ 指定されたシートの行インデックス・列タグを元にセルを取得します.
+ </summary>
+	<param name="sheetName">シート名</param>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetCell(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ アクティブシートの指定されたセル範囲を取得します.
+ </summary>
+	<param name="row">行インデックス開始</param>
+	<param name="col">列インデックス開始</param>
+	<param name="row2">行インデックス最終</param>
+	<param name="col2">列インデックス最終</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetCellRange(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ アクティブシートの指定された行インデックス・列インデックスを元にセル範囲を取得します.
+ </summary>
+	<param name="row">開始行</param>
+	<param name="col">開始列</param>
+	<param name="rowCnt">行数</param>
+	<param name="colCnt">列数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetValue(System.Int32,System.String)">
+	<summary>
+ アクティブシートの指定された行インデックス・列タグを元に値を取得します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns>取得された値. Nothing の場合, 無用なエラーを避けるため, String.Empty を返します.</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetValue(System.String,System.Int32,System.String)">
+	<summary>
+ 指定されたシートの行インデックス・列タグを元に値を取得します.
+ </summary>
+	<param name="sheetName">シート名</param>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns>取得された値. Nothing の場合, 無用なエラーを避けるため, String.Empty を返します.</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetStr(System.Int32,System.String)">
+	<summary>
+ アクティブシートの指定された行インデックス・列タグを元に値を文字列で取得します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns>取得された値. Nothing の場合, 無用なエラーを避けるため, String.Empty を返します.</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetStr(System.String,System.Int32,System.String)">
+	<summary>
+ 指定されたシートの指定された行インデックス・列タグを元に値を文字列で取得します.
+ </summary>
+	<param name="sheetName">シート名</param>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<returns>取得された値. Nothing の場合, 無用なエラーを避けるため, String.Empty を返します.</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetValue(System.Int32,System.String,System.Object)">
+	<summary>
+ アクティブシートの指定された行インデックス・列タグを元に値を設定します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<param name="value">設定する値.</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.GetTag(System.Int32)">
+	<summary>
+ アクティブシートの指定された列インデックスからタグ名を文字列で取得します.
+ </summary>
+	<param name="colIdx">列インデックス</param>
+	<returns>タグ名</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetBackColor(System.Int32,System.String,System.Drawing.Color)">
+	<summary>
+ アクティブシートの指定された行インデックス・列タグを元に背景色を設定します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="colTag">列タグ</param>
+	<param name="color">設定する色</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomSpread.SetBackColor(System.Int32,System.Drawing.Color)">
+	<summary>
+ アクティブシートの指定された行に背景色を設定します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="color">設定する色</param>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomSpread.MoveEnterDirection">
+	<summary>
+ Enterキー押下後のセルフォーカス移動方向を指定します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomSpread.FocusRendererColor">
+	<summary>
+ アクティブセル背景色
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomSpread.FocusThicness">
+	<summary>
+ フォーカスの線幅
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomSpread.AllowDeleteCell">
+	<summary>
+ DELETE キーでセルの削除を有効にするか？
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.FpSpread.EBomSpread">
+	<summary>
+ EBOM スプレッドコントロール
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.FpSpread.EBomTextColumn.m_cellType">
+	<summary>テキストセルタイプ</summary>
+</member><member name="M:EBom.FpSpread.EBomTextColumn.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomTextColumn.#ctor(System.String,System.String,System.Single,System.Int32,FarPoint.Win.Spread.CellType.CharacterSet,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="label">ラベル</param>
+	<param name="tag">タグ</param>
+	<param name="width">列幅</param>
+	<param name="maxLength">最大入力文字数</param>
+	<param name="characterSet">入力文字種</param>
+	<param name="locked">ロック</param>
+	<param name="visible">表示・非表示</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomTextColumn.GetCellType">
+	<summary>
+ セルタイプ取得
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomTextColumn.MaxLength">
+	<summary>
+ 最大入力文字数
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomTextColumn.CharacterCasing">
+	<summary>
+ 大文字・小文字
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomTextColumn.CharacterSet">
+	<summary>
+ 文字セット
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.FpSpread.EBomTextColumn">
+	<summary>
+ EBOM スプレッド テキストボックス列
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:EBom.FpSpread.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:EBom.FpSpread.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="M:EBom.FpSpread.EBomCheckColumn.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomCheckColumn.#ctor(System.String,System.String,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="label">ラベル</param>
+	<param name="tag">タグ</param>
+	<param name="width">列幅</param>
+	<param name="locked">ロック</param>
+	<param name="visible">表示・非表示</param>
+	<remarks></remarks>
+</member><member name="F:EBom.FpSpread.EBomCheckColumn.m_cellType">
+	<summary>テキストセルタイプ</summary>
+</member><member name="M:EBom.FpSpread.EBomCheckColumn.GetCellType">
+	<summary>
+ セルタイプ取得
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.FpSpread.EBomCheckColumn">
+	<summary>
+ EBOM スプレッド チェックボックス列
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.FpSpread.EBomColumn.DEFAULT_WIDTH">
+	<summary>デフォルト列幅</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_label">
+	<summary>ラベル(タイトル)</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_tag">
+	<summary>タグ</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_width">
+	<summary>列幅</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_locked">
+	<summary>ロック</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_visible">
+	<summary>表示・非表示</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_backColor">
+	<summary>背景色</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_foreColor">
+	<summary>前景色</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_allowAutoSort">
+	<summary>自動ソート</summary>
+</member><member name="F:EBom.FpSpread.EBomColumn.m_allowAutoFilter">
+	<summary>自動フィルタ</summary>
+</member><member name="M:EBom.FpSpread.EBomColumn.#ctor">
+	<summary>
+ デフォルトコンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomColumn.#ctor(System.String,System.String,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="label">ラベル(タイトル)</param>
+	<param name="tag">タグ</param>
+	<param name="width">列幅</param>
+	<param name="locked">ロック</param>
+	<param name="visible">表示・非表示</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomColumn.GetCellType">
+	<summary>
+ セルタイプ取得
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.Label">
+	<summary>
+ ラベル(タイトル)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.Tag">
+	<summary>
+ タグ
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.Width">
+	<summary>
+ 列幅
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.Locked">
+	<summary>
+ ロック
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.Visible">
+	<summary>
+ 表示・非表示
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.BackColor">
+	<summary>
+ 背景色
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.ForeColor">
+	<summary>
+ 前景色
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.AllowAutoSort">
+	<summary>
+ 自動ソート
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.FpSpread.EBomColumn.AllowAutoFilter">
+	<summary>
+ 自動フィルタ
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.FpSpread.EBomColumn">
+	<summary>
+ EBOM スプレッド 列オブジェクト
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.FpSpread.EBomLabelColumn.m_cellType">
+	<summary>テキストセルタイプ</summary>
+</member><member name="M:EBom.FpSpread.EBomLabelColumn.#ctor">
+	<summary>
+ コンストラクタ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomLabelColumn.#ctor(System.String,System.String,System.Single,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="label">ラベル(タイトル)</param>
+	<param name="tag">タグ</param>
+	<param name="width">列幅</param>
+	<param name="visible">表示・非表示</param>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomLabelColumn.InitClass">
+	<summary>
+ クラスの初期化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.FpSpread.EBomLabelColumn.GetCellType">
+	<summary>
+ セルタイプ取得
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.FpSpread.EBomLabelColumn">
+	<summary>
+ EBOM スプレッドラベル列
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

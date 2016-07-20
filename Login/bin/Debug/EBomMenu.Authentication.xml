@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBomMenu.Authentication
+</name>
+</assembly>
+<members>
+<member name="F:EBomMenu.Authentication.EBomAuthentication.AUTHENTICATED_URL">
+	<summary>認証ページURL</summary>
+</member><member name="F:EBomMenu.Authentication.EBomAuthentication.dummyFrm">
+	<summary>フォームオブジェクト</summary>
+</member><member name="F:EBomMenu.Authentication.EBomAuthentication.pageTitle">
+	<summary>認証ページタイトル</summary>
+</member><member name="F:EBomMenu.Authentication.EBomAuthentication.pageDLDone">
+	<summary>認証ページ表示完了検知フラグ</summary>
+</member><member name="M:EBomMenu.Authentication.EBomAuthentication.Authenticate(System.Boolean@)">
+	<summary>
+ 認証チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.Authentication.EBomAuthentication.wait">
+	<summary>
+ 認証待機
+ </summary>
+	<remarks>認証結果が得られるまで待機する
+ 　　　　 待機の解除は認証ページの表示完了時になるが、予期せぬ要因で左記イベントが発生できない場合に備えてタイムアウトを設定している</remarks>
+</member><member name="M:EBomMenu.Authentication.EBomAuthentication.AuthenticationPage_DocumentCompleted(System.Object,System.EventArgs)">
+	<summary>
+ 認証ページ表示完了時イベント
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.Authentication.EBomAuthentication">
+	<summary>
+ EBOM認証クラス
+ </summary>
+	<remarks>認証ページの表示/認証結果の判定を行う</remarks>
+</member><member name="P:EBomMenu.Authentication.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:EBomMenu.Authentication.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:EBomMenu.Authentication.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>

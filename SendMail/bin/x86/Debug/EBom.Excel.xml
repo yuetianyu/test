@@ -1,0 +1,1194 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBom.Excel
+</name>
+</assembly>
+<members>
+<member name="F:EBom.Excel.Excel.m_xlApp">
+	<summary>エクセルアプリケーション</summary>
+</member><member name="F:EBom.Excel.Excel.m_xlBook">
+	<summary>エクセルブック</summary>
+</member><member name="F:EBom.Excel.Excel.m_isBookOpen">
+	<summary>ブックを開いているかを表すフラグ</summary>
+</member><member name="F:EBom.Excel.Excel.m_activeSheet">
+	<summary>操作対象のシート</summary>
+</member><member name="F:EBom.Excel.Excel.m_fileName">
+	<summary>開いているエクセルファイル(フルパス)</summary>
+</member><member name="M:EBom.Excel.Excel.#ctor">
+	<summary>
+ デフォルトコンストラクタ
+ </summary>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.#ctor(System.String)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="fileName">ファイル名(フルパス)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.Initialize">
+	<summary>
+ クラスの初期化
+ </summary>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetVisible(System.Boolean)">
+	<summary>
+ アクティブウィンドウの表示/非表示を設定します.
+ </summary>
+	<param name="visible"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetVisible(System.String,System.Boolean)">
+	<summary>
+ ウィンドウの表示/非表示を設定します.
+ </summary>
+	<param name="visible"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.CreateBook(System.String)">
+	<summary>
+ ブックの作成を行います.
+ </summary>
+	<param name="fileName">作成するファイル(フルパス)</param>
+	<returns>成功した場合 True, 失敗した場合 False を返します.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.OpenBook(System.String)">
+	<summary>
+ ブックを開きます.
+ </summary>
+	<param name="fileName">開くファイル(フルパス)</param>
+	<returns>成功した場合 True, 失敗した場合 False を返します.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.Save">
+	<summary>
+ 上書き保存します.
+ </summary>
+	<returns>成功した場合 True, 失敗した場合 False を返します.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SaveAs(System.String)">
+	<summary>
+ 名前を付けてブックを保存します.
+ </summary>
+	<param name="fileName">保存するファイル(フルパス)</param>
+	<returns>成功した場合 True, 失敗した場合 False を返します.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.CloseBook">
+	<summary>
+ ブックを閉じます.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetActiveSheet(System.Int32)">
+	<summary>
+ シートインデックスをもとに, アクティブシートの変更を行います.
+ </summary>
+	<param name="index">シートインデックス(1から始まります)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetActiveSheet(System.String)">
+	<summary>
+ シート名をもとにアクティブシートの変更を行います.
+ </summary>
+	<param name="sheetName">シート名</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.AddSheet(System.String)">
+	<summary>
+ シートの追加を行います.
+ </summary>
+	<param name="sheetName">シート名[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetSheetName(System.String)">
+	<summary>
+ アクティブシートのシート名設定
+ </summary>
+	<param name="sheetName"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetSheetName(System.Object,System.String)">
+	<summary>
+ 指定されたシートのシート名を設定します.
+ </summary>
+	<param name="sheet">変更するシートのインデックス及び名称</param>
+	<param name="sheetName">シート名称</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetVisibleToSheet(System.Int32,System.Boolean)">
+	<summary>
+ シートの表示・非表示設定
+ </summary>
+	<param name="index">対象のシート名</param>
+	<param name="visible">表示・非表示フラグ</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetVisibleToSheet(System.String,System.Boolean)">
+	<summary>
+ シートの表示・非表示設定
+ </summary>
+	<param name="name">対象のシート名</param>
+	<param name="visible">表示・非表示フラグ</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.InsertColumn(System.Int32,System.Int32)">
+	<summary>
+ 列の挿入を行います.
+ </summary>
+	<param name="col">挿入する列位置</param>
+	<param name="count">挿入する列数</param>
+	<remarks></remarks>
+	<history>
+     2009/06/19    T.Hirasawa    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.CopyInsertColumn(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ コピーした列の挿入を行います.
+ </summary>
+	<param name="baseCol">コピー元列</param>
+	<param name="startCol">挿入開始位置</param>
+	<param name="count">挿入列数</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.DeleteCol(System.Int32,System.Int32)">
+	<summary>
+ 列の削除を行います.
+ </summary>
+	<param name="col">挿入する列位置</param>
+	<param name="count">挿入する列数</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.InsertRow(System.Int32,System.Int32)">
+	<summary>
+ 行の挿入を行います.
+ </summary>
+	<param name="row">挿入する行位置</param>
+	<param name="count">挿入する行数</param>
+	<remarks></remarks>
+	<history>
+     2009/06/19    T.Hirasawa    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.CopyInsertRow(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ コピーした行の挿入を行います.
+ </summary>
+	<param name="baseRow">コピー元行</param>
+	<param name="startRow">挿入開始位置</param>
+	<param name="count">挿入行数</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.DeleteRow(System.Int32,System.Int32)">
+	<summary>
+ 行の削除
+ </summary>
+	<param name="row">削除する行位置</param>
+	<param name="count">削除する行</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetValue(System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
+	<summary>
+ 指定されたセル範囲に値を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="value">設定する値</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetValue(System.Int32,System.Int32,System.Object)">
+	<summary>
+ 指定されたセルに値を設定します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="row">行インデックス</param>
+	<param name="value">設定する値</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetValue(System.String,System.Object)">
+	<summary>
+ 指定されたキーのセルに値を設定します.
+ </summary>
+	<param name="key">キー</param>
+	<param name="value">設定する値</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetValue(System.Int32,System.Int32,System.Data.DataTable,System.Boolean)">
+	<summary>
+ 指定されたセルを開始点としてデータテーブルの内容を出力します.
+ </summary>
+	<param name="startCol">開始列</param>
+	<param name="startRow">開始行</param>
+	<param name="dt">出力するデータテーブル</param>
+	<param name="includeHeader">Trueが指定された場合, ヘッダーを含みます.</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.GetValue(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定されたセルに設定されている値を取得します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<returns>セルに設定されている値</returns>
+	<remarks>
+ Object 型で返されることに注意してください.
+ 文字列として欲しい場合は, GetStr を使用してください.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetValue(System.String,System.Int32,System.Int32)">
+	<summary>
+ 指定されたキーのセル+オフセットに設定されている値を取得します.
+ </summary>
+	<param name="key">キー値</param>
+	<returns>セルに設定されている値</returns>
+	<param name="offsetCol">オフセット列</param>
+	<param name="offsetRow">オフセット行</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetStr(System.Int32,System.Int32)">
+	<summary>
+ 指定されたセルに設定されている値を文字列で取得します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="row">行インデックス</param>
+	<returns>セルに設定されている値</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetStr(System.String,System.Int32,System.Int32)">
+	<summary>
+ 指定されたキーのセル+オフセットに設定されている値を文字列形式で取得します.
+ </summary>
+	<param name="key">キー値</param>
+	<returns>セルに設定されている値</returns>
+	<param name="offsetCol">オフセット列</param>
+	<param name="offsetRow">オフセット行</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetShapeValue(System.String,System.Object)">
+	<summary>
+ オートシェイプテキスト設定
+ </summary>
+	<param name="shapeName"></param>
+	<param name="value"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetShapeVisible(System.String,System.Boolean)">
+	<summary>
+ オートシェイプの表示・非表示設定
+ </summary>
+	<param name="shapeName"></param>
+	<param name="visible"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Find(System.String,EBom.Excel.XlLookAt,EBom.Excel.XlSearchOrder,EBom.Excel.XlSearchDirection,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたキー値を元にセルを検索して返します.
+ </summary>
+	<param name="key">探索するキー値</param>
+	<param name="lookAt">検索方法</param>
+	<param name="searchOrder">検索方向</param>
+	<param name="searchDirection">検索順序</param>
+	<param name="matchCase">True - 大文字と小文字を区別する, False - 区別しない.</param>
+	<param name="matchByte">True - 半角と全角を区別する, False - 区別しない.</param>
+	<returns>
+ 見つかった場合, Range オブジェクト, 見つからなかった場合, Nothing が返ります.
+ </returns>
+	<remarks>
+ 検索の方向とか,完全一致/前方一致とか指定できるようにできた方がいいです.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.Find(System.String,System.Int32@,System.Int32@,EBom.Excel.XlLookAt,EBom.Excel.XlSearchOrder,EBom.Excel.XlSearchDirection,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたキー値を元にセルをして行列番号を返します.
+ </summary>
+	<param name="key">探索するキー値</param>
+	<param name="col">列番号[戻り値]</param>
+	<param name="row">行番号[戻り値]</param>
+	<param name="lookAt">検索方法</param>
+	<param name="searchOrder">検索方向</param>
+	<param name="searchDirection">検索順序</param>
+	<param name="matchCase">True - 大文字と小文字を区別する, False - 区別しない.</param>
+	<param name="matchByte">True - 半角と全角を区別する, False - 区別しない.</param>
+	<returns>見つかった場合 True, 見つからなかった場合 False を返します.</returns>
+	<remarks></remarks>
+	<history>
+     2009/06/18    T.Hirasawa    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetColWidth(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定した列範囲の幅を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="colWidth">幅(ピクセルではなく,エクセルの値)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetColWidth(System.Int32,System.Int32)">
+	<summary>
+ 指定した列の幅を設定します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="colWidth">幅(ピクセルではなく,エクセルの値)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.AutoFitCol(System.Int32,System.Int32)">
+	<summary>
+ 指定した列の幅を自動的に設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="endCol">終了列インデックス[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetRowHeight(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定した行範囲の高さを設定します.
+ </summary>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="rowHeight">高さ(ピクセルではなく,エクセルの値)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetRowHeight(System.Int32,System.Int32)">
+	<summary>
+ 指定した行の高さを設定します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="rowHeight">高さ(ピクセルではなく,エクセルの値)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.AutoFitRow(System.Int32,System.Int32)">
+	<summary>
+ 指定した行の高さを自動的に設定します.
+ </summary>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endRow">終了行インデックス[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetAlignment(System.Int32,System.Int32,System.Int32,System.Int32,EBom.Excel.XlHAlign,EBom.Excel.XlVAlign,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたセル範囲の配置設定を行います.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="hAlign">横配置[省略可]</param>
+	<param name="vAlign">縦配置[省略可]</param>
+	<param name="wrap">折り返し[省略可]</param>
+	<param name="fit">縮小[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetAlliment(System.Int32,System.Int32,EBom.Excel.XlHAlign,EBom.Excel.XlVAlign,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたセルの配置設定を行います.
+ </summary>
+	<param name="col">開始列インデックス</param>
+	<param name="row">開始行インデックス</param>
+	<param name="hAlign">横配置[省略可]</param>
+	<param name="vAlign">縦配置[省略可]</param>
+	<param name="wrap">折り返し[省略可]</param>
+	<param name="fit">縮小[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.MergeCells(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ 指定されたセル範囲を結合します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="merge">True - 結合する, False - 結合を解除</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.MergeCellsColUnit(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ 指定されたセル範囲を列単位で結合します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="merge">True - 結合する, False - 結合を解除</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetFont(System.String,System.Int32,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ シート全体のフォントを設定します.
+ </summary>
+	<param name="fontFamily">フォント名</param>
+	<param name="size">フォントサイズ</param>
+	<param name="color">RGB関数の値, または, 16進数RGB文字列(#FFFFFF)[省略可]</param>
+	<param name="bold">太字[省略可]</param>
+	<param name="italic">斜体[省略可]</param>
+	<param name="strike">取り消し線[省略可]</param>
+	<param name="subscript">下付き文字[省略可]</param>
+	<param name="superscript">上付き文字[省略可]</param>
+	<param name="shadow">影付き[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetFont(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたセル範囲のフォントを設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="fontFamily">フォント名</param>
+	<param name="size">フォントサイズ</param>
+	<param name="color">RGB関数の値, または, 16進数RGB文字列(#FFFFFF)[省略可]</param>
+	<param name="bold">太字[省略可]</param>
+	<param name="italic">斜体[省略可]</param>
+	<param name="strike">取り消し線[省略可]</param>
+	<param name="subscript">下付き文字[省略可]</param>
+	<param name="superscript">上付き文字[省略可]</param>
+	<param name="shadow">影付き[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetFont(System.Int32,System.Int32,System.String,System.Int32,System.Object,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ 指定されたセルのフォントを設定します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="row">行インデックス</param>
+	<param name="fontFamily">フォント名</param>
+	<param name="size">フォントサイズ</param>
+	<param name="color">RGB関数の値, または, 16進数RGB文字列(#FFFFFF)[省略可]</param>
+	<param name="bold">太字[省略可]</param>
+	<param name="italic">斜体[省略可]</param>
+	<param name="strike">取り消し線[省略可]</param>
+	<param name="subscript">下付き文字[省略可]</param>
+	<param name="superscript">上付き文字[省略可]</param>
+	<param name="shadow">影付き[省略可]</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetBackColor(System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
+	<summary>
+ 指定されたセル範囲の背景色を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="color">RGB関数の値, または, 16進数RGB文字列(#FFFFFF)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetBackColor(System.Int32,System.Int32,System.Object)">
+	<summary>
+ 指定されたセルの背景色を設定します.
+ </summary>
+	<param name="col">開始列インデックス</param>
+	<param name="row">開始行インデックス</param>
+	<param name="color">RGB関数の値, または, 16進数RGB文字列(#FFFFFF)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetBackColorIndex(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定されたセル範囲の背景色を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="colorIndex">カラーインデックス</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetBackColor(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定されたセルの背景色を設定します.
+ </summary>
+	<param name="col">開始列インデックス</param>
+	<param name="row">開始行インデックス</param>
+	<param name="colorIndex">カラーインデックス</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetFont(System.String)">
+	<summary>
+ シート全体の表示形式を設定します.
+ </summary>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocalCol(System.Int32,System.Int32,System.String)">
+	<summary>
+ 指定された列範囲の表示形式を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocalCol(System.Int32,System.String)">
+	<summary>
+ 指定された列の表示形式を設定します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocalRow(System.Int32,System.Int32,System.String)">
+	<summary>
+ 指定された行範囲の表示形式を設定します.
+ </summary>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocalRow(System.Int32,System.String)">
+	<summary>
+ 指定された行の表示形式を設定します.
+ </summary>
+	<param name="row">行インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocal(System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ 指定されたセル範囲の表示形式を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetNumberFormatLocal(System.Int32,System.Int32,System.String)">
+	<summary>
+ 指定されたセル範囲の表示形式を設定します.
+ </summary>
+	<param name="col">列インデックス</param>
+	<param name="row">行インデックス</param>
+	<param name="formatStr">書式指定文字列(詳しくはVBAのヘルプ参照)</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetLine(System.Int32,System.Int32,System.Int32,System.Int32,EBom.Excel.XlBordersIndex,EBom.Excel.XlLineStyle,EBom.Excel.XlBorderWeight)">
+	<summary>
+ 指定範囲の指定場所に罫線を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="index">罫線の場所</param>
+	<param name="lineStyle">罫線の種類[省略可]</param>
+	<param name="weight">罫線の太さ[省略可]</param>
+	<remarks>
+ 種類と太さの組み合わせによって引けない線もあります.
+ 例えば2重線を引く場合, weight が xlThin だと1本線になってしまいます.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetLine(System.Int32,System.Int32,System.Int32,System.Int32,EBom.Excel.XlLineStyle,EBom.Excel.XlBorderWeight)">
+	<summary>
+ 指定範囲のすべての場所に罫線を設定します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endCol">終了列インデックス</param>
+	<param name="endRow">終了行インデックス</param>
+	<param name="lineStyle">罫線の種類[省略可]</param>
+	<param name="weight">罫線の太さ[省略可]</param>
+	<remarks>
+ 種類と太さの組み合わせによって引けない線もあります.
+ 例えば2重線を引く場合, weight が xlThin だと1本線になってしまいます.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.SetComment(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ コメントの設定
+ </summary>
+	<param name="text">コメント</param>
+	<param name="startCol">開始列</param>
+	<param name="startRow">開始行</param>
+	<param name="endCol">終了列</param>
+	<param name="endRow">終了行</param>
+	<param name="visible">コメントの表示／非表示</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.FreezePanes(System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ ウィンドウの固定
+ </summary>
+	<param name="col"></param>
+	<param name="row"></param>
+	<param name="status"></param>
+	<remarks>2010/03/15</remarks>
+</member><member name="M:EBom.Excel.Excel.AutoFilter(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ オートフィルタ
+ </summary>
+	<param name="startCol">開始列</param>
+	<param name="startRow">開始行</param>
+	<param name="endCol">終了列</param>
+	<param name="endRow">終了行</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Copy(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ コピー
+ </summary>
+	<param name="startCol">開始列</param>
+	<param name="startRow">開始行</param>
+	<param name="endCol">終了列</param>
+	<param name="endRow">終了行</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.LinkPaste(System.Int32,System.Int32,System.String)">
+	<summary>
+ 図のリンク貼付
+ </summary>
+	<param name="col"></param>
+	<param name="row"></param>
+	<param name="shapeName"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.GetShapeBounds(System.String,System.Drawing.Size@,System.Drawing.Point@)">
+	<summary>
+ 図の位置及び大きさを取得
+ </summary>
+	<param name="shapeName"></param>
+	<param name="retSize"></param>
+	<param name="retLocation"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.GetColumn(System.Int32,System.Int32)">
+	<summary>
+ 指定された列範囲を取得します.
+ </summary>
+	<param name="startCol">開始列インデックス</param>
+	<param name="endCol">終了列インデックス[省略可]</param>
+	<returns>列オブジェクト. エラーの場合 Nothing を返します.</returns>
+	<remarks>列範囲オブジェクト. 失敗した場合 Nothing を返します.</remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetRow(System.Int32,System.Int32)">
+	<summary>
+ 指定された行範囲を取得します.
+ </summary>
+	<param name="startRow">開始行インデックス</param>
+	<param name="endRow">終了行インデックス[省略可]</param>
+	<returns>行オブジェクト. エラーの場合 Nothing を返します.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetCell(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定されたセル範囲を取得します.
+ </summary>
+	<param name="startCol">開始列インデックス[省略可]</param>
+	<param name="startRow">開始行インデックス[省略可]</param>
+	<param name="endCol">終了列インデックス[省略可]</param>
+	<param name="endRow">終了行インデックス[省略可]</param>
+	<returns>セル範囲オブジェクト. エラーの場合は Nothing が返ります.</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetCell(System.String)">
+	<summary>
+ 指定されたセル範囲を取得します.
+ </summary>
+	<param name="rangeStr">範囲文字列</param>
+	<returns>セル範囲オブジェクト. エラーの場合は Nothing が返ります.</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Print(System.String)">
+	<summary>
+ 印刷処理
+ </summary>
+	<param name="printerName">印刷するプリンタ名</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Protect(System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ 対象シートを保護し,ユーザーの変更を禁止します.
+ </summary>
+	<param name="sheetIdx">設定を行うシート番号</param>
+	<param name="password">保護解除の際に必要なパスワード</param>
+	<param name="drawingObjects">描画オブジェクトを保護</param>
+	<param name="contents">シートの内容を保護</param>
+	<param name="senarios">シナリオを保護</param>
+	<param name="userInterfaceOnly">マクロからの変更は可能にする</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Protect(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ 対象シートを保護し,ユーザーの変更を禁止します.
+ </summary>
+	<param name="sheetName">設定を行うシート名</param>
+	<param name="password">保護解除の際に必要なパスワード</param>
+	<param name="drawingObjects">描画オブジェクトを保護</param>
+	<param name="contents">シートの内容を保護</param>
+	<param name="senarios">シナリオを保護</param>
+	<param name="userInterfaceOnly">マクロからの変更は可能にする</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.ConvertToLetter(System.Int32)">
+	<summary>
+ 列番号から列名への変換
+ </summary>
+	<param name="col">列番号</param>
+	<returns>列名</returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.ShowGraphMarker(System.Int32,System.Int32)">
+	<summary>
+ グラフマーカー処理
+ </summary>
+	<param name="graphIndex"></param>
+	<param name="jikuIndex"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.Free(System.Object)">
+	<summary>
+ COMオブジェクトの解放
+ </summary>
+	<param name="obj">解放するオブジェクト</param>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="P:EBom.Excel.Excel.IsBookOpen">
+	<summary>
+ ブックが開かれているか返します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/02/23    新規作成
+ </history>
+</member><member name="P:EBom.Excel.Excel.EndRow">
+	<summary>
+ データのある最終行を取得します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Excel.Excel.EndCol">
+	<summary>
+ データのある最終列を取得します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Excel.Excel.Version">
+	<summary>
+ EXCELのバージョンを取得します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Excel.Excel.SetDataLabelText(System.String,System.String,System.String)">
+	<summary>
+ グラフデータラベル設定
+ </summary>
+	<param name="graphName">グラフ名称(エクセルで設定した値)</param>
+	<param name="seriesName">データ系列名称(エクセルで設定した値)</param>
+	<param name="value">データラベルに表示する値</param>
+	<remarks>
+ 注意 既に用意されているデータラベルの文字列しか設定できません.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/04/14    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetChart(System.String)">
+	<summary>
+ チャート(グラフ)オブジェクトの取得
+ </summary>
+	<param name="graphName">グラフ名称(エクセルで設定した値)</param>
+	<returns>チャート(グラフ)オブジェクト</returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/04/14    新規作成
+ </history>
+</member><member name="M:EBom.Excel.Excel.GetSeries(System.Object,System.String)">
+	<summary>
+ データ系列オブジェクトの取得
+ </summary>
+	<param name="chart"></param>
+	<param name="seriesName"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+     T.Hirasawa    2009/04/14    新規作成
+ </history>
+</member><member name="T:EBom.Excel.Excel">
+	<summary>
+ エクセルに出力するための機能を提供します. 
+ </summary>
+	<remarks>
+ ＜概要＞
+ 今回必要な機能+α(使いそうだった機能)しか実装していません.
+ リソースを使用ため, Using ステートメントを使用するか, 必ず Dispose してください.
+ 
+ ＜使い方＞
+ <code>
+ Using xls As New Excel("C:\Test.xls")                      'C:\Text.xls を読み込みます. ない場合は作成します.
+     xls.SetValue(1, 1, "TEST")                             'A1セルに値を設定しています.
+     xls.SetValue(Format(Now(), "yyyy/MM/dd"), "$$DATE")    '$$DATE を検索してそのセルに値を設定しています.
+     xls.SetFont(1, 1, "MS ゴシック", 32)                   'A1セルのフォントを設定
+     Dim strVal As String = xls.GetValue(1, 1)              'A1セルの値を取得
+     xls.Save()    '保存
+ End Using
+ </code>
+ 
+ ＜注意＞
+ 特定のバージョンのエクセルに依存しないようにするため, 
+ 遅延バインディングを使用しています. そのため, 参照設定は必要ありません.
+ 
+ その代り以下の制限があります.
+     １．パフォーマンスは低下しています.
+     ２．定数が利用できません. (自分で定義して対処するほかありません.)
+     ３．インテリセンスも使用できません.
+ 
+ 独自にメソッドを追加する場合, 使用したCOMオブジェクトは, 
+ かならず Free メソッドを使用して解放してください.
+ すべてのCOMオブジェクトを解放するまで EXCEL のプロセスは残りますので
+ 注意してください.
+ 
+ 特に Excel.Range オブジェクトなど使用した場合, 解放を忘れる恐れがあります.
+ 例えば, m_activeSheet.Cells(1, 1).value とした場合, 実際には
+ Rangeオブジェクトが2つ暗黙的に生成され, 解放されずに残ってしまいます.
+ 子オブジェクトが 2つ以上続く場合, 一度変数に格納し使用後に解放します.
+ 上記の場合,以下のような処理になります.
+ 
+ <code>
+ Dim xlCells As Object = Nothing    
+ Dim xlCell As Object = Nothing   
+   
+ Try
+     xlCells = m_activeSheet.Cells        'セル範囲オブジェクトを取得
+     xlCell = xlCells(1, 1)               'セルオブジェクトを取得
+     xlCell.Value = "Test Value."
+ 
+ Finally
+     Me.Free(xlCell)                      'セルオブジェクト解放
+     Me.Free(xlCells)                     'セル範囲オブジェクト解放
+ End Try
+ </code>
+ 
+ メソッドを追加した場合,必ず動作テストを行い,
+ EXCELのプロセスが残らないことを必ず確認してください.
+ 
+ エラー処理は必要な場所にしか記述していません.
+ 基本的には呼び出し元で対処してください.
+ </remarks>
+	<history>
+     T.Hirasawa    2009/06/17    新規作成
+ </history>
+</member><member name="F:EBom.Excel.XlFileFormat.xlAddIn">
+	<summary>Microsoft Office Excel アドイン </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlAddIn8">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlCSV">
+	<summary>コンマ区切りの値 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlCSVMac">
+	<summary>コンマ区切りの値 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlCSVMSDOS">
+	<summary>コンマ区切りの値</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlCSVWindows">
+	<summary>コンマ区切りの値 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlCurrentPlatformText">
+	<summary>テキスト形式の種類を指定します。 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlDBF2">
+	<summary>Dbase 2 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlDBF3">
+	<summary>Dbase 3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlDBF4">
+	<summary>Dbase 4 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlDIF">
+	<summary>データ交換形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel12">
+	<summary>Excel 12.0 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel2">
+	<summary>Excel 2.0 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel2FarEast">
+	<summary>Excel 2.0 (東アジア版) </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel3">
+	<summary>Excel 3.0 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel4">
+	<summary>Excel 4.0 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel4Workbook">
+	<summary>Excel 4.0、ワークブック形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel5">
+	<summary>Excel 5.0 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel7">
+	<summary>Excel 95 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel8">
+	<summary>Excel 95 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlExcel9795">
+	<summary>Excel 95 および Excel 97 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlHtml">
+	<summary>Web ページ形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlIntlAddIn">
+	<summary>Microsoft Office Excel アドインのインターナショナルな形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlIntlMacro">
+	<summary>不適切な形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlOpenXMLAddIn">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlOpenXMLTemplate">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlOpenXMLTemplateMacroEnabled">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlOpenXMLWorkbook">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlOpenXMLWorkbookMacroEnabled">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlSYLK">
+	<summary>シンボリック リンク形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTemplate">
+	<summary>Excel テンプレートの形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTemplate8">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTextMac">
+	<summary>テキスト形式の種類を指定します。 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTextMSDOS">
+	<summary>テキスト形式の種類を指定します。</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTextPrinter">
+	<summary>テキスト形式の種類を指定します。 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlTextWindows">
+	<summary>テキスト形式の種類を指定します。</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlUnicodeText">
+	<summary>テキスト形式の種類を指定します。 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWebArchive">
+	<summary>MHT 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWJ2WD1">
+	<summary>不適切な形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWJ3">
+	<summary>不適切な形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWJ3FJ3">
+	<summary>不適切な形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK1">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK1ALL">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK1FMT">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK3">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK3FM3">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWK4">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWKS">
+	<summary>Lotus 1-2-3 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWorkbookDefault">
+	<summary>???</summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWorkbookNormal">
+	<summary>Excel ブック形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWorks2FarEast">
+	<summary>Microsoft Works 2.0 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlWQ1">
+	<summary>Quattro Pro 形式 </summary>
+</member><member name="F:EBom.Excel.XlFileFormat.xlXMLSpreadsheet">
+	<summary>Excel シート形式 </summary>
+</member><member name="T:EBom.Excel.XlFileFormat">
+	<summary>ファイル形式</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlDiagonalDown">
+	<summary>セル範囲の各セルの左上隅から右下隅への罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlDiagonalUp">
+	<summary>セル範囲の各セルの左下隅から右上隅への罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlEdgeLeft">
+	<summary>セル範囲の左側の罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlEdgeTop">
+	<summary>セル範囲の上側の罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlEdgeBottom">
+	<summary>セル範囲の下側の罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlEdgeRight">
+	<summary>セル範囲の右側の罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlInsideVertical">
+	<summary>セル範囲の外枠を除く、すべてのセルの垂直方向の罫線</summary>
+</member><member name="F:EBom.Excel.XlBordersIndex.xlInsideHorizontal">
+	<summary>セル範囲の外枠を除く、すべてのセルの水平方向の罫線</summary>
+</member><member name="T:EBom.Excel.XlBordersIndex">
+	<summary>罫線の場所</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlContinuous">
+	<summary>実線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlDashDot">
+	<summary>一点鎖線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlDashDotDot">
+	<summary>二点鎖線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlSlantDashDot">
+	<summary>斜線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlDash">
+	<summary>破線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlDot">
+	<summary>点線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlDouble">
+	<summary>二重線</summary>
+</member><member name="F:EBom.Excel.XlLineStyle.xlLineStyleNone">
+	<summary>線なし</summary>
+</member><member name="T:EBom.Excel.XlLineStyle">
+	<summary>罫線の線種</summary>
+</member><member name="F:EBom.Excel.XlBorderWeight.xlHairline">
+	<summary>極細(最も細い罫線)</summary>
+</member><member name="F:EBom.Excel.XlBorderWeight.xlThin">
+	<summary>細い</summary>
+</member><member name="F:EBom.Excel.XlBorderWeight.xlThick">
+	<summary>太い (最も太い罫線)</summary>
+</member><member name="F:EBom.Excel.XlBorderWeight.xlMedium">
+	<summary>中</summary>
+</member><member name="T:EBom.Excel.XlBorderWeight">
+	<summary>罫線の太さ</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignGeneral">
+	<summary>標準</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignFill">
+	<summary>繰り返し</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignCenterAcrossSelection">
+	<summary>選択範囲内</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignCenter">
+	<summary>中央揃え</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignDistributed">
+	<summary>均等割り付け</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignJustify">
+	<summary>両端揃え</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignLeft">
+	<summary>左詰め</summary>
+</member><member name="F:EBom.Excel.XlHAlign.xlHAlignRight">
+	<summary>右詰め</summary>
+</member><member name="T:EBom.Excel.XlHAlign">
+	<summary>横配置</summary>
+</member><member name="F:EBom.Excel.XlVAlign.xlVAlignBottom">
+	<summary>下詰め</summary>
+</member><member name="F:EBom.Excel.XlVAlign.xlVAlignCenter">
+	<summary>中央揃え</summary>
+</member><member name="F:EBom.Excel.XlVAlign.xlVAlignDistributed">
+	<summary>均等割り付け</summary>
+</member><member name="F:EBom.Excel.XlVAlign.xlVAlignJustify">
+	<summary>両端揃え</summary>
+</member><member name="F:EBom.Excel.XlVAlign.xlVAlignTop">
+	<summary>上詰め</summary>
+</member><member name="T:EBom.Excel.XlVAlign">
+	<summary>縦配置</summary>
+</member><member name="T:EBom.Excel.XlCellType">
+	<summary>セルタイプ</summary>
+</member><member name="F:EBom.Excel.XlFindLookIn.xlFormulas">
+	<summary>コメント</summary>
+</member><member name="F:EBom.Excel.XlFindLookIn.xlComments">
+	<summary>数式</summary>
+</member><member name="F:EBom.Excel.XlFindLookIn.xlValues">
+	<summary>値</summary>
+</member><member name="T:EBom.Excel.XlFindLookIn">
+	<summary>検索対象の種類</summary>
+</member><member name="F:EBom.Excel.XlLookAt.xlWhole">
+	<summary>全てが一致するセルを検索</summary>
+</member><member name="F:EBom.Excel.XlLookAt.xlPart">
+	<summary>一部が一致するセルを検索</summary>
+</member><member name="T:EBom.Excel.XlLookAt">
+	<summary>検索方法</summary>
+</member><member name="F:EBom.Excel.XlSearchOrder.xlByRows">
+	<summary>行</summary>
+</member><member name="F:EBom.Excel.XlSearchOrder.xlByColumns">
+	<summary>列</summary>
+</member><member name="T:EBom.Excel.XlSearchOrder">
+	<summary>検索方向</summary>
+</member><member name="F:EBom.Excel.XlSearchDirection.xlNext">
+	<summary>順方向</summary>
+</member><member name="F:EBom.Excel.XlSearchDirection.xlPrevious">
+	<summary>逆方向</summary>
+</member><member name="T:EBom.Excel.XlSearchDirection">
+	<summary>検索順序</summary>
+</member><member name="F:EBom.Excel.MsoTriState.msoTriStateToggle">
+	<summary>サポートされていません。</summary>
+</member><member name="F:EBom.Excel.MsoTriState.msoTriStateMixed">
+	<summary>サポートされていません。</summary>
+</member><member name="F:EBom.Excel.MsoTriState.msoTrue">
+	<summary>真 (True)</summary>
+</member><member name="F:EBom.Excel.MsoTriState.msoFalse">
+	<summary>偽 (False)</summary>
+</member><member name="F:EBom.Excel.MsoTriState.msoCTrue">
+	<summary>サポートされていません。</summary>
+</member><member name="T:EBom.Excel.MsoTriState">
+	<summary>3 ステートのブール型 (Boolean) の値を指定します。</summary>
+</member><member name="F:EBom.Excel.MsoScaleFrom.msoScaleFromTopLeft">
+	<summary>図形の左上端の位置を保持します。</summary>
+</member><member name="F:EBom.Excel.MsoScaleFrom.msoScaleFromMiddle">
+	<summary>図形の中点の位置を保持します。</summary>
+</member><member name="F:EBom.Excel.MsoScaleFrom.msoScaleFromBottomRight">
+	<summary>図形の右下端の位置を保持します。</summary>
+</member><member name="T:EBom.Excel.MsoScaleFrom">
+	<summary>図形を拡大または縮小したときに、位置を固定する部分を指定します。</summary>
+</member><member name="F:EBom.Excel.XlCalculation.xlCalculationAutomatic">
+	<summary>自動</summary>
+</member><member name="F:EBom.Excel.XlCalculation.xlCalculationManual">
+	<summary>手動</summary>
+</member><member name="F:EBom.Excel.XlCalculation.xlCalculationSemiautomatic">
+	<summary>テーブル以外自動</summary>
+</member><member name="T:EBom.Excel.XlCalculation">
+	<summary>計算方法</summary>
+</member>
+</members>
+</doc>

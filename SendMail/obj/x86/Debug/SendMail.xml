@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SendMail
+</name>
+</assembly>
+<members>
+<member name="T:SendMail.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:SendMail.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:SendMail.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="T:SendMail.SendMail.Dao.MailAddressVo">
+ <summary>
+ ユーザーメールアドレス情報
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SendMail.SendMail.Dao.MailAddressVo.UserId">
+ <summary>ユーザーＩＤ</summary>
+ <value>ユーザーＩＤ</value>
+ <returns>ユーザーＩＤ</returns>
+</member>
+<member name="P:SendMail.SendMail.Dao.MailAddressVo.MailAddress">
+ <summary>メールアドレス</summary>
+ <value>メールアドレス</value>
+ <returns>メールアドレス</returns>
+</member>
+<member name="P:SendMail.SendMail.Dao.MailAddressVo.Description">
+ <summary>所属</summary>
+ <value>所属</value>
+ <returns>所属</returns>
+</member>
+<member name="M:SendMail.mainsub.CanDbConnect">
+ <summary>
+ DB接続チェック
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:SendMail.subSendMailEventInfo.CanDbConnect">
+ <summary>
+ DB接続チェック
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:SendMail.subSendMailSeisakuIchiranInfo.CanDbConnect">
+ <summary>
+ DB接続チェック
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

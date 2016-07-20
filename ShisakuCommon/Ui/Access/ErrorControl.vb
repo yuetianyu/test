@@ -1,0 +1,28 @@
+﻿Namespace Ui.Access
+    ''' <summary>
+    ''' エラー項目の制御を担うインターフェース
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Interface ErrorControl
+        ''' <summary>
+        ''' フォーカスを当てる
+        ''' </summary>
+        ''' <remarks></remarks>
+        Sub Focus()
+        ''' <summary>
+        ''' 背景色をエラー色にする
+        ''' </summary>
+        ''' <remarks></remarks>
+        Sub SetBackColorOnError()
+        ''' <summary>
+        ''' 背景色をワーニング色にする
+        ''' </summary>
+        ''' <remarks></remarks>
+        Sub SetBackColorOnWarning()
+        ''' <summary>
+        ''' 背景色をクリアする
+        ''' </summary>
+        ''' <remarks></remarks>
+        Sub ClearBackColor()
+    End Interface
+End Namespace

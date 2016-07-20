@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBomMenu.ChangeEnv
+</name>
+</assembly>
+<members>
+<member name="M:EBomMenu.ChangeEnv.frmChgEnv.frmChgEnv_Load(System.Object,System.EventArgs)">
+	<summary>
+ フォーム初期表示
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.frmChgEnv.btnSelect_Click(System.Object,System.EventArgs)">
+	<summary>
+ 選択ボタン押下時
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.frmChgEnv.btnSet_Click(System.Object,System.EventArgs)">
+	<summary>
+ 設定ボタン押下時
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.frmChgEnv.btnClose_Click(System.Object,System.EventArgs)">
+	<summary>
+ キャンセルボタン押下時
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.frmChgEnv.rdoEnvHonban_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 本番環境設定時
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.frmChgEnv.rdoEnvTest_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ テスト環境設定時
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.ChangeEnv.frmChgEnv">
+	<summary>
+ 接続環境設定フォームクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBomMenu.ChangeEnv.ChgEnv.ENV_KEY">
+	<summary>SDSINI-Key</summary>
+</member><member name="F:EBomMenu.ChangeEnv.ChgEnv.ENV_HONBAN_PATH">
+	<summary>テスト用SDSINIパス</summary>
+</member><member name="F:EBomMenu.ChangeEnv.ChgEnv.ENV_TEST_PATH">
+	<summary>テスト用SDSINIパス</summary>
+</member><member name="M:EBomMenu.ChangeEnv.ChgEnv.SetDefaultDisp(EBomMenu.ChangeEnv.frmChgEnv)">
+	<summary>
+ 初期表示設定
+ </summary>
+	<param name="frm">フォームオブジェクト</param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.ChgEnv.SetEnv(EBomMenu.ChangeEnv.frmChgEnv)">
+	<summary>
+ 環境変数設定
+ </summary>
+	<param name="frm">フォームオブジェクト</param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.ChangeEnv.ChgEnv.ShowFolderDialog(System.String,System.String)">
+	<summary>
+ フォルダ ダイアログ表示
+ </summary>
+	<param name="title">ダイアログタイトル</param>
+	<param name="defaultPath">初期選択するパス(オプション)</param>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.ChangeEnv.ChgEnv">
+	<summary>
+ 接続環境設定メイン処理
+ </summary>
+	<remarks>フォームから呼出される処理を定義</remarks>
+</member><member name="P:EBomMenu.ChangeEnv.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:EBomMenu.ChangeEnv.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:EBomMenu.ChangeEnv.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>

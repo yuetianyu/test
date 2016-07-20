@@ -1,0 +1,739 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBom.Controls
+</name>
+</assembly>
+<members>
+<member name="M:EBom.Controls.FontComboBox.Create">
+	<summary>
+ フォントコンボボックス生成
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FontComboBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+	<summary>
+ 描画イベント
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.FontComboBox">
+	<summary>
+ フォントコンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.FunctionListBox.m_devSign">
+	<summary>開発符号</summary>
+</member><member name="F:EBom.Controls.FunctionListBox.m_blockNo">
+	<summary>ブロック№</summary>
+</member><member name="F:EBom.Controls.FunctionListBox.m_displayFunctionName">
+	<summary>リストにファンクション名称を含めるか？</summary>
+</member><member name="M:EBom.Controls.FunctionListBox.GetListSql">
+	<summary>
+ 表示用SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionListBox.Create(System.String,System.String)">
+	<summary>
+ リストボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<param name="devSign">開発符号</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionListBox.Create(System.String,System.String,System.String)">
+	<summary>
+ リストボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<param name="devSign">開発符号</param>
+	<param name="blockNo">ブロック№</param>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionListBox.DevSign">
+	<summary>
+ 開発符号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionListBox.BlockNo">
+	<summary>
+ ブロック№
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionListBox.DisplayFunctionName">
+	<summary>
+ リストにファンクション名称を含めるか？
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.FunctionListBox">
+	<summary>
+ ファンクションリストボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE.NOTHING">
+	<summary>未設定</summary>
+</member><member name="F:EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE.MASTER">
+	<summary>ブロックマスタ</summary>
+</member><member name="F:EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE.DEVELOP">
+	<summary>開発符号別ブロック</summary>
+</member><member name="T:EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE">
+	<summary>
+ ブロック一覧取得方法
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.BlockComboBox.m_blockSource">
+	<summary>ブロック一覧取得方法</summary>
+</member><member name="F:EBom.Controls.BlockComboBox.m_displayName">
+	<summary>ブロック名称を表示するか？</summary>
+</member><member name="M:EBom.Controls.BlockComboBox.GetBlockSql">
+	<summary>
+ イベントを取得するSQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.BlockComboBox.Create(System.String,EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="blockSource">ブロック一覧取得方法</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.BlockComboBox.Create(System.String,System.String,EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blockSource">ブロック一覧取得方法</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.BlockComboBox.Create(System.String,System.String,System.Boolean,EBom.Controls.BlockComboBox.BLOCK_SOURCE_TYPE)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<param name="blockSource">ブロック一覧取得方法</param>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.BlockComboBox.BlockSource">
+	<summary>
+ ブロック一覧取得方法
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.BlockComboBox.DisplayName">
+	<summary>
+ 名称を表示するか？
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.BlockComboBox">
+	<summary>
+ ブロックコンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.MenuStripGradientBegin">
+	<summary>
+ メニューの背景色(開始)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.MenuStripGradientEnd">
+	<summary>
+ メニューの背景色(終了)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ImageMarginGradientBegin">
+	<summary>
+ メニューのアイコン部背景色(開始)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ImageMarginGradientMiddle">
+	<summary>
+ メニューのアイコン部背景色(中間)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ImageMarginGradientEnd">
+	<summary>
+ メニューのアイコン部背景色(終了)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ToolStripGradientBegin">
+	<summary>
+ ツールバー背景色(開始)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ToolStripGradientMiddle">
+	<summary>
+ ツールバー背景色(中間)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ToolStripGradientEnd">
+	<summary>
+ ツールバー背景色(終了)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ToolStripBorder">
+	<summary>
+ ツールバー背景色(罫線)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.CustomProfessionalRenderer.ToolStripPanelGradientBegin">
+	<summary>
+	</summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.CustomProfessionalRenderer">
+	<summary>
+ メニューやツールバーの色が気持ち悪いので変更するためのクラスです.
+ </summary>
+	<remarks>
+ ＜使い方＞
+ 以下のコードをアプリケーション初期化時に記述してください.
+ <code>
+ ToolStripManager.Renderer = _
+     New ToolStripProfessionalRenderer( _
+     New CustomProfessionalRenderer())
+ </code>
+	</remarks>
+	<history>
+     2009/08/19    T.Hirasawa    新規作成
+ </history>
+</member><member name="F:EBom.Controls.DateTimePickerEx.m_isNull">
+	<summary>True の場合,日付値は NULL です.</summary>
+</member><member name="F:EBom.Controls.DateTimePickerEx.m_nullDisplayValue">
+	<summary>値がNULLの場合に表示される文字列</summary>
+</member><member name="F:EBom.Controls.DateTimePickerEx.m_format">
+	<summary>表示形式</summary>
+</member><member name="F:EBom.Controls.DateTimePickerEx.m_formatStr">
+	<summary>フォーマットの文字列表現</summary>
+</member><member name="F:EBom.Controls.DateTimePickerEx.m_customFormat">
+	<summary>カスタム書式</summary>
+</member><member name="M:EBom.Controls.DateTimePickerEx.OnCloseUp(System.EventArgs)">
+	<summary>
+ 日付選択ダイアログが閉じられる時
+ </summary>
+	<param name="eventargs"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DateTimePickerEx.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ キー押下時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DateTimePickerEx.SetNullValue">
+	<summary>
+ NULL値を表示します.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DateTimePickerEx.SetValue">
+	<summary>
+ 値の設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DateTimePickerEx.SetFormat">
+	<summary>
+ DateTimePickerEx クラスの Format 値を, このフォーマットを表す文字列にマッピングします.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.NullDisplayValue">
+	<summary>
+ 値がNULLの場合に表示される文字列
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.Format">
+	<summary>
+ 表示形式
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.CustomFormat">
+	<summary>
+ カスタム書式
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.Value">
+	<summary>
+ 日付時刻値値を取得します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.Value(System.String)">
+	<summary>
+ 書式を指定して日付時刻値を取得します.
+ </summary>
+	<param name="formatStr"></param>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DateTimePickerEx.ValueToDate">
+	<summary>
+ Date型で日付時刻値を取得します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.DateTimePickerEx">
+	<summary>
+ NULL(ブランク) に対応した DateTimePicker コントロール
+ </summary>
+	<remarks>
+ 標準の DateTimePicker では NULL(ブランク)に対応していないため作成.
+ 
+ CustomFormat を使用して,NULL の場合は CustomFormat値が表示されるように
+ することにより対応しています.
+ 
+ ただ, そのままだと日付が指定されている場合にうまく表示されないため,
+ Format, CustomFormat プロパティーメンバーを隠蔽し,
+ 基底クラスの CustomFormat に, 値が NULL の場合の文字列が格納されるようにしてあります.
+ (※ブランクを表示したい場合, '' ではなく ' ' であることに注意してください.)
+ 
+ Value プロパティーもブランクを入出力できるようにするため,
+ メンバー隠蔽を行い, String 型で処理できるように変更してあります.
+ Date型で取りたい場合もあると思うので, ValueToDate プロパティーを用意してあります.
+ また, 書式指定を行って取得する Value プロパティーもあります.
+ 
+ ＜例＞
+ <code>
+ Dim str As String = DateTimePickerEx1.Value()              '文字列として取得
+ Dim dt As Date    = DateTimePickerEx1.ValueToDate()        'Date型として取得
+ Dim str As String = DateTimePickerEx1.Value("yy/MM/dd")    '書式を指定して取得
+ </code>
+	</remarks>
+	<history>
+     2009/08/20    T.Hirasawa    新規作成
+ </history>
+</member><member name="F:EBom.Controls.SelectPrintPreviewDialog.m_newLoad">
+	<summary>初回読込時のみの処理実行フラグ</summary>
+</member><member name="F:EBom.Controls.SelectPrintPreviewDialog.m_autoClose">
+	<summary>印刷終了後のダイアログ自動終了フラグ</summary>
+</member><member name="M:EBom.Controls.SelectPrintPreviewDialog.OnLoad(System.EventArgs)">
+	<summary>
+ ロード時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.SelectPrintPreviewDialog.PrinterSelectAndPrint(System.Object,System.EventArgs)">
+	<summary>
+ 印刷処理
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.SelectPrintPreviewDialog.AutoClose">
+	<summary>
+ 自動終了フラグ
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.SelectPrintPreviewDialog">
+	<summary>
+ プリンタ選択印刷プレビューダイアログ
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.PrinterComboBox.Create">
+	<summary>
+ プリンタコンボボックス生成
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.PrinterComboBox">
+	<summary>
+ プリンタ一覧コンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.FunctionComboBox.m_devSign">
+	<summary>開発符号</summary>
+</member><member name="F:EBom.Controls.FunctionComboBox.m_blockNo">
+	<summary>ブロック№</summary>
+</member><member name="F:EBom.Controls.FunctionComboBox.m_displayFunctionName">
+	<summary>リストにファンクション名称を含めるか？</summary>
+</member><member name="F:EBom.Controls.FunctionComboBox.m_grouping">
+	<summary>ブロック№違いの同一ファンクションを圧縮するか？</summary>
+</member><member name="M:EBom.Controls.FunctionComboBox.GetListSql">
+	<summary>
+ 表示用SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionComboBox.Create(System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionComboBox.Create(System.String,System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<param name="devSign">開発符号</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionComboBox.Create(System.String,System.String,System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<param name="devSign">開発符号</param>
+	<param name="blockNo">ブロック№</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.FunctionComboBox.Create(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="cnStr">接続文字列</param>
+	<param name="devSign">開発符号</param>
+	<param name="blockNo">ブロック№</param>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionComboBox.DevSign">
+	<summary>
+ 開発符号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionComboBox.BlockNo">
+	<summary>
+ ブロック№
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionComboBox.DisplayFunctionName">
+	<summary>
+ リストにファンクション名称を含めるか？
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.FunctionComboBox.Grouping">
+	<summary>
+ ブロック№違いの同一ファンクションを圧縮するか？
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.FunctionComboBox">
+	<summary>
+ ファンクションコンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.PaperSizeComboBox.Create">
+	<summary>
+ 用紙サイズコンボボックス生成
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.PaperSizeComboBox">
+	<summary>
+ 用紙サイズコンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.TantoBushoComboBox.GetTantoBushoSql">
+	<summary>
+ 担当部署を取得するSQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.TantoBushoComboBox.Create(System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.TantoBushoComboBox.Create(System.String,System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.TantoBushoComboBox.Create(System.String,System.String,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.TantoBushoComboBox">
+	<summary>
+ 担当部署コンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.EBomListBox.m_connectionStr">
+	<summary>DB接続文字列</summary>
+</member><member name="F:EBom.Controls.EBomListBox.m_dtItem">
+	<summary>リストボックスデータ</summary>
+</member><member name="M:EBom.Controls.EBomListBox.InitListBoxData">
+	<summary>
+ リストボックスデータを初期化します.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.EBomListBox.ConnectionString">
+	<summary>
+ 接続文字列
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.EBomListBox">
+	<summary>
+ EBOM用リストボックス基底クラス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EventComboBox.GetEventSql">
+	<summary>
+ イベントを取得するSQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EventComboBox.Create(System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EventComboBox.Create(System.String,System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EventComboBox.Create(System.String,System.String,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="devSign">開発符号</param>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.EventComboBox">
+	<summary>
+ イベントコンボボックス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.EBomComboBox.WM_MOUSEWHEEL">
+	<summary>
+ マウスホイールウィンドウメッセージ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.EBomComboBox.m_connectionStr">
+	<summary>DB接続文字列</summary>
+</member><member name="F:EBom.Controls.EBomComboBox.m_dtItem">
+	<summary>コンボボックスデータ</summary>
+</member><member name="F:EBom.Controls.EBomComboBox.m_blankRowRequired">
+	<summary>Trueが指定された場合, ブランク行を先頭に付加します.</summary>
+</member><member name="F:EBom.Controls.EBomComboBox.m_wheelSupport">
+	<summary>マウスホイールでスクロールを行う場合, True</summary>
+</member><member name="F:EBom.Controls.EBomComboBox.m_dropping">
+	<summary>ドロップ中の場合, True</summary>
+</member><member name="M:EBom.Controls.EBomComboBox.OnDropDown(System.EventArgs)">
+	<summary>
+ ドロップダウン開始時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EBomComboBox.OnDropDownClosed(System.EventArgs)">
+	<summary>
+ ドロップダウン終了時
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EBomComboBox.WndProc(System.Windows.Forms.Message@)">
+	<summary>
+ ウィンドウプロシージャ
+ </summary>
+	<param name="m"></param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.EBomComboBox.InitComboBoxData">
+	<summary>
+ コンボボックスデータを初期化します.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.EBomComboBox.ConnectionString">
+	<summary>
+ 接続文字列
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.EBomComboBox.BlankRowRequired">
+	<summary>
+ Trueが指定された場合, ブランク行を先頭に付加します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.EBomComboBox.WheelSupport">
+	<summary>
+ マウスホイールでスクロールを行う場合, True を指定します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.EBomComboBox.Dropping">
+	<summary>
+ ドロップダウン中の場合 True を返します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.EBomComboBox">
+	<summary>
+ EBOM用コンボボックス基底クラス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DevSignComboBox.GetDevSignSql">
+	<summary>
+ 開発符号を取得するSQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DevSignComboBox.Create">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DevSignComboBox.Create(System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DevSignComboBox.Create(System.String,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.DevSignComboBox">
+	<summary>
+ 開発符号コンボボックスコントロール
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Controls.DivideComboBox.m_kbnShuriCode">
+	<summary>区分種類コード</summary>
+</member><member name="F:EBom.Controls.DivideComboBox.m_valueOnly">
+	<summary>値のみコンボボックスに表示</summary>
+</member><member name="F:EBom.Controls.DivideComboBox.m_siteKbn">
+	<summary>サイト区分</summary>
+</member><member name="M:EBom.Controls.DivideComboBox.GetDevSignSql">
+	<summary>
+ 開発符号を取得するSQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String,EBom.Common.mdlConstraint.KBN_SHURUI_CD)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="kbnShuruiCode">区分種類コード</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String,EBom.Common.mdlConstraint.KBN_SHURUI_CD,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="kbnShuruiCode">区分種類コード</param>
+	<param name="valueOnly">Trueが指定された場合値のみ表示します.</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String,System.Boolean,EBom.Common.mdlConstraint.KBN_SHURUI_CD)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<param name="kbnShuruiCode">区分種類コード</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Controls.DivideComboBox.Create(System.String,System.Boolean,EBom.Common.mdlConstraint.KBN_SHURUI_CD,System.Boolean)">
+	<summary>
+ コンボボックスの生成
+ </summary>
+	<param name="connectionStr">DB接続文字列</param>
+	<param name="blankRowRequired">Trueが指定された場合, ブランク行を先頭に付加します.</param>
+	<param name="kbnShuruiCode">区分種類コード</param>
+	<param name="valueOnly">Trueが指定された場合値のみ表示します.</param>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DivideComboBox.KbnShuriCode">
+	<summary>
+ 区分種類コード
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Controls.DivideComboBox.ValueOnly">
+	<summary>
+ True が指定された場合, 値のみを表示します.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>
+ SCALEなど, 表示名が存在しない区分の場合には, True を指定してください.
+ </remarks>
+</member><member name="P:EBom.Controls.DivideComboBox.SiteKbn">
+	<summary>
+ サイト区分
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Controls.DivideComboBox">
+	<summary>
+ 区分コンボボックスコントロール
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

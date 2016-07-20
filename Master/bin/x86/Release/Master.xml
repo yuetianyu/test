@@ -1,0 +1,935 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Master
+</name>
+</assembly>
+<members>
+<member name="M:Master.FrmBodyMSTMainte.Initialize_Main">
+	<summary>
+ 初期化メイン.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.Initialize_Form">
+	<summary>
+ フォームの初期化.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnReturn_Click(System.Object,System.EventArgs)">
+	<summary>
+ 戻るボタン
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnEND_Click(System.Object,System.EventArgs)">
+	<summary>
+ アプリケーション終了
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 削除ボタン押下.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnRegist_Click(System.Object,System.EventArgs)">
+	<summary>
+ 登録ボタン押下.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnExcelOutPut_Click(System.Object,System.EventArgs)">
+	<summary>
+ エクセル出力押下.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnExcelInput_Click(System.Object,System.EventArgs)">
+	<summary>
+ エクセル取込押下
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 検索ボタン押下.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.FrmBodyMSTMainte.btnAllocate_Click(System.Object,System.EventArgs)">
+	<summary>
+ ファイル引当ボタン押下.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster01.delCheck">
+	<summary>
+ 一覧削除時のチェック
+ </summary>
+	<returns>Ture:チェックしている;False:チェックしていない</returns>
+	<remarks>一覧表でチェックボックスをチェックしているかどうかチェックする</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster01.checkExist(System.String,System.String,System.String)">
+	<summary>
+ イベントマスタに存在チェック
+ </summary>
+	<returns>Ture:イベントに存在する(登録済みと判断する);False:イベントに存在しない(未登録と判断する)</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strHYOJIJUN_NO">キーの3－連番</param>
+	<remarks>該当データはイベントマスタに存在するかどうかのチェック</remarks>
+</member><member name="T:Master.frm6KaihatufugouMaster01">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mBodyName">
+	<summary>ボディ名</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mKaihatuFugo">
+	<summary>開発符号</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mPartsNo">
+	<summary>部品番号</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mBlockNo">
+	<summary>ブロック番号</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mXvlFileName">
+	<summary>XVLファイル名</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mCadDataEventKbn">
+	<summary>CADデータイベント区分</summary>
+</member><member name="F:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.mCadKaiteiNo">
+	<summary>改訂番号</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.BodyName">
+	<summary>ボディ名''' </summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.KaihatsuFugo">
+	<summary>開発符号</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.BuhinNo">
+	<summary>部品番号</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.BlockNo">
+	<summary>ブロック番号</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.XvlFileName">
+	<summary>XVLファイル名</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.CadDataEventKbn">
+	<summary>CADデータイベント区分</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.CadKaiteiNo">
+	<summary>改訂番号</summary>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.CreatedUserId">
+	<summary>作成ユーザーID</summary>
+	<value>作成ユーザーID</value>
+	<returns>作成ユーザーID</returns>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.CreatedDate">
+	<summary>作成日</summary>
+	<value>作成日</value>
+	<returns>作成日</returns>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.CreatedTime">
+	<summary>作成時</summary>
+	<value>作成時</value>
+	<returns>作成時</returns>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.UpdatedUserId">
+	<summary>更新ユーザーID</summary>
+	<value>更新ユーザーID</value>
+	<returns>更新ユーザーID</returns>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.UpdatedDate">
+	<summary>更新日</summary>
+	<value>更新日</value>
+	<returns>更新日</returns>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO.UpdatedTime">
+	<summary>更新時間</summary>
+	<value>更新時間</value>
+	<returns>更新時間</returns>
+</member><member name="T:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO">
+	<summary>
+ ボディマスタ表示用VO
+ </summary>
+	<remarks>
+ ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Voに定義を置いているが
+ 共通プロジェクトに移してもOK
+ </remarks>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.bufRead">
+	<summary>
+ 読み取ったエクセルデータのインスタンス参照.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.RowCnt">
+	<summary>
+ 有効行数を返す.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.ColumnCnt">
+	<summary>
+ 有効列数を返す.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.#ctor(System.String,System.Int32)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="fileName">読み込むエクセルファイルのパスを指定</param>
+	<param name="aColCnt">有効読み込み列数</param>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.mainProcess">
+	<summary>
+ ファイル読み込みメイン.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.Common.ExcelRead.read">
+	<summary>
+ エクセルファイル読み込み実装.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Master.KengenSearchConditionVo.m_shainNo">
+	<summary>ユーザーID</summary>
+</member><member name="F:Master.KengenSearchConditionVo.m_shainName">
+	<summary>ユーザー名</summary>
+</member><member name="F:Master.KengenSearchConditionVo.m_buka">
+	<summary>部課</summary>
+</member><member name="F:Master.KengenSearchConditionVo.m_site">
+	<summary>サイト</summary>
+</member><member name="F:Master.KengenSearchConditionVo.m_competent">
+	<summary>区分</summary>
+</member><member name="P:Master.KengenSearchConditionVo.ShainNo">
+	<summary>
+ ユーザーID
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.KengenSearchConditionVo.ShainName">
+	<summary>
+ ユーザー名
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.KengenSearchConditionVo.Buka">
+	<summary>
+ 部課
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.KengenSearchConditionVo.Site">
+	<summary>
+ サイト
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.KengenSearchConditionVo.Competent">
+	<summary>
+ 区分
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Master.KengenSearchConditionVo">
+	<summary>
+ マスター一覧用検索条件
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster02.getNo(System.String,System.String)">
+	<summary>
+ 登録の連番を取得する
+ </summary>
+	<returns>該当車系-符号下現在に最大の番号</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<remarks>該当車系-符号下現在に最大の番号</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster02.insertCheck">
+	<summary>
+ 登録前入力などのチェック
+ </summary>
+	<returns>True:チェックOK;False:チェックNG</returns>
+	<remarks>登録前入力などのチェック</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster02.doubleDataExist(System.String,System.String,System.String,System.String)">
+	<summary>
+ 同じデータ存在チェック
+ </summary>
+	<returns>True:同じデータは存在する;False:同じデータは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strPhase">キーの3－フェーズ</param>
+	<param name="strName">キーの4－イベント</param>
+	<remarks>同じデータ存在チェックするかどうかチェックする(二つPCで同時に登録時エラー発生を防ぐため)</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster02.checkProcess(System.String,System.String,System.String)">
+	<summary>
+ 同じ車系-符号-イベントのチェック
+ </summary>
+	<returns>True:同じ車系-符号-イベントは存在する;False:同じ車系-符号-イベントは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strName">キーの3－イベント</param>
+	<remarks>同じ車系-符号-イベントは存在するかどうかのチェック</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster02.checkExist(System.String,System.String,System.String)">
+	<summary>
+ データベース上同じデータの存在チェック
+ </summary>
+	<returns>True:同じ車系-符号-イベントは存在する;False:同じ車系-符号-イベントは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strHYOJIJUN_NO">キーの3－連番</param>
+	<remarks>データベース上同じデータ存在するかどうかチェックする</remarks>
+</member><member name="T:Master.frm6KaihatufugouMaster02">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Master.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:Master.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:Master.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="M:Master.frm6KaihatufugouMaster03.updateCheck">
+	<summary>
+ 更新前入力などのチェック
+ </summary>
+	<returns>True:チェックOK;False:チェックNG</returns>
+	<remarks>更新前入力などのチェック</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster03.doubleDataExist(System.String,System.String,System.String,System.String)">
+	<summary>
+ 同じデータ存在チェック
+ </summary>
+	<returns>True:同じデータは存在する;False:同じデータは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strPhase">キーの3－フェーズ</param>
+	<param name="strName">キーの4－イベント</param>
+	<remarks>同じデータ存在チェックするかどうかチェックする(二つPCで同時に登録時エラー発生を防ぐため)</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster03.checkProcess(System.String,System.String,System.String)">
+	<summary>
+ 同じ車系-符号-イベントのチェック
+ </summary>
+	<returns>True:同じ車系-符号-イベントは存在する;False:同じ車系-符号-イベントは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strName">キーの3－イベント</param>
+	<remarks>同じ車系-符号-イベントは存在するかどうかのチェック</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster03.getNo(System.String,System.String)">
+	<summary>
+ 登録の連番を取得する
+ </summary>
+	<returns>該当車系-符号下現在に最大の番号</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<remarks>該当車系-符号下現在に最大の番号</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster03.deleteCheck">
+	<summary>
+ 削除前イベントマスタに削除待ちのデータ存在チェック
+ </summary>
+	<returns>True:削除待ちのデータは一件以上イベントマスタに存在する;False:削除待ちのデータは全てイベントマスタに存在しない</returns>
+	<remarks> 削除前イベントマスタに削除待ちのデータ存在するかどうかチェックする(複数可能)</remarks>
+</member><member name="M:Master.frm6KaihatufugouMaster03.checkExist(System.String,System.String,System.String)">
+	<summary>
+ データベース上同じデータの存在チェック
+ </summary>
+	<returns>True:同じ車系-符号-イベントは存在する;False:同じ車系-符号-イベントは存在しない</returns>
+	<param name="strShakei">キーの1－車系</param>
+	<param name="strFugo">キーの2－符号</param>
+	<param name="strHYOJIJUN_NO">キーの3－連番</param>
+	<remarks>データベース上同じデータ存在するかどうかチェックする</remarks>
+</member><member name="T:Master.frm6KaihatufugouMaster03">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster01.GetUserIdData">
+	<summary>
+ ユーザーIDが取得して,コンボボックスに縛ります
+ </summary>
+	<returns>全てユーザーIDのデータテーブルが戻る</returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster01.GetShainData">
+	<summary>
+ ユーザー名が取得して,コンボボックスに縛ります
+ </summary>
+	<returns>全てユーザー名のデータテーブルが戻る</returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster01.GetBukaData">
+	<summary>
+ 部課が取得して,コンボボックスに縛ります
+ </summary>
+	<returns>全て部課のデータテーブルが戻る</returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster01.GetSiteData">
+	<summary>
+ サイトが取得して,コンボボックスに縛ります
+ </summary>
+	<returns>全てサイトのデータテーブルが戻る</returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.getById(System.String)">
+	<summary>
+ ログインマスタ初期化
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ M_SHISAKU_LOGIN、RHAC0650、RHAC2130、RHAC0660にユーザIDによって関係有るレコード
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.getLoginMasterById(System.String)">
+	<summary>
+ ログインマスタ初期化2
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>M_SHISAKU_LOGINにユーザIDによって関係有るレコード</returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.setPsd(System.String,Master.frm5LoginMaster02)">
+	<summary>
+ ユーザIDによってログインマストの更新画面にpsdのtextBoxの初期値を付けます
+ </summary>
+	<param name="userId">userId、ユーザID</param>
+	<param name="curForm">curForm、ログインマストの更新画面</param>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.isExist(System.String)">
+	<summary>
+  ログインマスタ存在チェック 
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ データ処理順調、レコードが有るなら、RESULT.OK
+ データ取り込みエラーの場合はRESULT.NG
+ 他の場合はRESULT.NO_DATA
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.update(System.String,System.String,System.String,System.String)">
+	<summary>
+ ログインマスタUpdate
+ </summary>
+	<param name="userId">ユーザID</param>
+	<param name="psd">パスワード</param>
+	<param name="menuSet">メニュー設定</param>
+	<param name="kengenSet">権限設定</param>
+	<returns>
+ DBに順調に更新なら、RESULT.OK
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Master.LoginMaster02.add(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ ログインマスタAdd
+ </summary>
+	<param name="userId">ユーザID</param>
+	<param name="psd">パスワード</param>
+	<param name="userKbn">ユーザ区分</param>
+	<param name="menuSet">メニュー設定</param>
+	<param name="kengenSet">権限設定</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:Master.frm51KengenMaster01.m_kengenMas">
+	<summary>ロジック</summary>
+</member><member name="M:Master.frm51KengenMaster01.frm51KengenMaster01_Load(System.Object,System.EventArgs)">
+	<summary>
+ 画面初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.cmb_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ 検索条件が入力後　または　選択後
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.btnBACK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 戻るボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.btnEND_Click(System.Object,System.EventArgs)">
+	<summary>
+ アプリケーション終了を押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.spdInfo_CellDoubleClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+	<summary>
+ SPREADで行をダブルクリックする
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.btnExcelExport_Click(System.Object,System.EventArgs)">
+	<summary>
+ excel出力ボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.Timer1_Tick(System.Object,System.EventArgs)">
+	<summary>
+ time tick
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster01.Controls_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ コンボボックスに　delete　key　press
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Master.frm51KengenMaster01">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Master.KengenMasert01.m_view">
+	<summary>ビュー</summary>
+</member><member name="F:Master.KengenMasert01.m_spCom">
+	<summary>FpSpread 共通</summary>
+</member><member name="F:Master.KengenMasert01.m_condition">
+	<summary>検索条件</summary>
+</member><member name="M:Master.KengenMasert01.#ctor(Master.frm51KengenMaster01)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="f"></param>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.InitView">
+	<summary>
+ ビューの初期化    ''' </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.SetSpreadInit">
+	<summary>
+ SPREAD初期化を設定する    ''' </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.SetSpdColProperty">
+	<summary>
+ spreadでデータ表示した後で　spread 列の設定
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetUserIdData">
+	<summary>
+ ユーザーマスタ・ユーザーIDを取得する。    ''' </summary>
+	<returns>全部ユーザーのデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetShainData">
+	<summary>
+ 社員外部インターフェース、社員マスター情報より社員名を取得する。    '''※同一ユーザーは除く。
+ </summary>
+	<returns>全部社員のデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetBukaData">
+	<summary>
+ 社員外部インターフェース、社員マスター情報より部課を設定。    '''※同一番号は除く。
+ </summary>
+	<returns>全部部課の略称のデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetSiteData">
+	<summary>
+ ユーザーマスタよりサイトを設定。    ''' ※同一番号は除く。    ''' </summary>
+	<returns>全部サイトのデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetCompetentData">
+	<summary>
+ ユーザーマスタより区分を設定。    ''' ※同一番号は除く。    ''' </summary>
+	<returns>全部区分のデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.SetDataList">
+	<summary>
+ 取得するデータを表示される
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetDataListInfo">
+	<summary>
+ 検索条件より　データを取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.SetCondition">
+	<summary>
+ 検索条件の納入
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GotoUpdate(FarPoint.Win.Spread.CellClickEventArgs)">
+	<summary>
+ spreadで　行をダブルクリックして　更新画面を移動される
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert01.GetKengenMasDisplaySql(Master.KengenSearchConditionVo)">
+	<summary>
+ 権限マスターの一覧のデータ取得するSQL RHAC0660
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Master.KengenMasert01">
+	<summary>
+ 権限マスター一覧
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Master.frm51KengenMaster02.m_kengenMas">
+	<summary>ロジック</summary>
+</member><member name="M:Master.frm51KengenMaster02.frm51KengenMaster02_Load(System.Object,System.EventArgs)">
+	<summary>
+ 画面の初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.btnEND_Click(System.Object,System.EventArgs)">
+	<summary>
+ アプリケーション終了を押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.btnBACK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 戻るボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.btnCall_Click(System.Object,System.EventArgs)">
+	<summary>
+ 更新ボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.Timer1_Tick(System.Object,System.EventArgs)">
+	<summary>
+ time tick
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.spdInfo_Change(System.Object,FarPoint.Win.Spread.ChangeEventArgs)">
+	<summary>
+ spread情報がチェッジ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.Controls_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ コンボボックスに　delete key press
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.spdInfo_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ spreadに　delete key press
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.frm51KengenMaster02.cmbMENU_SelectedValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ メニューの選択がチェッジ
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Master.frm51KengenMaster02">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Master.KengenMasert02.m_view">
+	<summary>ビュー</summary>
+</member><member name="F:Master.KengenMasert02.items">
+	<summary>FpSpread 列項目</summary>
+</member><member name="F:Master.KengenMasert02.m_spCom">
+	<summary>FpSpread 共通</summary>
+</member><member name="F:Master.KengenMasert02.m_Shonin">
+	<summary>承認用ポップアップ部課機能追加用</summary>
+</member><member name="F:Master.KengenMasert02.m_Nittei">
+	<summary>日程管理ツールの権限用</summary>
+</member><member name="F:Master.KengenMasert02.m_OrderSheet">
+	<summary>オーダーシートの権限用</summary>
+</member><member name="M:Master.KengenMasert02.#ctor(Master.frm51KengenMaster02)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="f"></param>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.InitView">
+	<summary>
+ ビューの初期化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.UpdateButtonClick">
+	<summary>
+ 更新ボタンを押す
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.KinoBind(FarPoint.Win.Spread.ChangeEventArgs)">
+	<summary>
+ 「画面」項目を選択したら、機能bindを更新する
+ </summary>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.MenuChange">
+	<summary>
+ メニューをチェッジしたら システム使用権限の内容をクリアする 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.UpdateCheck">
+	<summary>
+ 更新ボタンを押して　チェックする
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.Update">
+	<summary>
+ DBへ更新
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.SetSpreadInit">
+	<summary>
+ SPREAD初期化を設定する
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetMenuProgram">
+	<summary>
+ メニュープログラム名を取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetProgram(System.String)">
+	<summary>
+ メニュー以外プログラム名を取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetKINO(System.String)">
+	<summary>
+ 機能のデータを取得する
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetKINOForApprove(System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="sw">0:コードから名称　1:名称からコード</param>
+	<param name="strBukaInfo">部課コードまたは部課名称</param>
+	<returns>部課コードまたは部課名称の配列</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.SetMenuBind">
+	<summary>
+ 「メニュー」コンボボックスの初期化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.SetUserInit">
+	<summary>
+ 該当するユーザーのメニューとシステム使用権限を設定する。
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetUserLoginInfo">
+	<summary>
+ 指定のユーザーのログインマスター情報
+ </summary>
+	<returns>指定ユーザーのログイン情報のデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.GetDataListInfo(System.Boolean)">
+	<summary>
+ ユーザーの権限情報を取得する
+ </summary>
+	<param name="isMenu"></param>
+	<returns>指定ユーザーの権限情報のデータテーブル</returns>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.SetValueInit">
+	<summary>
+ データはspreadまたはメニューコンボボックスへ設定する
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.KengenMasert02.spdInfo_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ spread で　delete KeyDown 選択セールがブランクを設定する
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Master.KengenMasert02">
+	<summary>
+ 権限マスター一覧
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Master.frm5LoginMaster01">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.KaihatsuFugo">
+	<summary>
+ 選択中の開発符号.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.BodyName">
+	<summary>
+ 選択中のボディー名
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.#ctor(System.String,System.String,FarPoint.Win.Spread.FpSpread)">
+	<summary>
+ コンストラクタ.
+ </summary>
+	<param name="aKaihatuFugo">初期表示する開発符号を指定</param>
+	<param name="aBodyName">初期表示するボディー名を指定</param>
+	<param name="aSheetView">データ設定用のスプレッド</param>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.Initialize_SetTag">
+	<summary>
+ スプレッドにタグを設定する.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SetItemToCmbKaihatuFugo(System.Windows.Forms.ComboBox@)">
+	<summary>
+ 開発符号コンボボックスのアイテム設定.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SetItemToCmbBodyName(System.Windows.Forms.ComboBox@)">
+	<summary>
+ ボディー名コンボボックスのアイテム設定.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SelectBodyMST(System.String,System.String)">
+	<summary>
+ ボディーマスタからデータを取得
+ </summary>
+	<param name="aKaihatuFugo">開発符号.</param>
+	<param name="aBodyName">ボディー名.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SelectXVLFileData">
+	<summary>
+ CATIA情報管理テーブルからXVLファイルデータを取得
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.DeleteBodyMST(System.String,System.String,System.Boolean)">
+	<summary>
+ DBから開発符号、ボディー名称を指定して削除を行う.
+ </summary>
+	<param name="aKaihatuFugo">開発符号を指定してください.</param>
+	<param name="aBodyName">ボディー名称を指定してださい.</param>
+	<param name="aConfirmMsg">削除確認メッセージ表示可否 true:表示 false:非表示</param>
+	<returns>削除対象データを返す.</returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.DeleteConfirm(Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO)">
+	<summary>
+ 削除前データ存在チェック.
+ </summary>
+	<param name="aArg"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.InsertBodyMST">
+	<summary>
+ DB登録処理.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.RegistConfirm(System.Collections.Generic.List{Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO})">
+	<summary>
+ 登録前DBチェック
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SetSpreadHeader(System.Boolean)">
+	<summary>
+ スプレッドにヘッダー情報を付加、VOに設定するヘッダー情報を作成.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SetSpreadData(System.Collections.Generic.List{Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO})">
+	<summary>
+ スプレッドのデータセット.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.SelectRegistKaihatuFugoList">
+	<summary>
+ 登録対象
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.WriteToExcel">
+	<summary>
+ エクセル出力.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.ReadFromExcel">
+	<summary>
+ ファイル読み込み.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Logic.BodyMSTMainteSubject.GetFilePath">
+	<summary>
+ ファイルパスを取得するダイアログを表示.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Master.frm5LoginMaster02.toUpdateLoginMaster">
+	<summary>
+ 追加或いは更新機能
+ </summary>
+	<returns>
+ ログインマスタに存在、DBに更新正常なら、RESULT.OK
+ ログインマスタに存在しません、DBに追加正常なら、RESULT.OK
+ DB処理エラーの場合、RESULT.NG
+ </returns>
+	<remarks></remarks>
+</member><member name="T:Master.frm5LoginMaster02">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Impl.BodyMSTMainteImpl.SelectBodyList(Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO)">
+	<summary>
+ 未決リストの作成
+ </summary>
+	<param name="aArg"></param>
+	<returns></returns>
+	<remarks>
+ 専用品なのでInterfaceは作成していません.
+ クラスのサフィックスImplはほかの構成と合わせるためについけています。
+ </remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Impl.BodyMSTMainteImpl.InsertBodyList(System.Collections.Generic.List{Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO})">
+	<summary>
+ ボディーマスタへの登録
+ </summary>
+	<param name="paramVo"></param>
+	<remarks>
+ 開発符号、ボディ名ごとに登録処理を行いたい場合はこのメソッドを使用する.
+ Dao.Vo.BodyMSTMainteVOリストの開発符号、ボディ名はすべて一致していないといけない.
+ </remarks>
+</member><member name="M:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Impl.BodyMSTMainteImpl.DeleteBodyList(Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Vo.BodyMSTMainteVO)">
+	<summary>
+ ボディーテーブルから開発符号、ボディー名称をキーにレコードを削除する.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Master.ShisakuBuhinMSTMaintenance.BodyMSTMainte.Dao.Impl.BodyMSTMainteImpl">
+	<summary>
+ 未決リストを作成する.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27D1C542-BF21-4134-8008-E62C51223A8F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ShisakuCommon</RootNamespace>
+    <AssemblyName>ShisakuCommon</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ShisakuCommon.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ShisakuCommon.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>ShisakuCommon.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>ShisakuCommon.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EBom.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EBom.Excel, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Release\EBom.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Excel, Version=3.0.2023.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.SpreadWrapperJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External-Bin\Net\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DateUtil.vb" />
+    <Compile Include="Db\EBom\Dao\AsARPF04Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsBUHIN01Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsGKPSM10PDao.vb" />
+    <Compile Include="Db\EBom\Dao\AsKPSM10PDao.vb" />
+    <Compile Include="Db\EBom\Dao\AsORPF32Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsORPF57Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsORPF60Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsORPF61Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsPAPF14Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsPARTSPDao.vb" />
+    <Compile Include="Db\EBom\Dao\AsPRPF02Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsARPF04DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsBUHIN01DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsGKPSM10PDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsKPSM10PDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsORPF32DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsORPF57DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsORPF60DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsORPF61DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsPAPF14DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsPARTSPDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsPRPF02DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuTokubetsuOrikomiAlartDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuTsukurikataDaoImpl .vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MSyukeiCodeDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MUserMailAddressDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0530DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0533DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0551DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0553DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0700DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0702DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\AsSKMSDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0703DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1910DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1920DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1930DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1940DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TExclusiveControlBlockDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TExclusiveControlEventDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\THoyouBuhinEditKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\THoyouBuhinEditDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\THoyouEventDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\THoyouSekkeiTantoDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\THoyouSekkeiTantoSoubiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBlockSekkeikaTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditBaseDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditEbomKanshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditEbomKanshiTsuchishoDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditEbomKanshiZairyouDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditGousyaKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditGousyaTmp3DDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditGousyaTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiGousyaTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditInstlBaseDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditInstlDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditInstlEbomKanshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditTmp3DDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinEditTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventBaseKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventBaseSeisakuIchiranDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventBaseTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventEbomKanshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventKanseiKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventKanseiRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventSoubiKaiteiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventSoubiRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockEbomKanshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockInstlEbomKanshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockTsuchiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiErrorDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiGousyaGroupDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiKaiteiBlockDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiShutuzuJisekiInputDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiShutuzuOrikomiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiShutuzuJisekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiTeiseiGousyaDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiTeiseiKihonDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTelNoDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditInsuDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditInsuRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditPatternDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditPatternRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinSelectDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanEventMitoshiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanExclusiveControlEventDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanEventDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanBuhinEditDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanExclusiveControlBuhinDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanKanazaiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSeisakuDaisuDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiBuhinFunctionDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiBuhinRirekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiGousyaDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSettelBuhinDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiListcodeDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanTankaDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanTukurikataDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanZaimuJisekiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TYosanSetteiBuhinTmpDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuTokubetsuOrikomiAlartDao.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuTsukurikataDao.vb" />
+    <Compile Include="Db\EBom\Dao\MSyukeiCodeDao.vb" />
+    <Compile Include="Db\EBom\Dao\MUserMailAddressDao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0530Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0533Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0551Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0553Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0700Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0702Dao.vb" />
+    <Compile Include="Db\EBom\Dao\AsSKMSDao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0703Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1910Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1920Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1930Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1940Dao.vb" />
+    <Compile Include="Db\EBom\Dao\TExclusiveControlBlockDao.vb" />
+    <Compile Include="Db\EBom\Dao\TExclusiveControlEventDao.vb" />
+    <Compile Include="Db\EBom\Dao\THoyouBuhinEditDao.vb" />
+    <Compile Include="Db\EBom\Dao\THoyouBuhinEditKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\THoyouEventDao.vb" />
+    <Compile Include="Db\EBom\Dao\THoyouSekkeiTantoDao.vb" />
+    <Compile Include="Db\EBom\Dao\THoyouSekkeiTantoSoubiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBlockSekkeikaTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditBaseDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditEbomKanshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditEbomKanshiTsuchishoDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditEbomKanshiZairyouDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditGousyaKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditGousyaTmp3DDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditGousyaTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiGousyaTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditInstlBaseDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditInstlDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditInstlEbomKanshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditTmp3DDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinEditTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiBuhinTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventBaseKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventBaseSeisakuIchiranDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventBaseTmpDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventEbomKanshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventKanseiKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventKanseiRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventSoubiKaiteiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventSoubiRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockEbomKanshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockInstlEbomKanshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockTsuchiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiErrorDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiGousyaGroupDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiKaiteiBlockDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiShutuzuJisekiInputDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiShutuzuOrikomiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiShutuzuJisekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiTeiseiGousyaDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiTeiseiKihonDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTelNoDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditInsuRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditInsuDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditPatternRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditPatternDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinSelectDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanEventDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanBuhinEditRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanEventMitoshiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanExclusiveControlBuhinDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanExclusiveControlEventDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanKanazaiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSeisakuDaisuDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiBuhinFunctionDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiBuhinRirekiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiGousyaDao.vb" />
+    <Compile Include="Db\EBom\Dao\TyosanSetteiListcodeDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanSetteiBuhinDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanTankaDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanTukurikataDao.vb" />
+    <Compile Include="Db\EBom\Dao\TYosanZaimuJisekiDao.vb" />
+    <Compile Include="Db\EBom\Exclusion\THoyouEventExclusion.vb" />
+    <Compile Include="Db\EBom\Exclusion\TYosanEventExclusion.vb" />
+    <Compile Include="Db\EBom\Vo\AsARPF04Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsBUHIN01Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsGKPSM10PVo.vb" />
+    <Compile Include="Db\EBom\Vo\AsKPSM10PVo.vb" />
+    <Compile Include="Db\EBom\Vo\AsORPF32Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsORPF57Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsORPF60Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsORPF61Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsPAPF14Vo.vb" />
+    <Compile Include="Db\EBom\Vo\ASPartsPriceListVo.vb" />
+    <Compile Include="Db\EBom\Vo\AsPARTSPVo.vb" />
+    <Compile Include="Db\EBom\Vo\AsPRPF02Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\MShisakuSoubiVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0430VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0530VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0532VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0533VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0551VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0552VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac0553VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac1500VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\Rhac1560VoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\THoyouSekkeiTantoVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TSeisakuIchiranHdVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuBuhinEditVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuBuhinKouseiVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuBuhinVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuEventBaseSeisakuIchiranVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuEventBaseVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuEventSoubiVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuSekkeiBlockInstlVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuSekkeiBlockMemoVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuSekkeiBlockSoubiVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuSekkeiBlockVoHelper.vb" />
+    <Compile Include="Db\EBom\Vo\MBlockCheckInformationVo.vb" />
+    <Compile Include="Db\EBom\Vo\MSeisakuEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\MSeisakuLinkGousyaVo.vb" />
+    <Compile Include="Db\EBom\Vo\MSeisakuLinkKoujiVo.vb" />
+    <Compile Include="Db\EBom\Vo\MSeisakuLinkYosanVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuTokubetsuOrikomiAlartVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuTsukurikataVo.vb" />
+    <Compile Include="Db\EBom\Vo\MUserMailAddressVo.vb" />
+    <Compile Include="Db\EBom\Vo\PARTSPGVo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0040Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0580Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac2110Vo.vb" />
+    <Compile Include="Db\EBom\Vo\TExclusiveControlBlockVo.vb" />
+    <Compile Include="Db\EBom\Vo\TExclusiveControlEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\TFuncBuhinShisakuVo.vb" />
+    <Compile Include="Db\EBom\Vo\TFuncEventPhaseVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouBuhinEditKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouBuhinEditVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouExclusiveControlTantoVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouSekkeiTantoSoubiVo.vb" />
+    <Compile Include="Db\EBom\Vo\THoyouSekkeiTantoVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuEventGousyaBlockPriceVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuEventGousyaKataPriceRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuEventGousyaKataPriceVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuEventGousyaPriceRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuEventGousyaPriceVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuExclusiveControlHakouNoVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuHakouHdVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuHakouLogVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuIchiranBaseVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuIchiranKanseiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuIchiranOpkoumokuVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuIchiranWbVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuTokubetuOrikomiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSeisakuWbSoubiShiyouVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBlockSekkeikaTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditEbomKanshiTsuchishoVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditEbomKanshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditEbomKanshiZairyouVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditGousyaTmp3DVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiGousyaTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditInstlEbomKanshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditTmp3DVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiBuhinTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventBaseKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventBaseSeisakuIchiranVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventBaseTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventEbomKanshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventKanseiKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventKanseiRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventSoubiKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventSoubiRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockEbomKanshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockInstlEbomKanshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockTsuchiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiGousyaGroupVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiShutuzuJisekiInputVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiShutuzuOrikomi.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiShutuzuJisekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTelNoVo.vb" />
+    <Compile Include="Db\EBom\Vo\MSyukeiCodeVo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0530Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0533Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0551Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0553Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0700Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0702Vo.vb" />
+    <Compile Include="Db\EBom\Vo\AsSKMSVo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0703Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1860Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1910Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1920Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1930Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1940Vo.vb" />
+    <Compile Include="Db\EBom\Vo\RHAC2210Vo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditBaseVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditGousyaKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditGousyaTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditInstlBaseVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditInstlVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditKaiteiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditTmpVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinEditVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiErrorVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiKaiteiBlockVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiTeiseiGousyaVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiTeiseiKihonVo.vb" />
+    <Compile Include="Db\EBom\Vo\TSyukeiCodeVo.vb" />
+    <Compile Include="Db\EBom\Vo\TValueDevVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinSelectVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanEventMitoshiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanExclusiveControlEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanExclusiveControlBuhinVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditInsuVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditInsuRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditPatternRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanBuhinEditPatternVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSeisakuDaisuVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiBuhinFunctionVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiBuhinRirekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiGousyaVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiListcodeVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanSetteiBuhinVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanTankaVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanTukurikataVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanKanazaiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TYosanZaimuJisekiVo.vb" />
+    <Compile Include="Db\EBom\Vo\Zspf10Vo.vb" />
+    <Compile Include="Db\HoyouDao.vb" />
+    <Compile Include="Db\Impl\HoyouDaoImpl.vb" />
+    <Compile Include="Db\Impl\YosanDaoImpl.vb" />
+    <Compile Include="Db\Kosei\Vo\Helper\MAuthorityUserVoHelper.vb" />
+    <Compile Include="Db\RecordNotFoundException.vb" />
+    <Compile Include="Db\ShisakuDbException.vb" />
+    <Compile Include="Db\Sql\Expression.vb" />
+    <Compile Include="Db\Sql\ISqlExpressionEvaluator.vb" />
+    <Compile Include="Db\Sql\SqlCDataEncloser.vb" />
+    <Compile Include="Db\Sql\SqlXmlAnalyzer.vb" />
+    <Compile Include="Db\DaoEachFeature.vb" />
+    <Compile Include="Db\DaoEachTable.vb" />
+    <Compile Include="Db\DbAccessHelper.vb" />
+    <Compile Include="Db\EBom\Exclusion\TShisakuEventExclusion.vb" />
+    <Compile Include="Db\EBom\Vo\Helper\TShisakuEventVoHelper.vb" />
+    <Compile Include="Db\Impl\DaoEachTableImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0610DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1500DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventKanseiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuFBuhinDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0610Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1500Dao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventKanseiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventSoubiDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventSoubiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuBuhinKouseiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventBaseDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuListcodeDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuBuhinKouseiDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventBaseDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuFBuhinDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuListcodeDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockInstlDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockInstlDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1750DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac2130DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockMemoDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockSoubiShiyouDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiGousyaDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1750Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac2130Dao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockMemoDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockSoubiDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockSoubiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuSekkeiBlockDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuTehaiKihonDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuSekkeiBlockSoubiShiyouDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiGousyaDao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuTehaiKihonDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuKaihatufugoDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuKengenDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuLoginDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuSoubiDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\MShisakuStatusDaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0020DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0080DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0120DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0230DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0430DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0532DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0540DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0552DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0650DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0660DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1560DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac1630DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuKaihatufugoDao.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuKengenDao.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuLoginDao.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuSoubiDao.vb" />
+    <Compile Include="Db\EBom\Dao\MShisakuStatusDao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0020Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0030Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\Rhac0030DaoImpl.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0080Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0120Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0230Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0430Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0532Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0540Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0552Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0650Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac0660Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1560Dao.vb" />
+    <Compile Include="Db\EBom\Dao\Rhac1630Dao.vb" />
+    <Compile Include="Db\EBom\Dao\TShisakuEventDao.vb" />
+    <Compile Include="Db\EBom\Dao\Impl\TShisakuEventDaoImpl.vb" />
+    <Compile Include="Db\EBom\EBomDaoEachTable.vb" />
+    <Compile Include="Db\EBom\EBomDbClient.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuKaihatufugoVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuKengenVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuLoginVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuSoubiVo.vb" />
+    <Compile Include="Db\EBom\Vo\MShisakuStatusVo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0020Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0030Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0080Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0120Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0230Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0430Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0532Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0540Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0552Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0610Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0650Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac0660Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1500Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1560Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1630Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac1750Vo.vb" />
+    <Compile Include="Db\EBom\Vo\Rhac2130Vo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinKouseiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuBuhinVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventBaseVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventKanseiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventSoubiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuEventVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuFBuhinVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuListcodeVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockInstlVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockMemoVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockSoubiShiyouVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockSoubiVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuSekkeiBlockVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiGousyaVo.vb" />
+    <Compile Include="Db\EBom\Vo\TShisakuTehaiKihonVo.vb" />
+    <Compile Include="Db\HashSetPerThread.vb" />
+    <Compile Include="Db\Impl\DaoEachFeatureImpl.vb" />
+    <Compile Include="Db\Kosei\Dao\Impl\MAuthorityDaoImpl.vb" />
+    <Compile Include="Db\Kosei\Dao\Impl\MAuthorityUserDaoImpl.vb" />
+    <Compile Include="Db\Kosei\Dao\Impl\MUserDaoImpl.vb" />
+    <Compile Include="Db\Kosei\Dao\MAuthorityDao.vb" />
+    <Compile Include="Db\Kosei\Dao\MAuthorityUserDao.vb" />
+    <Compile Include="Db\Kosei\Dao\MUserDao.vb" />
+    <Compile Include="Db\Kosei\KoseiDaoEachTable.vb" />
+    <Compile Include="Db\Kosei\KoseiDbClient.vb" />
+    <Compile Include="Db\Kosei\Vo\MAuthorityUserVo.vb" />
+    <Compile Include="Db\Kosei\Vo\MAuthorityVo.vb" />
+    <Compile Include="Db\Kosei\Vo\MUserVo.vb" />
+    <Compile Include="Db\ShisakuDao.vb" />
+    <Compile Include="Db\Impl\ShisakuDaoImpl.vb" />
+    <Compile Include="Db\ShisakuDbClient.vb" />
+    <Compile Include="Db\ShisakuDbParameter.vb" />
+    <Compile Include="Db\Sql\ShisakuSqlAnalyzer.vb" />
+    <Compile Include="Db\SqlUtil.vb" />
+    <Compile Include="Db\Sql\SqlBindAnalyzer.vb" />
+    <Compile Include="Db\Sql\SqlExpressionEvaluator.vb" />
+    <Compile Include="Db\TableExclusion.vb" />
+    <Compile Include="Db\YosanDao.vb" />
+    <Compile Include="EzUtil.vb" />
+    <Compile Include="mdlCommon.vb" />
+    <Compile Include="Ui\Access\Impl\AbstractSpreadControlAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\SpreadComboBoxCellAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\SpreadTextCellAccessor.vb" />
+    <Compile Include="Ui\CursorUtil.vb" />
+    <Compile Include="Ui\ShisakuInputSupport.vb" />
+    <Compile Include="Ui\ExcelCommon.vb" />
+    <Compile Include="Db\TableExclusionException.vb" />
+    <Compile Include="LoginInfo.vb" />
+    <Compile Include="ShisakuDate.vb" />
+    <Compile Include="Ui\FormUtil.vb" />
+    <Compile Include="Ui\InputWatcher.vb" />
+    <Compile Include="Ui\ShisakuEnabler.vb" />
+    <Compile Include="Ui\ShisakuExcel.vb" />
+    <Compile Include="Ui\ShisakuFormUtil.vb" />
+    <Compile Include="Ui\Spd\Action\ActionUtil.vb" />
+    <Compile Include="Ui\Spd\Action\ExcelCtrlDownArrowAction.vb" />
+    <Compile Include="Ui\Spd\Action\ExcelCtrlLeftArrowAction.vb" />
+    <Compile Include="Ui\Spd\Action\ExcelCtrlRightArrowAction.vb" />
+    <Compile Include="Ui\Spd\Action\ExcelCtrlUpArrowAction.vb" />
+    <Compile Include="Ui\Spd\Action\Undo\DeleteDataOnlyUndoAction.vb" />
+    <Compile Include="Ui\Spd\Action\Undo\UndoUtil.vb" />
+    <Compile Include="Ui\Spd\ShisakuSpreadUtil.vb" />
+    <Compile Include="Ui\Spd\SpreadBorderFactory.vb" />
+    <Compile Include="Ui\Spd\SpreadCellAxisLocator.vb" />
+    <Compile Include="Ui\Spd\SpreadImeConfig.vb" />
+    <Compile Include="Ui\Spd\Event\SpreadRightClickEvent.vb" />
+    <Compile Include="Ui\Spd\SpreadToolTip.vb" />
+    <Compile Include="Ui\Spd\SpreadUtil.vb" />
+    <Compile Include="Ui\Access\ControlAccessor.vb" />
+    <Compile Include="Ui\Access\ErrorControl.vb" />
+    <Compile Include="Ui\Valid\Impl\AbstractBaseValidator.vb" />
+    <Compile Include="Ui\Valid\ErrorController.vb" />
+    <Compile Include="Ui\Valid\IllegalInputException.vb" />
+    <Compile Include="Ui\Access\Impl\AbstractControlAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\ComboBoxAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\DateTimePickerAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\TextBoxAccessor.vb" />
+    <Compile Include="Ui\Access\Impl\ErrorControlImpl.vb" />
+    <Compile Include="Ui\Access\Impl\ErrorSpreadControlImpl.vb" />
+    <Compile Include="Ui\Valid\Impl\AbstractValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\BaseValidatorInfo.vb" />
+    <Compile Include="Ui\Valid\Impl\EmptyValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\FromToValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\GreaterEqualDateValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\GreaterEqualValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\HankakuValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\InArrayValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\LessEqualDateValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\LessEqualValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\MaxLengthByteValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\NumericValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\RangeLengthByteValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\RangeValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\ValidateCollaboratorImpl.vb" />
+    <Compile Include="Ui\Valid\Impl\ValidateOperationImpl.vb" />
+    <Compile Include="Ui\Valid\Impl\RequiredValidator.vb" />
+    <Compile Include="Ui\Valid\Impl\ValidatorMessage.vb" />
+    <Compile Include="Ui\Valid\Impl\ZenkakuValidator.vb" />
+    <Compile Include="Ui\Valid\SpreadValidator.vb" />
+    <Compile Include="Ui\Valid\ValidateCollaborator.vb" />
+    <Compile Include="Ui\Valid\ValidateOperation.vb" />
+    <Compile Include="Ui\Valid\BaseValidator.vb" />
+    <Compile Include="Ui\Valid\Validator.vb" />
+    <Compile Include="Ui\Valid\IValidator.vb" />
+    <Compile Include="Ui\Valid\ValidatorUtil.vb" />
+    <Compile Include="Util\IndexedList.vb" />
+    <Compile Include="Util\Grouping\VoGroupingRule.vb" />
+    <Compile Include="Util\Grouping\VoGroupingLocator.vb" />
+    <Compile Include="Util\LabelValue\ILabelValueExtraction.vb" />
+    <Compile Include="Util\LabelValue\LabelValueComparer.vb" />
+    <Compile Include="Util\LabelValue\LabelValueExtracter.vb" />
+    <Compile Include="Util\LabelValue\LabelValueLocator.vb" />
+    <Compile Include="Util\LabelValue\LabelValueMessenger.vb" />
+    <Compile Include="Util\LabelValue\LabelValueVo.vb" />
+    <Compile Include="Util\Observable.vb" />
+    <Compile Include="Util\Observer.vb" />
+    <Compile Include="ShisakuComFunc.vb" />
+    <Compile Include="Ui\Spd\SpreadCommon.vb" />
+    <Compile Include="DataSqlCommon.vb" />
+    <Compile Include="StringUtil.vb" />
+    <Compile Include="ThreadExceptionHandler.vb" />
+    <Compile Include="mdlShisakuGlobal.vb" />
+    <Compile Include="mdlShisakuMsg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShisakuException.vb" />
+    <Compile Include="Util\Grouping\VoGrouping.vb" />
+    <Compile Include="Util\OptionFilter\clsOptionFilter.vb" />
+    <Compile Include="Util\OptionFilter\clsOptionFilterCommon.vb" />
+    <Compile Include="Util\OptionFilter\clsOptionFilterEntity.vb" />
+    <Compile Include="Util\OptionFilter\clsOptionFilterVo.vb" />
+    <Compile Include="Util\OptionFilter\frmOptionFilter.designer.vb">
+      <DependentUpon>frmOptionFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Util\OptionFilter\frmOptionFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoUtil.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Util\OptionFilter\frmOptionFilter.resx">
+      <DependentUpon>frmOptionFilter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

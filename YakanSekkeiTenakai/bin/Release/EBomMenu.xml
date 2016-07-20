@@ -1,0 +1,422 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBomMenu
+</name>
+</assembly>
+<members>
+<member name="P:EBomMenu.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:EBomMenu.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:EBomMenu.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="M:EBomMenu.EBomMenuApplication.Main(System.String[])">
+	<summary>
+ メインメソッド
+ </summary>
+	<param name="args">実行時引数</param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.EBomMenuApplication.InitApplication">
+	<summary>
+ ｱﾌﾟﾘｹｰｼｮﾝの初期化
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.EBomMenuApplication.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.EBomMenuApplication.GetUserCompetent(System.String,System.Int32@)">
+	<summary>
+ ユーザーマスタ取得
+ </summary>
+	<param name="userId">ユーザーID</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.EBomMenuApplication">
+	<summary>
+ EBOMメニューメインクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.mdlWin32Api.FindWindow(System.String,System.String)">
+	<summary>
+ 指定された文字列と一致するクラス名とウィンドウ名を持つトップレベルウィンドウ
+ （ 親を持たないウィンドウ）のハンドルを返します。
+ この関数は、子ウィンドウは探しません。検索では、大文字小文字は区別されません。
+ </summary>
+	<param name="lpClassName">
+ NULL で終わる文字列へのポインタか、クラスアトムを指定します。
+ クラスアトムを指定する場合は、RegisterClass 関数または RegisterClassEx 関数の呼び出しにより作成したものを使用します。
+ lpClassName パラメータの下位ワードにアトムを格納し、上位ワードに 0 を格納します。 
+ 文字列を指定する場合は、ウィンドウクラスの名前を指定します。
+ クラス名には、RegisterClass 関数または RegisterClassEx 関数で登録した名前か、
+ 定義済みのコントロールクラス名を指定できます。 
+ </param>
+	<param name="lpWindowName">
+ ウィンドウ名（ ウィンドウのタイトル）が入った NULL で終わる文字列へのポインタを指定します。
+ NULL を指定すると、あらゆるウィンドウ名が該当するものとみなされます。 
+ </param>
+	<returns>関数が成功すると、指定したクラス名とウィンドウ名を持つウィンドウのハンドルが返ります。</returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.mdlWin32Api.SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 指定されたウィンドウへメッセージを送信します.
+ </summary>
+	<param name="hWnd">メッセージを送信するウィンドウ</param>
+	<param name="wMsg">メッセージID</param>
+	<param name="wParam">パラメーター1</param>
+	<param name="lParam">パラメーター2</param>
+	<returns>メッセージIDにより異なるため,MSDNのメッセージIDを参照.</returns>
+	<remarks>メッセージ処理の結果が返ります。この戻り値の意味は、送信されたメッセージにより異なります。</remarks>
+</member><member name="M:EBomMenu.mdlWin32Api.ShowWindow(System.IntPtr,System.Int32)">
+	<summary>
+ 指定されたウィンドウの表示状態を設定します。
+ </summary>
+	<param name="hWnd">
+ ウィンドウのハンドルを指定します。
+ </param>
+	<param name="nCmdShow">
+ ウィンドウの表示方法を指定します。
+ アプリケーションがほかのプログラムから 構造体を渡して起動された場合、
+ 初めて ShowWindow 関数を呼び出したときには、このパラメータは無視されます。
+ 構造体が渡されていない場合、ShowWindow 関数を初めて呼び出すときには、
+ WinMain 関数の nCmdShow パラメータで取得した値を指定してください。
+ </param>
+	<returns>ウィンドウが以前から表示されていた場合は、0 以外の値が返ります。</returns>
+	<remarks></remarks>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_HIDE">
+	<summary>
+ ウィンドウを非表示にし、他のウィンドウをアクティブにします。 
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWNORMAL">
+	<summary>
+ ウィンドウをアクティブにして表示します。
+ ウィンドウが最小化または最大化されていた場合は、
+ その位置とサイズを元に戻します。初めてウィンドウを表示するときには、このフラグを指定してください。 
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWMINIMIZED">
+	<summary>
+ ウィンドウをアクティブにして、最小化します。 
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWMAXIMIZED">
+	<summary>
+ ウィンドウをアクティブにして、最大化します。 
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWNOACTIVATE">
+	<summary>
+ ウィンドウを直前の位置とサイズで表示します。 
+ SW_SHOWNORMAL と似ていますが、この値を指定した場合は、
+ ウィンドウはアクティブ化されません。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOW">
+	<summary>
+ ウィンドウをアクティブにして、現在の位置とサイズで表示します。 
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_MINIMIZE">
+	<summary>
+ ウィンドウを最小化し、Z オーダーが次のトップレベルウィンドウをアクティブにします。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWMINNOACTIVE">
+	<summary>
+ ウィンドウを最小化します。 
+ SW_SHOWMINIMIZEDと似ていますが、この値を指定した場合は、
+ ウィンドウはアクティブ化されません。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_SHOWNA">
+	<summary>
+ ウィンドウを現在のサイズと位置で表示します。 
+ SW_SHOW と似ていますが、この値を指定した場合は、
+ ウィンドウはアクティブ化されません。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.SW_RESTORE">
+	<summary>
+ ウィンドウをアクティブにして表示します。最小化または最大化されていたウィンドウは、
+ 元の位置とサイズに戻ります。最小化されているウィンドウを元に戻す場合は、
+ このフラグをセットします。 
+ </summary>
+</member><member name="M:EBomMenu.mdlWin32Api.AnimateWindow(System.IntPtr,System.Int32,System.Int32)">
+	<summary>
+ ウィンドウを表示したり隠したりするとき、アニメーションを使った特殊効果を出すことができます。
+ アニメーションには、ロール（巻き取り）アニメーションとスライドアニメーションの 2 種類があります。
+ </summary>
+	<param name="hwnd">アニメーション化するウィンドウのハンドルを指定します。</param>
+	<param name="dwTime">アニメーションの再生時間を、ミリ秒単位で指定します。通常、アニメーションは 200 ミリ秒間再生されます。</param>
+	<param name="dwFlags">アニメーションの種類を指定します。</param>
+	<returns>関数が成功すると、0 以外の値が返ります。</returns>
+	<remarks></remarks>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_HOR_POSITIVE">
+	<summary>
+ ウィンドウを左から右に向かってアニメートすることによって、表示したり隠したりします。
+ このフラグは、ロールアニメーションにも、スライドアニメーションにも使えます。AW_CENTER フラグと同時にセットすると、このフラグは無視されます。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_HOR_NEGATIVE">
+	<summary>
+ ウィンドウを右から左に向かってアニメートすることによって、表示したり隠したりします。
+ このフラグは、ロールアニメーションにも、スライドアニメーションにも使えます。AW_CENTER フラグと同時にセットすると、このフラグは無視されます。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_VER_POSITIVE">
+	<summary>
+ ウィンドウを上から下に向かってアニメートすることによって、表示したり隠したりします。
+ ロールアニメーションにも、スライドアニメーションにも使えます。AW_CENTER フラグと同時にセットすると、このフラグは無視されます。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_VER_NEGATIVE">
+	<summary>
+ ウィンドウを下から上に向かってアニメートすることによって、表示したり隠したりします。ロールアニメーションにも、スライドアニメーションにも使えます。
+ AW_CENTER フラグと同時にセットすると、このフラグは無視されます。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_CENTER">
+	<summary>
+ AW_HIDE フラグをセットしたときは、ウィンドウを中心に向かって折り畳むようにして隠します。
+ また、AW_HIDE フラグをセットしないときは、ウィンドウを中心から徐々に広げるように表示します。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_HIDE">
+	<summary>
+ ウィンドウを隠します。既定値では、ウィンドウを表示します。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_ACTIVATE">
+	<summary>
+ ウィンドウをアクティブにします。AW_HIDE フラグと同時にセットしないでください。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_SLIDE">
+	<summary>
+ スライドアニメーションを使います。既定値では、ロールアニメーションを使います。
+ AW_CENTER フラグを同時にセットすると、このフラグは無視されます。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.AW_BLEND">
+	<summary>
+ フェードイン効果を使います。dwTime パラメータは、ウィンドウを表示するときに使うアニメーションのフレーム数を示します。
+ AW_HIDE フラグと同時にセットしないでください。
+ </summary>
+</member><member name="F:EBomMenu.mdlWin32Api.RECT.left">
+	<summary>四角形の左上隅の x 座標を指定します。</summary>
+</member><member name="F:EBomMenu.mdlWin32Api.RECT.top">
+	<summary>四角形の左上隅の y 座標を指定します。</summary>
+</member><member name="F:EBomMenu.mdlWin32Api.RECT.right">
+	<summary>四角形の右下隅の x 座標を指定します。</summary>
+</member><member name="F:EBomMenu.mdlWin32Api.RECT.bottom">
+	<summary>四角形の右下隅の y 座標を指定します。</summary>
+</member><member name="T:EBomMenu.mdlWin32Api.RECT">
+	<summary>
+ RECT 構造体は、四角形の左上隅と右下隅の座標を定義します。
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.mdlWin32Api.GetWindowRect(System.IntPtr,EBomMenu.mdlWin32Api.RECT@)">
+	<summary>
+ 指定されたウィンドウの左上端と右下端の座標をスクリーン座標で取得します。
+ スクリーン座標は、表示画面の左上端が (0,0) となります。
+ </summary>
+	<param name="hwnd">ウィンドウのハンドルを指定します。</param>
+	<param name="lpRect">構造体へのポインタを指定します。
+ この構造体の left メンバと top メンバに、スクリーン座標でのウィンドウ左上端の座標が入ります。
+ right メンバと bottom メンバには、ウィンドウの右下端の座標が入ります。 </param>
+	<returns>関数が成功すると、0 以外の値が返ります。</returns>
+	<remarks></remarks>
+</member><member name="F:EBomMenu.EBomMenuGlobalvar.g_menu_msg">
+	<summary>メッセージサービスオブジェクト</summary>
+</member><member name="T:EBomMenu.EBomMenuGlobalvar">
+	<summary>
+ EBOMメニュー グローバル定義モジュール
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.clsEBomMenuSql.GetUserMasSql">
+	<summary>
+ ユーザー取得SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.clsEBomMenuSql">
+	<summary>
+ EBOMメニューで使用するSQL定義
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBomMenu.frmEBomMenu.GS2_PATH">
+	<summary>GS2ﾊﾟｽ</summary>
+</member><member name="F:EBomMenu.frmEBomMenu.ZUMEN_SETTSU_ADDR">
+	<summary>図面設通サブシステムパス</summary>
+</member><member name="F:EBomMenu.frmEBomMenu.SBK_ADDR">
+	<summary>スバル文書管理システムパス</summary>
+</member><member name="F:EBomMenu.frmEBomMenu.m_programFilesPath">
+	<summary>ﾌﾟﾛｸﾞﾗﾑﾌｧｲﾙｽﾞへのﾊﾟｽ</summary>
+</member><member name="M:EBomMenu.frmEBomMenu.frmEBomMenu_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Form Closing
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.frmEBomMenu_Load(System.Object,System.EventArgs)">
+	<summary>
+ Form Load
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.miExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 終了メニュー
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.miTopMost_Click(System.Object,System.EventArgs)">
+	<summary>
+ 常に最前面に表示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnKanrihyo_Click(System.Object,System.EventArgs)">
+	<summary>
+ 統合開発管理表ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSRaku2_Click(System.Object,System.EventArgs)">
+	<summary>
+ 部品構成編集ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnStruct_Click(System.Object,System.EventArgs)">
+	<summary>
+ 部品構成表示ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSekMenu_Click(System.Object,System.EventArgs)">
+	<summary>
+ 設構書作成ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnMakeHyoudai_Click(System.Object,System.EventArgs)">
+	<summary>
+ 表題欄パネル
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnAlProgress_Click(System.Object,System.EventArgs)">
+	<summary>
+ 進捗管理表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSyainEnt_Click(System.Object,System.EventArgs)">
+	<summary>
+ 社員情報登録
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnZumenSettsu_Click(System.Object,System.EventArgs)">
+	<summary>
+ 図面設通サブシステム
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSbk_Click(System.Object,System.EventArgs)">
+	<summary>
+ スバル文書管理システム
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSekAdmin_Click(System.Object,System.EventArgs)">
+	<summary>
+ 設構書管理者ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnSeisanProgress_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生産図進捗管理ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnFhiCalendar_Click(System.Object,System.EventArgs)">
+	<summary>
+ カレンダー登録ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.btnChangeEnv_Click(System.Object,System.EventArgs)">
+	<summary>
+ 接続環境設定ツール
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.NotifyIcon1_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ タスクトレイ マウス押下時
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.InitView">
+	<summary>
+ 画面の初期化
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.setEnv">
+	<summary>
+ 環境の表示
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.SetIconTransparent">
+	<summary>
+ 各種ｱｲｺﾝｲﾒｰｼﾞ背景色の透明化
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.MakeBkColorTransparent(System.Windows.Forms.PictureBox,System.Windows.Forms.Button)">
+	<summary>
+ ボタン上のPictureオブジェクトの背景色を透明化する
+ </summary>
+	<param name="pic">Pictureオブジェクト</param>
+	<param name="btn">Buttonオブジェクト</param>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.SetWindowPos">
+	<summary>
+ ｳｨﾝﾄﾞｳ位置設定
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBomMenu.frmEBomMenu.execTool(System.String,System.String,System.String)">
+	<summary>
+ ツール実行
+ </summary>
+	<param name="appName">ｱﾌﾟﾘｹｰｼｮﾝ名</param>
+	<param name="appPath">EXEﾌｧｲﾙのﾌﾙﾊﾟｽ</param>
+	<param name="param">ﾊﾟﾗﾒｰﾀｰ</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBomMenu.frmEBomMenu">
+	<summary>
+ EBOMメニューフォーム
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

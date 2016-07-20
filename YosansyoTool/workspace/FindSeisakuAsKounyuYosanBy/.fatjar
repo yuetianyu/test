@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 29 13:02:04 JST 2015
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=FindSeisakuAsKounyuYosanBy.jar
+manifest.mergeall=true
+manifest.mainclass=main.FindSeisakuAsKounyuYosanBy
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

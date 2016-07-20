@@ -1,0 +1,318 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBom.Data
+</name>
+</assembly>
+<members>
+<member name="F:EBom.Data.MdbAccess.DB_PROVIDER">
+	<summary>DBプロバイダー</summary>
+</member><member name="F:EBom.Data.MdbAccess.DB_COMMAND_TIMEOUT">
+	<summary>DBコマンドタイムアウト値</summary>
+</member><member name="M:EBom.Data.MdbAccess.#ctor(System.String)">
+	<summary>コンストラクタ</summary>
+</member><member name="T:EBom.Data.MdbAccess">
+	<summary>
+ ACCESS 用データベースアクセスクラス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Data.AppLogUtil.m_connectionStr">
+	<summary>登録先DB接続文字列</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_appNo">
+	<summary>アプリケーション№</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_devSign">
+	<summary>開発符号</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_sessionNo">
+	<summary>セッション№</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_funcNo">
+	<summary>ファンクション№</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_errCd">
+	<summary>エラーコード</summary>
+</member><member name="F:EBom.Data.AppLogUtil.m_refInfo">
+	<summary>参考情報</summary>
+</member><member name="M:EBom.Data.AppLogUtil.#ctor(System.String,System.String)">
+	<summary>
+ コンストラクタ
+ </summary>
+	<param name="connectionStr">登録先DB接続文字列</param>
+	<param name="appNo">アプリケーション№</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.AppLogUtil.Write(EBom.Data.APP_LOG_STATUS)">
+	<summary>
+ ログの書き込みを行います.
+ なお, ファンクション№, エラーコード, 参考情報は出力ごとに値がクリアされます.
+ </summary>
+	<param name="logStatus">ステータス</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.AppLogUtil.GetLogStatusStr(EBom.Data.APP_LOG_STATUS)">
+	<summary>
+ ログステータス定数からログステータス文字を取得します.
+ </summary>
+	<param name="logStatus"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.AppLogUtil.InsAppLogSql">
+	<summary>
+ ログ書き込み用SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.AppLogUtil.GetUserName">
+	<summary>
+ ユーザー名を返します.
+ </summary>
+	<returns></returns>
+	<remarks>
+ アプリケーションフレームワークを無効にした場合,
+ My.User.InitializeWithWindowsUser() を呼び出さないと
+ ユーザー名が空で取得されます.
+ また, ドメイン名を含むため, ドメイン名を含まない形で
+ ユーザー名を返すようにラッピングした関数です.
+ </remarks>
+</member><member name="P:EBom.Data.AppLogUtil.connectionStr">
+	<summary>
+ 登録先DB接続文字列
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.appNo">
+	<summary>
+ アプリケーション№
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.DevSign">
+	<summary>
+ 開発符号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.SessionNo">
+	<summary>
+ セッション№
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.FuncNo">
+	<summary>
+ ファンクション№
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.ErrCd">
+	<summary>
+ エラーコード
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AppLogUtil.RefInfo">
+	<summary>
+ 参考情報
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Data.AppLogUtil">
+	<summary>
+ EBOMアプリケーションログ
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Data.APP_LOG_STATUS.NONE">
+	<summary>なし(機能ログなどはこれを指定する)</summary>
+</member><member name="F:EBom.Data.APP_LOG_STATUS.START">
+	<summary>開始ログ</summary>
+</member><member name="F:EBom.Data.APP_LOG_STATUS.END">
+	<summary>終了ログ</summary>
+</member><member name="T:EBom.Data.APP_LOG_STATUS">
+	<summary>
+ アプリケーションステータス
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EBom.Data.SqlAccess.DB_PROVIDER">
+	<summary>DBプロバイダー</summary>
+</member><member name="F:EBom.Data.SqlAccess.DB_COMMAND_TIMEOUT">
+	<summary>DBコマンドタイムアウト値</summary>
+</member><member name="F:EBom.Data.SqlAccess.SERVER_DATE">
+	<summary>サーバー上の日付を取得するSQL文字列</summary>
+</member><member name="F:EBom.Data.SqlAccess.SERVER_DATE_NUM">
+	<summary>サーバー上の日付を取得するSQL文字列(区切りなしの数値として)</summary>
+</member><member name="F:EBom.Data.SqlAccess.SERVER_TIME">
+	<summary>サーバー上の時刻を取得するSQL文字列</summary>
+</member><member name="F:EBom.Data.SqlAccess.SERVER_TIME_NUM">
+	<summary>サーバー上の時刻を取得するSQL文字列(区切りなしの数値として)</summary>
+</member><member name="M:EBom.Data.SqlAccess.#ctor(System.String)">
+	<summary>コンストラクタ</summary>
+</member><member name="M:EBom.Data.SqlAccess.InsertAppLog(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ アプリケーションログ追加
+ </summary>
+	<param name="hostName">コンピューター名</param>
+	<param name="userName">ユーザー名</param>
+	<param name="appNo">アプリケーション番号</param>
+	<param name="sessionNo">セッション番号</param>
+	<param name="status">ステータス(AppLogStatusクラスに定数が定義されています)</param>
+	<param name="funcNo">ファンクション№</param>
+	<param name="errCode">エラー№</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.SqlAccess.InsertAppLogSql">
+	<summary>
+ アプリケーションログ追加用SQL
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:EBom.Data.SqlAccess">
+	<summary>
+ SQLサーバー用
+ データベースアクセスクラス
+ </summary>
+	<remarks></remarks>
+	<history>
+     2009/06/17    T.Hirasawa    新規作成
+ </history>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_dbProvider">
+	<summary>データベースプロバイダ名</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_dbFactory">
+	<summary>プロバイダーファクトリーオブジェクト</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_connectionString">
+	<summary>接続文字列</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_cn">
+	<summary>コネクションオブジェクト</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_cmd">
+	<summary>前回使用したコマンドオブジェクト</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_trans">
+	<summary>トランザクションオブジェクト</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_dbParams">
+	<summary>パラメーターリスト</summary>
+</member><member name="F:EBom.Data.AbstractDbAccess.m_cmdTimeOut">
+	<summary>コマンドタイムアウト値(秒)</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.#ctor">
+	<summary>コンストラクタ</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.Finalize">
+	<summary>デストラクタ</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.Initialize">
+	<summary>クラスの初期化</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.Open">
+	<summary>データベースを開きます</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.Close">
+	<summary>データベースへの接続を閉じます</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.ChangeDatabase(System.String)">
+	<summary>開いている接続の現在のデータベースを変更します</summary>
+	<param name="databaseName">使用する接続のデータベースの名前を指定します</param>
+	<remarks></remarks>
+</member><member name="M:EBom.Data.AbstractDbAccess.BeginTransaction">
+	<summary>トランザクションを開始します</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.BeginTransaction(System.Data.IsolationLevel)">
+	<summary>トランザクションを開始します</summary>
+	<param name="isolationLevel">トランザクションの分離レベルを設定します</param>
+</member><member name="M:EBom.Data.AbstractDbAccess.Commit">
+	<summary>トランザクションをコミットします</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.Rollback">
+	<summary>トランザクションをロールバックします</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.ExecuteNonQuery(System.String)">
+	<summary>SQLステートメントを実行します</summary>
+	<param name="sql">実行するSQLステートメント</param>
+	<returns>影響を受けた行数</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.ExecuteNonQuery">
+	<summary>前回使用したコマンドを使用してSQLステートメントを実行します</summary>
+	<returns>影響を受けた行数</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.ExecuteReader(System.String)">
+	<summary>SQLステートメントを実行し, DbDataReader を取得します</summary>
+	<param name="sql">実行するSQLステートメント</param>
+	<returns>結果</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.ExecuteReader">
+	<summary>前回使用したコマンドを使用してSQLステートメントを実行し, DbDataReader を取得します</summary>
+	<returns>結果</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.Fill(System.String,System.Data.DataTable)">
+	<summary>SQLステートメントを実行し, DataTable を取得します</summary>
+	<param name="sql">実行するSQLステートメント</param>
+	<param name="dt">レコードを格納するための DataTable</param>
+	<returns>正常に追加された行数</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.Fill(System.String,System.Data.DataSet,System.String)">
+	<summary>SQLステートメントを実行し, DataSet を取得します</summary>
+	<param name="sql">実行するSQLステートメント</param>
+	<param name="ds">レコードを格納するための DataSet</param>
+	<param name="srcTable">テーブルマップに使用するソーステーブルの名前</param>
+	<returns>正常に追加された行数</returns>
+</member><member name="M:EBom.Data.AbstractDbAccess.SetCommand(System.Data.Common.DbCommand,System.String)">
+	<summary>コマンドオブジェクトを設定します</summary>
+	<param name="cmd">設定するコマンドオブジェクト</param>
+	<param name="sql">コマンドオブジェクトに設定するSQLステートメント</param>
+</member><member name="M:EBom.Data.AbstractDbAccess.AddParameter(System.String,System.Object)">
+	<summary>パラメーターを追加します</summary>
+	<param name="paramName">パラメーター名</param>
+	<param name="value">値</param>
+	<remarks>
+ ここで追加されたパラメーターは, コマンドオブジェクト生成時に使用されます.
+ なお,SQLステートメント実行後,パラメーターは自動的に削除されます.
+ </remarks>
+</member><member name="M:EBom.Data.AbstractDbAccess.AddParameter(System.String,System.Object,System.Data.DbType)">
+	<summary>パラメーターを追加します</summary>
+	<param name="paramName">パラメーター名</param>
+	<param name="value">値</param>
+	<remarks>
+ ここで追加されたパラメーターは, コマンドオブジェクト生成時に使用されます.
+ なお,SQLステートメント実行後,パラメーターは自動的に削除されます.
+ </remarks>
+</member><member name="M:EBom.Data.AbstractDbAccess.ClearParameters">
+	<summary>追加されているパラメーターをすべて削除します</summary>
+</member><member name="M:EBom.Data.AbstractDbAccess.DebugParameter">
+	<summary>
+ パラメーターデバッグ表示
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EBom.Data.AbstractDbAccess.DbProvider">
+	<summary>データベースプロバイダ名</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.ConnectionString">
+	<summary>接続を開くために使用する文字列を取得または設定します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.ConnectionTimeOut">
+	<summary>試行を中断してエラー生成するまでの接続の確立時に待機する時間を取得します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.Database">
+	<summary>接続が開いてから現在のデータベースの名前を取得するか、接続が開く前に接続文字列に指定されたデータベース名を取得します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.DataSource">
+	<summary>接続するデータベースサーバーの名前を取得します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.ServerVersion">
+	<summary>接続しているサーバーのバージョンを表す文字列を取得します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.CommandTimeOut">
+	<summary>SQLコマンドタイムアウト値(秒)を取得または設定します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.State">
+	<summary>接続の状態を取得します</summary>
+</member><member name="P:EBom.Data.AbstractDbAccess.HasTransaction">
+	<summary>トランザクション中であるかの状態を取得します</summary>
+</member><member name="T:EBom.Data.AbstractDbAccess">
+	<summary>データベースアクセス抽象クラス</summary>
+	<remarks>
+ データベースへのアクセスを提供する抽象クラスです.
+ 
+ 他のプロジェクトで使用する場合,このクラスを派生させ,
+ 派生先のコンストラクタにて初期化を行ってください.
+ 
+ ＜例＞
+ <code>
+     Public NotInheritable Class DbAccess
+         Inherits AbstractDbAccess
+ 
+         Public Sub New()
+             Me.DbProvider = Settings.Provider              'DBプロバイダ
+             Me.ConnectionStr = Settings.ConnectionStr      '接続文字列
+             Me.CommandTimeOut = Settings.CommandTimeOut    'SQLコマンドタイムアウト値(秒)
+             Me.Initialize()                                '初期化処理
+         End Sub
+     End Class
+ </code>
+ 
+ プロバイダに依存しないようにするため DbProviderFactory クラスを使用しています.
+ このクラス内で例外処理はしていません.例外処理は各処理にて作成してください.
+ </remarks>
+	<history>
+     2009/06/17    T.Hirasawa    新規作成
+ </history>
+</member>
+</members>
+</doc>

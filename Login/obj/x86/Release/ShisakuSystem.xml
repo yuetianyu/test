@@ -1,0 +1,299 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShisakuSystem
+</name>
+</assembly>
+<members>
+<member name="P:Login.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:Login.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="T:Login.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member><member name="T:Login.frm2NORMALmenu01">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm2NORMALmenu02.btnYosanLink_Click(System.Object,System.EventArgs)">
+	<summary>
+ 予算・工事指令№紐付け画面呼出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm2NORMALmenu02.btnSearchCost_Click(System.Object,System.EventArgs)">
+	<summary>
+ 試作コスト検索画面呼出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm2NORMALmenu02.btnSearch01_Click(System.Object,System.EventArgs)">
+	<summary>
+ 過去購入品検索画面呼出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm2NORMALmenu02.btnYosannShoTool_Click(System.Object,System.EventArgs)">
+↓↓↓2015/01/28 予算書ツールを追加 TES)劉 ADD BEGIN
+ <summary>
+ 予算書ツール画面呼出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm2NORMALmenu02.btnEND_Click(System.Object,System.EventArgs)">
+↑↑↑2015/01/28 予算書ツールを追加 TES)劉 ADD END
+
+</member><member name="M:Login.frm50ADMINmenu.frm50ADMINmenu_Load(System.Object,System.EventArgs)">
+	<summary>
+ 画面初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.btnKengenMaster_Click(System.Object,System.EventArgs)">
+	<summary>
+ 権限マスタボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.btnLoginMaster_Click(System.Object,System.EventArgs)">
+	<summary>
+ ログインボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.btnEND_Click(System.Object,System.EventArgs)">
+	<summary>
+ アプリケーション終了ボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.Timer1_Tick(System.Object,System.EventArgs)">
+	<summary>
+ timer tick
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.frm50ADMINmenu_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+	<summary>
+ form 　閉じる
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm50ADMINmenu.btnBodyMaster_Click(System.Object,System.EventArgs)">
+	<summary>
+ ボディマスタ呼び出し
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Login.frm50ADMINmenu">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.frm49LoginADMIN_Load(System.Object,System.EventArgs)">
+	<summary>
+ 画面初期化
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.btnLogin_Click(System.Object,System.EventArgs)">
+	<summary>
+ ログインボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.btnEND_Click(System.Object,System.EventArgs)">
+	<summary>
+ アプリケーション終了ボタンを押す
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.miExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ miExit click
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.frm49LoginADMIN_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+	<summary>
+ form 閉じる
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.Timer_Tick(System.Object,System.EventArgs)">
+	<summary>
+ time tick
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.UserCheck">
+	<summary>
+ ログインid、パスウード、権限のチェック
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.IsValid">
+	<summary>
+ 画面項目の必要のチェック
+ </summary>
+	<returns>RESULT</returns>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.txtPW_Enter(System.Object,System.EventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:Login.frm49LoginADMIN.txtLOGIN_Enter(System.Object,System.EventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Login.frm49LoginADMIN">
+	<summary>
+ 管理者用のログイン
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Login.frm4NORMALmenu04">
+↓↓2014/12/23 4試作１課メニュー (TES)張 ADD BEGIN
+
+</member><member name="M:Login.LoginLogic.checkUser(System.String)">
+	<summary>
+ユーザマスタに存在チェック' 
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ 検収通過ならRESULT.OK
+ 検収不通過ならRESULT.NG
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.checkAuthorityUser(System.String)">
+	<summary>
+権限（ユーザ－別）に存在チェック
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ 機能ID1は"MENU"、権限区分が"1"なら、LOGIN_AUTHORITY.USE_SEKKEI
+ 機能ID1は"MENU"、権限区分が"2"なら、LOGIN_AUTHORITY.USE_SISAKU
+ 機能ID1は"MENU"、権限区分が"0"なら、LOGIN_AUTHORITY.USE_NODATE
+ 他の場合はLOGIN_AUTHORITY.USE_NG
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.checkAuthority(System.String)">
+	<summary>
+ 権限に存在チェック
+ </summary>
+	<param name="userKbn">ユーザID或いは社員番号</param>
+	<returns>
+ 権限は"1"、メニュー大区分は"10"、competentは"1"なら、LOGIN_AUTHORITY.USE_SEKKEI
+ 権限は"1"、メニュー大区分は"10"、competentは"1"なら、LOGIN_AUTHORITY.USE_SISAKU
+ 他の場合はLOGIN_AUTHORITY.USE_NG
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.checkLogin(System.String)">
+	<summary>
+ Loginの判断
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ ユーザチェック不通過なら、LOGIN_AUTHORITY.USE_NG
+ 権限（ユーザ－別）チェックは
+ 　　　　　LOGIN_AUTHORITY.USE_SEKKEI
+ 　　或いはLOGIN_AUTHORITY.USE_SISAKU
+ 　　或いはLOGIN_AUTHORITY.USE_NODATE
+ なら、権限（ユーザ－別）チェックの結果をreturn
+ 権限チェックは
+ 　　　　　LOGIN_AUTHORITY.USE_SEKKEI
+ 　　或いはLOGIN_AUTHORITY.USE_SISAKU
+ なら、権限チェックはの結果ををreturn 
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.checkKurumaKengen(System.String)">
+	<summary>
+  車系/開発符号マスター権限（ユーザ－別）チェック 
+ </summary>
+	<param name="userId">ユーザID或いは社員番号</param>
+	<returns>
+ APP_NOは"1000"、機能ID1は"MASTER006"、機能ID2は"OPEN"、権限区分は"1"なら、RESULT.OK
+ データ取り込みエラーの場合はRESULT.NG
+ 他の場合はRESULT.NO_DATA
+ </returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.GetCurrUserInfo(System.String)">
+	<summary>
+ 登録されたユーザーの部課名称を取得する
+ </summary>
+	<param name="userId">ユーザーID</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.IsExistsApprovalData(System.String)">
+	<summary>
+	</summary>
+	<param name="userId"></param>
+	<returns>承認権限を持つ部課コード</returns>
+	<remarks></remarks>
+</member><member name="M:Login.LoginLogic.IsVersion">
+	<summary>
+	</summary>
+	<returns>バージョン</returns>
+	<remarks></remarks>
+</member><member name="T:Login.frm3NORMALmenu02">
+	<summary>
+ 部品構成表示画面
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Login.frm01Login._startMode">
+	<summary>
+ スタートモード（0:通常スタート　1:レジストリのRunからの起動）
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm01Login.CanDbConnect">
+	<summary>
+ DB接続チェック
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Login.frm01Login.SetCurrentVersionRun">
+	<summary>
+ パソコン起動時に実行するようにレジストリに書き込む
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm01Login.DeleteCurrentVersionRun">
+	<summary>
+ レジストリの値を削除する
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Login.frm01Login.compareCreatedTime">
+	<summary>
+ バージョンチェックを行う。
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="LblCurrPGId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblCurrPGId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="LblCurrPGId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCurrPGId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 5</value>
+  </data>
+  <data name="LblCurrPGId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LblCurrPGId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 12</value>
+  </data>
+  <data name="LblCurrPGId.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="LblCurrPGId.Text" xml:space="preserve">
+    <value>PG-ID：XXXXXXXX</value>
+  </data>
+  <data name="&gt;&gt;LblCurrPGId.Name" xml:space="preserve">
+    <value>LblCurrPGId</value>
+  </data>
+  <data name="&gt;&gt;LblCurrPGId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCurrPGId.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblCurrPGId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblCurrBukaName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblCurrBukaName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="LblCurrBukaName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCurrBukaName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 17</value>
+  </data>
+  <data name="LblCurrBukaName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LblCurrBukaName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 15</value>
+  </data>
+  <data name="LblCurrBukaName.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="LblCurrBukaName.Text" xml:space="preserve">
+    <value>(部課：SKE1         )</value>
+  </data>
+  <data name="&gt;&gt;LblCurrBukaName.Name" xml:space="preserve">
+    <value>LblCurrBukaName</value>
+  </data>
+  <data name="&gt;&gt;LblCurrBukaName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCurrBukaName.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblCurrBukaName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblDateNow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblDateNow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblDateNow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="LblDateNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblDateNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 2</value>
+  </data>
+  <data name="LblDateNow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LblDateNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 12</value>
+  </data>
+  <data name="LblDateNow.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="LblDateNow.Text" xml:space="preserve">
+    <value>YYYY/MM/DD</value>
+  </data>
+  <data name="&gt;&gt;LblDateNow.Name" xml:space="preserve">
+    <value>LblDateNow</value>
+  </data>
+  <data name="&gt;&gt;LblDateNow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblDateNow.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblDateNow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblCurrUserId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblCurrUserId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="LblCurrUserId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCurrUserId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 2</value>
+  </data>
+  <data name="LblCurrUserId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LblCurrUserId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="LblCurrUserId.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="LblCurrUserId.Text" xml:space="preserve">
+    <value>(ID    ：ABCDEFGH)</value>
+  </data>
+  <data name="&gt;&gt;LblCurrUserId.Name" xml:space="preserve">
+    <value>LblCurrUserId</value>
+  </data>
+  <data name="&gt;&gt;LblCurrUserId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCurrUserId.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblCurrUserId.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblTimeNow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblTimeNow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTimeNow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="LblTimeNow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblTimeNow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 18</value>
+  </data>
+  <data name="LblTimeNow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LblTimeNow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="LblTimeNow.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="LblTimeNow.Text" xml:space="preserve">
+    <value>HH:MM:DD</value>
+  </data>
+  <data name="&gt;&gt;LblTimeNow.Name" xml:space="preserve">
+    <value>LblTimeNow</value>
+  </data>
+  <data name="&gt;&gt;LblTimeNow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTimeNow.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;LblTimeNow.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 12pt, style=Bold</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 0</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>365, 31</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>出図取込確認ダイアログ</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 32</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Panel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Panel2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnBACK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnBACK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 11.25pt</value>
+  </data>
+  <data name="btnBACK.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnBACK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBACK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 3</value>
+  </data>
+  <data name="btnBACK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="btnBACK.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="btnBACK.Text" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="&gt;&gt;btnBACK.Name" xml:space="preserve">
+    <value>btnBACK</value>
+  </data>
+  <data name="&gt;&gt;btnBACK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBACK.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnBACK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 32</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHozon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnHozon.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 11.25pt</value>
+  </data>
+  <data name="btnHozon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHozon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 73</value>
+  </data>
+  <data name="btnHozon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="btnHozon.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="btnHozon.Text" xml:space="preserve">
+    <value>反映</value>
+  </data>
+  <data name="&gt;&gt;btnHozon.Name" xml:space="preserve">
+    <value>btnHozon</value>
+  </data>
+  <data name="&gt;&gt;btnHozon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHozon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHozon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="spdShutuzuTorikomi.AccessibleDescription" xml:space="preserve">
+    <value>spdShutuzuTorikomi, Sheet1, Row 0, Column 0, 図面↓↓</value>
+  </data>
+  <data name="spdShutuzuTorikomi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="spdShutuzuTorikomi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="spdShutuzuTorikomi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
+  </data>
+  <data name="spdShutuzuTorikomi.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <metadata name="spdShutuzuTorikomi_Sheet1.SerializeModels" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="spdShutuzuTorikomi_Sheet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 8</value>
+  </metadata>
+  <assembly alias="FarPoint.Win.SpreadJ" name="FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+  <data name="spdShutuzuTorikomi_Sheet1.Models" type="FarPoint.Win.Spread.SheetView+DocumentModels, FarPoint.Win.SpreadJ">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;root class="FarPoint.Win.Spread.SheetView+DocumentModels"&gt;&lt;DataModel class="FarPoint.Win.Spread.Model.DefaultSheetDataModel" rows="3" columns="8"&gt;&lt;AutoCalculation&gt;True&lt;/AutoCalculation&gt;&lt;AutoGenerateColumns&gt;True&lt;/AutoGenerateColumns&gt;&lt;ReferenceStyle&gt;R1C1&lt;/ReferenceStyle&gt;&lt;Iteration&gt;False&lt;/Iteration&gt;&lt;MaximumIterations&gt;1&lt;/MaximumIterations&gt;&lt;MaximumChange&gt;0.001&lt;/MaximumChange&gt;&lt;SheetName&gt;Sheet1&lt;/SheetName&gt;&lt;Cells&gt;&lt;Cell row="0" column="0"&gt;&lt;Data type="System.String"&gt;図面↓↓&lt;/Data&gt;&lt;Tag type="System.String" whitespace="" /&gt;&lt;/Cell&gt;&lt;Cell row="0" column="1"&gt;&lt;Data type="System.String"&gt;ブロック&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="0" column="2"&gt;&lt;Data type="System.String"&gt;部品番号&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="0" column="3"&gt;&lt;Data type="System.String"&gt;代表品番&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="0" column="4"&gt;&lt;Data type="System.String"&gt;最新出図&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="1" column="4"&gt;&lt;Data type="System.String"&gt;改訂№&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="1" column="5"&gt;&lt;Data type="System.String"&gt;設通№&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="1" column="6"&gt;&lt;Data type="System.String"&gt;受領日&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="1" column="7"&gt;&lt;Data type="System.String"&gt;件名&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="2" column="0"&gt;&lt;Data type="System.String"&gt;表示&lt;/Data&gt;&lt;/Cell&gt;&lt;/Cells&gt;&lt;/DataModel&gt;&lt;RowHeaderDataModel class="FarPoint.Win.Spread.Model.DefaultSheetDataModel" rows="3" columns="1"&gt;&lt;AutoCalculation&gt;True&lt;/AutoCalculation&gt;&lt;AutoGenerateColumns&gt;True&lt;/AutoGenerateColumns&gt;&lt;ReferenceStyle&gt;A1&lt;/ReferenceStyle&gt;&lt;Iteration&gt;False&lt;/Iteration&gt;&lt;MaximumIterations&gt;1&lt;/MaximumIterations&gt;&lt;MaximumChange&gt;0.001&lt;/MaximumChange&gt;&lt;Cells&gt;&lt;Cell row="0" column="0"&gt;&lt;Data type="System.String" whitespace=" " /&gt;&lt;/Cell&gt;&lt;/Cells&gt;&lt;/RowHeaderDataModel&gt;&lt;ColumnHeaderDataModel class="FarPoint.Win.Spread.Model.DefaultSheetDataModel" rows="1" columns="8"&gt;&lt;AutoCalculation&gt;True&lt;/AutoCalculation&gt;&lt;AutoGenerateColumns&gt;True&lt;/AutoGenerateColumns&gt;&lt;ReferenceStyle&gt;A1&lt;/ReferenceStyle&gt;&lt;Iteration&gt;False&lt;/Iteration&gt;&lt;MaximumIterations&gt;1&lt;/MaximumIterations&gt;&lt;MaximumChange&gt;0.001&lt;/MaximumChange&gt;&lt;Cells&gt;&lt;Cell row="0" column="1"&gt;&lt;Data type="System.String"&gt;2&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="0" column="2"&gt;&lt;Data type="System.String"&gt;3&lt;/Data&gt;&lt;/Cell&gt;&lt;Cell row="0" column="3"&gt;&lt;Data type="System.String"&gt;4&lt;/Data&gt;&lt;/Cell&gt;&lt;/Cells&gt;&lt;/ColumnHeaderDataModel&gt;&lt;RowHeaderStyleModel class="FarPoint.Win.Spread.Model.DefaultSheetStyleModel" Rows="3" Columns="1"&gt;&lt;AltRowCount&gt;2&lt;/AltRowCount&gt;&lt;DefaultStyle class="FarPoint.Win.Spread.StyleInfo" Parent="RowHeaderDefault" /&gt;&lt;ConditionalFormatCollections /&gt;&lt;/RowHeaderStyleModel&gt;&lt;ColumnHeaderStyleModel class="FarPoint.Win.Spread.Model.DefaultSheetStyleModel" Rows="1" Columns="8"&gt;&lt;AltRowCount&gt;2&lt;/AltRowCount&gt;&lt;DefaultStyle class="FarPoint.Win.Spread.StyleInfo" Parent="HeaderDefault" /&gt;&lt;ConditionalFormatCollections /&gt;&lt;/ColumnHeaderStyleModel&gt;&lt;StyleModel class="FarPoint.Win.Spread.Model.DefaultSheetStyleModel" Rows="3" Columns="8"&gt;&lt;AltRowCount&gt;2&lt;/AltRowCount&gt;&lt;DefaultStyle class="FarPoint.Win.Spread.StyleInfo" Parent="DataAreaDefault" /&gt;&lt;AltRowStyles&gt;&lt;AltRowStyle Index="0" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/AltRowStyle&gt;&lt;AltRowStyle Index="1" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;Gainsboro&lt;/BackColor&gt;&lt;/AltRowStyle&gt;&lt;/AltRowStyles&gt;&lt;ColumnStyles&gt;&lt;ColumnStyle Index="0" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.ButtonCellType"&gt;&lt;ButtonColor&gt;Control&lt;/ButtonColor&gt;&lt;TextColor&gt;ControlText&lt;/TextColor&gt;&lt;DarkColor&gt;ControlDark&lt;/DarkColor&gt;&lt;LightColor&gt;ControlLightLight&lt;/LightColor&gt;&lt;ShadowSize&gt;1&lt;/ShadowSize&gt;&lt;Text&gt;表示&lt;/Text&gt;&lt;TextDown&gt;表示&lt;/TextDown&gt;&lt;TextAlign&gt;TextBottomPictTop&lt;/TextAlign&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;TwoState&gt;False&lt;/TwoState&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;ButtonColor2&gt;ButtonFace&lt;/ButtonColor2&gt;&lt;GradientMode&gt;Horizontal&lt;/GradientMode&gt;&lt;BackgroundStyle&gt;Default&lt;/BackgroundStyle&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;128&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="1" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;128&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Center&lt;/VerticalAlignment&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="2" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;128&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;HorizontalAlignment&gt;Left&lt;/HorizontalAlignment&gt;&lt;VerticalAlignment&gt;Center&lt;/VerticalAlignment&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="3" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;HorizontalAlignment&gt;Left&lt;/HorizontalAlignment&gt;&lt;VerticalAlignment&gt;Center&lt;/VerticalAlignment&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="4" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;Locked&gt;False&lt;/Locked&gt;&lt;VerticalAlignment&gt;Center&lt;/VerticalAlignment&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="5" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="6" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.DateTimeCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;GregorianCalendar&gt;Localized&lt;/GregorianCalendar&gt;&lt;DateTimeFormat&gt;ShortDate&lt;/DateTimeFormat&gt;&lt;MaximumDate&gt;12/31/9999 00:00:00&lt;/MaximumDate&gt;&lt;MaximumTime&gt;23:59:59.9999999&lt;/MaximumTime&gt;&lt;MinimumDate&gt;01/01/0001 00:00:00&lt;/MinimumDate&gt;&lt;MinimumTime&gt;00:00:00&lt;/MinimumTime&gt;&lt;SpinButton&gt;False&lt;/SpinButton&gt;&lt;DateDefault&gt;12/04/2015 14:43:45&lt;/DateDefault&gt;&lt;TimeDefault&gt;12/04/2015 14:43:45&lt;/TimeDefault&gt;&lt;EditorValue&gt;DateTime&lt;/EditorValue&gt;&lt;CalendarOkText&gt;OK&lt;/CalendarOkText&gt;&lt;CalendarCancelText&gt;キャンセル&lt;/CalendarCancelText&gt;&lt;CalendarTodayText&gt;今日&lt;/CalendarTodayText&gt;&lt;ClockNowText&gt;現在時刻&lt;/ClockNowText&gt;&lt;CalendarDayBackColor&gt;Empty&lt;/CalendarDayBackColor&gt;&lt;CalendarDayForeColor&gt;Empty&lt;/CalendarDayForeColor&gt;&lt;CalendarDayFont /&gt;&lt;CalendarWeekdayBackColor&gt;Empty&lt;/CalendarWeekdayBackColor&gt;&lt;CalendarWeekdayForeColor&gt;Empty&lt;/CalendarWeekdayForeColor&gt;&lt;CalendarWeekdayFont /&gt;&lt;CalendarYearBackColor&gt;Empty&lt;/CalendarYearBackColor&gt;&lt;CalendarYearForeColor&gt;Empty&lt;/CalendarYearForeColor&gt;&lt;CalendarYearFont /&gt;&lt;CalendarMonthBackColor&gt;Empty&lt;/CalendarMonthBackColor&gt;&lt;CalendarMonthForeColor&gt;Empty&lt;/CalendarMonthForeColor&gt;&lt;CalendarMonthFont /&gt;&lt;CalendarWeekdayHeaderDock&gt;Top&lt;/CalendarWeekdayHeaderDock&gt;&lt;CalendarWeekdayHeaderHeight&gt;0&lt;/CalendarWeekdayHeaderHeight&gt;&lt;CalendarYearHeaderDock&gt;Top&lt;/CalendarYearHeaderDock&gt;&lt;CalendarYearHeaderStyle&gt;Scroll&lt;/CalendarYearHeaderStyle&gt;&lt;CalendarYearHeaderHeight&gt;0&lt;/CalendarYearHeaderHeight&gt;&lt;CalendarMonthHeaderDock&gt;Top&lt;/CalendarMonthHeaderDock&gt;&lt;CalendarMonthHeaderStyle&gt;Scroll&lt;/CalendarMonthHeaderStyle&gt;&lt;CalendarMonthHeaderHeight&gt;0&lt;/CalendarMonthHeaderHeight&gt;&lt;CalendarSurroundingDaysColor&gt;GrayText&lt;/CalendarSurroundingDaysColor&gt;&lt;CalendarShowSurroundingDays&gt;False&lt;/CalendarShowSurroundingDays&gt;&lt;CalendarSingleLineHeader&gt;MonthFirstTop&lt;/CalendarSingleLineHeader&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;/ColumnStyle&gt;&lt;ColumnStyle Index="7" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;Locked&gt;False&lt;/Locked&gt;&lt;VerticalAlignment&gt;Center&lt;/VerticalAlignment&gt;&lt;/ColumnStyle&gt;&lt;/ColumnStyles&gt;&lt;RowStyles&gt;&lt;RowStyle Index="0" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;/RowStyle&gt;&lt;/RowStyles&gt;&lt;CellStyles&gt;&lt;CellStyle Row="0" Column="0" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="1" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Left&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="2" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Left&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="3" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;HorizontalAlignment&gt;Left&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="4" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="5" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="6" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="0" Column="7" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Font&gt;&lt;Name&gt;MS UI Gothic&lt;/Name&gt;&lt;Size&gt;9&lt;/Size&gt;&lt;Bold&gt;False&lt;/Bold&gt;&lt;CharSet&gt;1&lt;/CharSet&gt;&lt;Italic&gt;False&lt;/Italic&gt;&lt;Strikeout&gt;False&lt;/Strikeout&gt;&lt;Underline&gt;False&lt;/Underline&gt;&lt;Unit&gt;Point&lt;/Unit&gt;&lt;Vertical&gt;False&lt;/Vertical&gt;&lt;/Font&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="1" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="2" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="4" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="5" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="6" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="1" Column="7" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;BackColor&gt;#ffc0ffc0&lt;/BackColor&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;DoubleLine&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;CellType class="FarPoint.Win.Spread.CellType.TextCellType"&gt;&lt;AcceptsArrowKeys&gt;AllArrows&lt;/AcceptsArrowKeys&gt;&lt;TextOrientation&gt;TextHorizontal&lt;/TextOrientation&gt;&lt;WordWrap&gt;False&lt;/WordWrap&gt;&lt;DropDownButton&gt;False&lt;/DropDownButton&gt;&lt;ButtonAlign&gt;Right&lt;/ButtonAlign&gt;&lt;ReadOnly&gt;False&lt;/ReadOnly&gt;&lt;NullDisplay /&gt;&lt;AutoCompleteMode&gt;None&lt;/AutoCompleteMode&gt;&lt;AutoCompleteSource&gt;None&lt;/AutoCompleteSource&gt;&lt;Static&gt;False&lt;/Static&gt;&lt;StringTrim&gt;None&lt;/StringTrim&gt;&lt;CharacterCasing&gt;Normal&lt;/CharacterCasing&gt;&lt;MaxLength&gt;255&lt;/MaxLength&gt;&lt;Multiline&gt;False&lt;/Multiline&gt;&lt;ScrollBars&gt;None&lt;/ScrollBars&gt;&lt;CharacterSet&gt;Ascii&lt;/CharacterSet&gt;&lt;HotkeyPrefix&gt;None&lt;/HotkeyPrefix&gt;&lt;/CellType&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;Locked&gt;True&lt;/Locked&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="2" Column="0" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;HorizontalAlignment&gt;Center&lt;/HorizontalAlignment&gt;&lt;VerticalAlignment&gt;Bottom&lt;/VerticalAlignment&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="2" Column="1" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="2" Column="2" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="2" Column="3" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;/CellStyle&gt;&lt;CellStyle Row="2" Column="7" class="FarPoint.Win.Spread.StyleInfo"&gt;&lt;Border class="FarPoint.Win.ComplexBorder"&gt;&lt;Sides&gt;&lt;Bottom&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Bottom&gt;&lt;Left&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Left&gt;&lt;Right&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Right&gt;&lt;Top&gt;&lt;Color&gt;WindowFrame&lt;/Color&gt;&lt;Style&gt;None&lt;/Style&gt;&lt;/Top&gt;&lt;/Sides&gt;&lt;/Border&gt;&lt;/CellStyle&gt;&lt;/CellStyles&gt;&lt;ConditionalFormatCollections /&gt;&lt;/StyleModel&gt;&lt;RowAxisModel class="FarPoint.Win.Spread.Model.DefaultSheetAxisModel" defaultSize="16" orientation="Vertical" count="3"&gt;&lt;Items&gt;&lt;Item index="-1"&gt;&lt;Size&gt;16&lt;/Size&gt;&lt;/Item&gt;&lt;Item index="0"&gt;&lt;Size&gt;16&lt;/Size&gt;&lt;/Item&gt;&lt;Item index="1"&gt;&lt;Size&gt;16&lt;/Size&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;/Item&gt;&lt;Item index="2"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/RowAxisModel&gt;&lt;ColumnAxisModel class="FarPoint.Win.Spread.Model.DefaultSheetAxisModel" orientation="Horizontal" count="8"&gt;&lt;Items&gt;&lt;Item index="-1" /&gt;&lt;Item index="0"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;35&lt;/Size&gt;&lt;/Item&gt;&lt;Item index="1"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;40&lt;/Size&gt;&lt;Tag type="System.String"&gt;RIREKI&lt;/Tag&gt;&lt;/Item&gt;&lt;Item index="2"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;130&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;Tag type="System.String"&gt;RIREKI&lt;/Tag&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;Item index="3"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;130&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;Tag type="System.String"&gt;RIREKI&lt;/Tag&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;Item index="4"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;40&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;Tag type="System.String"&gt;SHISAKU_BUKA_CODE&lt;/Tag&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;Item index="5"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;89&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;Item index="6"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;80&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;Item index="7"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;170&lt;/Size&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;Tag type="System.String"&gt;SHISAKU_BLOCK_NO&lt;/Tag&gt;&lt;PageBreak&gt;False&lt;/PageBreak&gt;&lt;MergePolicy&gt;None&lt;/MergePolicy&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/ColumnAxisModel&gt;&lt;RowHeaderColumnAxisModel class="FarPoint.Win.Spread.Model.DefaultSheetAxisModel" defaultSize="35" orientation="Horizontal" count="1"&gt;&lt;Items&gt;&lt;Item index="-1"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;Size&gt;35&lt;/Size&gt;&lt;/Item&gt;&lt;Item index="0"&gt;&lt;Size&gt;45&lt;/Size&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/RowHeaderColumnAxisModel&gt;&lt;ColumnHeaderRowAxisModel class="FarPoint.Win.Spread.Model.DefaultSheetAxisModel" orientation="Vertical" count="1"&gt;&lt;Items&gt;&lt;Item index="-1"&gt;&lt;Resizable&gt;False&lt;/Resizable&gt;&lt;/Item&gt;&lt;Item index="0"&gt;&lt;Size&gt;20&lt;/Size&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/ColumnHeaderRowAxisModel&gt;&lt;RowHeaderSpanModel class="FarPoint.Win.Spread.Model.DefaultSheetSpanModel"&gt;&lt;CellRange Row="0" Column="0" RowCount="2" ColumnCount="1" /&gt;&lt;/RowHeaderSpanModel&gt;&lt;ColumnHeaderSpanModel class="FarPoint.Win.Spread.Model.DefaultSheetSpanModel" /&gt;&lt;SpanModel class="FarPoint.Win.Spread.Model.DefaultSheetSpanModel"&gt;&lt;CellRange Row="0" Column="1" RowCount="2" ColumnCount="1" /&gt;&lt;CellRange Row="0" Column="2" RowCount="2" ColumnCount="1" /&gt;&lt;CellRange Row="0" Column="4" RowCount="1" ColumnCount="4" /&gt;&lt;CellRange Row="0" Column="0" RowCount="2" ColumnCount="1" /&gt;&lt;CellRange Row="0" Column="3" RowCount="2" ColumnCount="1" /&gt;&lt;/SpanModel&gt;&lt;SelectionModel class="FarPoint.Win.Spread.Model.DefaultSheetSelectionModel" /&gt;&lt;SheetCornerStyle class="FarPoint.Win.Spread.NamedStyle" Parent="CornerDefault" /&gt;&lt;ViewportInfo class="FarPoint.Win.Spread.SpreadViewportInfo"&gt;&lt;RowPaneCount&gt;1&lt;/RowPaneCount&gt;&lt;ColumnPaneCount&gt;1&lt;/ColumnPaneCount&gt;&lt;ActiveRowPane&gt;-1&lt;/ActiveRowPane&gt;&lt;ActiveColumnPane&gt;-1&lt;/ActiveColumnPane&gt;&lt;RowPanes&gt;&lt;RowPane row="0"&gt;&lt;TopRow&gt;2&lt;/TopRow&gt;&lt;PreferredHeight&gt;-1&lt;/PreferredHeight&gt;&lt;/RowPane&gt;&lt;/RowPanes&gt;&lt;ColumnPanes&gt;&lt;ColumnPane column="0"&gt;&lt;LeftColumn&gt;1&lt;/LeftColumn&gt;&lt;PreferredWidth&gt;-1&lt;/PreferredWidth&gt;&lt;/ColumnPane&gt;&lt;/ColumnPanes&gt;&lt;/ViewportInfo&gt;&lt;NotesContainer class="FarPoint.Win.Spread.DrawingSpace.SpreadNotesContainer"&gt;&lt;Top&gt;0&lt;/Top&gt;&lt;Left&gt;0&lt;/Left&gt;&lt;Height&gt;362&lt;/Height&gt;&lt;Width&gt;780&lt;/Width&gt;&lt;Name&gt;spreadNotesContainer&lt;/Name&gt;&lt;Text /&gt;&lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;&lt;BackColor&gt;Transparent&lt;/BackColor&gt;&lt;AlignHorz&gt;Center&lt;/AlignHorz&gt;&lt;AlignVert&gt;Center&lt;/AlignVert&gt;&lt;AlphaBlendBackColor&gt;255&lt;/AlphaBlendBackColor&gt;&lt;Font /&gt;&lt;PictureTransparencyColor&gt;Empty&lt;/PictureTransparencyColor&gt;&lt;PictureTransparencyTolerance&gt;0&lt;/PictureTransparencyTolerance&gt;&lt;ShapeOutlineColor&gt;Black&lt;/ShapeOutlineColor&gt;&lt;ShapeOutlineThickness&gt;1&lt;/ShapeOutlineThickness&gt;&lt;ShapeOutlineStyle&gt;Solid&lt;/ShapeOutlineStyle&gt;&lt;RotationAngle&gt;0&lt;/RotationAngle&gt;&lt;PictureRotationAngle&gt;0&lt;/PictureRotationAngle&gt;&lt;TextRotationAngle&gt;0&lt;/TextRotationAngle&gt;&lt;Anchor&gt;0&lt;/Anchor&gt;&lt;Locked&gt;False&lt;/Locked&gt;&lt;CanRotate&gt;True&lt;/CanRotate&gt;&lt;CanPrint&gt;True&lt;/CanPrint&gt;&lt;SizeProportional&gt;False&lt;/SizeProportional&gt;&lt;CanMove&gt;None&lt;/CanMove&gt;&lt;CanSize&gt;None&lt;/CanSize&gt;&lt;Gradient class="FarPoint.Win.Spread.DrawingSpace.PSGradient"&gt;&lt;GradientStyle&gt;None&lt;/GradientStyle&gt;&lt;GradientSections&gt;&lt;GradientSection class="FarPoint.Win.Spread.DrawingSpace.GradientSection"&gt;&lt;Amount&gt;0&lt;/Amount&gt;&lt;Color&gt;#ffffffff&lt;/Color&gt;&lt;/GradientSection&gt;&lt;GradientSection class="FarPoint.Win.Spread.DrawingSpace.GradientSection"&gt;&lt;Amount&gt;0&lt;/Amount&gt;&lt;Color&gt;#ffffffff&lt;/Color&gt;&lt;/GradientSection&gt;&lt;/GradientSections&gt;&lt;/Gradient&gt;&lt;EndOfProps /&gt;&lt;AllowNoteEdit&gt;True&lt;/AllowNoteEdit&gt;&lt;/NotesContainer&gt;&lt;/root&gt;</value>
+  </data>
+  <data name="spdShutuzuTorikomi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 366</value>
+  </data>
+  <data name="spdShutuzuTorikomi.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi.Name" xml:space="preserve">
+    <value>spdShutuzuTorikomi</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi.Type" xml:space="preserve">
+    <value>FarPoint.Win.Spread.FpSpread, FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblKakunin2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblKakunin2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="lblKakunin2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 26</value>
+  </data>
+  <data name="lblKakunin2.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="lblKakunin2.Text" xml:space="preserve">
+    <value>以下の出図実績を取り込みます。</value>
+  </data>
+  <data name="lblKakunin2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblKakunin2.Name" xml:space="preserve">
+    <value>lblKakunin2</value>
+  </data>
+  <data name="&gt;&gt;lblKakunin2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKakunin2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblKakunin2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>38</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>790, 475</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAMDAAAAEAIACoJQAARgAAACAgAAABACAAqBAAAO4lAAAYGAAAAQAgAIgJAACWNgAAEBAAAAEA
+        IABoBAAAHkAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAABG6f/wBAgP8AQID/BG+g/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICA/wAA
+        AAAAAAAAAAAAAAAAAAAEb6D/BG+g/wBAgP8AQID/BG+g/wAAAAAAAAAAAAAAAAAAAAAAgID/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG6f/wRun/8AAAAAAAAAAAAA
+        AAAAgID/Bp2y/wCAgP8GnbL/AICA/wAAAAAAQID/AECA/wBAgP8AQID/AECA/wRun/8AAAAAAICA/wCA
+        gP8AgID/AICA/wadsv8AAAAAAAAAAAAAAAAEbp//BG6f/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG6f/wRu
+        n/8Ebp//AAAAAAAAAAAGnbL/AICA/wCAgP8AgID/BZex/wRun/8AQID/AECA/wBAgP8AQID/AECA/wRu
+        n/8Ebp//BZex/wCAgP8AgID/AICA/wCAgP8AAAAAAAAAAARun/8Ebp//BG6f/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAABG6f/wBAgP8Eb6D/AAAAAAWXsf8AgID/AICA/wCAgP8AgID/AICA/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AICA/wCAgP8AgID/AICA/wWXsf8AgID/BG+g/wRun/8AQID/BG6f/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAABG6f/wBAgP8AQID/BG6f/wRun/8AQID/AICA/wCAgP8AgID/AICA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/AICA/wCAgP8AgID/AICA/wBAgP8DZ53/A2ed/wBA
+        gP8AQID/BG6f/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAICA/wAAAAAAAAAABG+g/wBAgP8AQID/AECA/wBAgP8AQID/AECA/wCA
+        gP8FlK//BZSv/wqn1/8Kp9f/CqfX/wqn1/8Kp9f/CqfX/wqn1/8Kp9f/BZSv/wWUr/8AQID/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/BG+g/wAAAAAGnbL/AICA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABp2y/wCAgP8AgID/Bp2y/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wWUr/8FlK//CqfX/wqn1/8Kp9f/CqfX/wqn1/8Kp9f/CqfX/wqn1/8Kp9f/CqfX/wWU
+        r/8DX5r/AECA/wBAgP8AQID/AECA/wBAgP8AQID/BZex/wadsv8AgID/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICA/wCAgP8AgID/AICA/wBA
+        gP8AQID/AECA/wBAgP8AQID/A1+a/wqn1/8Kp9f/CqfX/wqn1/8Kq9f/CqfX/wqr1/8Kq9f/CqvX/wqn
+        1/8Kp9f/CqfX/wqn1/8DX5r/A1+a/wBAgP8AQID/AECA/wBAgP8AQID/AICA/wCAgP8AgID/AICA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZex/wWX
+        sf8AgID/AICA/wBAgP8AQID/AECA/wBAgP8DX5r/A1+a/wqn1/8Kp9f/Cq/a/wqn1/8Kq9f/Cq/a/wEK
+        /f8BCv3/Cq/a/wqv2v8Kq9f/CqfX/wqn1/8Kp9f/A1+a/wNfmv8AQID/AECA/wBAgP8AQID/AICA/wCA
+        gP8AgID/BZex/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAadsv8AgID/AICA/wCAgP8AgID/AECA/wNfmv8BDA3/AQwN/wqr1/8Kr9r/A2ed/wNn
+        nf8Lt9z/AAD//wAA//8AAP//AQr9/wNnnf8DX5r/A1+a/wqv2v8Kp9f/AQwN/wEMDf8DX5r/AECA/wCA
+        gP8AgID/AICA/wCAgP8AgID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAARun/8Ebp//AAAAAACAgP8AgID/AICA/wCAgP8AgID/AECA/wNfmv8Kp9f/AQwN/wAA
+        AP8AAAD/AAAA/wu33P8DZ53/A2ed/wAA//8AAP//A2ed/wu33P8Lt9z/AAAA/wAAAP8BDA3/AQwN/wqn
+        1/8DX5r/AICA/wCAgP8AgID/AICA/wCAgP8GnbL/AAAAAARun/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8Ebp//BG6f/wWXsf8AgID/AICA/wCAgP8AgID/AICA/wWX
+        sf8Kr9r/Cq/a/wu33P8Lt9z/C7/f/wu/3/8Lv9//A2ed/wNnnf8DZ53/A2ed/wu/3/8Lv9//C7fc/wu3
+        3P8Kr9r/Cq/a/wqr1/8Fl7H/AICA/wCAgP8AgID/AICA/wCAgP8AgID/BG+g/wRvoP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8AQID/AECA/wBAgP8AQID/AECA/wBA
+        gP8AgID/AICA/wWXsf8AAAD/AAAA/wAAAP8AAAD/AQwN/wu/3/8Mx+L/DMfi/wNnnf8Ebp//DMfi/wu/
+        3/8Lv9//AQwN/wEMDf8AAAD/AAAA/wAAAP8Fl7H/AICA/wCAgP8AQID/AECA/wBAgP8AQID/AECA/wBA
+        gP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8Ebp//AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wNnnf8Lt9z/C7fc/wvC3/8Lwt//DMfi/wvC3/8Ebp//BG6f/wBA
+        gP8AQID/BG6f/wzH4v8Lwt//C8Lf/wvC3/8Lt9z/C7fc/wqv2v8DX5r/AECA/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wRun/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAEbp//AECA/wBAgP8AQID/AECA/wBAgP8AQID/A1+a/wNnnf8Lt9z/C7/f/wzH4v8Lwt//DM/l/wzP
+        5f8Ebp//AECA/wBAgP8AQID/AECA/wzP5f8Mz+X/DMfi/wzH4v8Lv9//C7fc/wu33P8DZ53/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wRun/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAEbp//BG+g/wBAgP8AQID/AECA/wBAgP8AQID/A2ed/wu33P8Lv9//C7/f/wzH
+        4v8Mz+X/DM/l/w3X5/8Ebp//BG+g/wBAgP8AQID/BG6f/w3X5/8Mz+X/DM/l/wvC3/8Lv9//C7/f/wu3
+        3P8Kr9r/A1+a/wBAgP8AQID/AECA/wBAgP8AQID/BG+g/wRun/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG+g/wBAgP8AQID/AECA/wBAgP8AQID/C7fc/wu3
+        3P8Lv9//C7/f/wzH4v8Mz+X/DM/l/w3X5/8N3+r/BG6f/wRun/8Eb6D/BG+g/w3X5/8Mz+X/DM/l/wzH
+        4v8Lv9//C7/f/wu33P8Lt9z/A2ed/wBAgP8AQID/AECA/wBAgP8AQID/BG+g/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICA/wCAgP8AgID/AICA/wBAgP8AQID/AECA/wBA
+        gP8DZ53/C7fc/wu/3/8Lv9//AAAA/wAAAP8AAAD/AAAA/w3f6v8O5uz/Dubs/w7m7P8O5uz/Dubs/w3f
+        6v8N1+f/AAAA/wAAAP8AAAD/AAAA/wu33P8Lt9z/CqvX/wNnnf8AQID/AECA/wBAgP8AQID/AICA/wCA
+        gP8AgID/BZex/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgP8AgID/AICA/wCA
+        gP8AQID/AECA/wNnnf8DX5r/C7fc/wu/3/8Lv9//AAAA/wAAAP8AAAD/AAAA/w3f6v8O5uz/Dubs/w7s
+        7v8O5uz/Dubs/w3Z5/8N1+f/AAAA/wAAAP8AAAD/AAAA/wu/3/8Lt9z/Cq/a/wNfmv8DX5r/AECA/wCA
+        gP8AgID/AICA/wCAgP8AgID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAad
+        sv8AgID/AICA/wCAgP8AgID/AICA/wWXsf8Kr9r/C7fc/wu/3/8Lv9//AAAA//////8AAAD/AAAA/w3Z
+        5/8O5uz/Duzu/w7s7v8O7O7/Dubs/w3f6v8N1+f/AAAA//////8AAAD/AAAA/wu/3/8Lt9z/Cq/a/wqn
+        1/8Fl7H/AICA/wCAgP8AgID/AICA/wCAgP8GnbL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACAgP8GnbL/AICA/wCAgP8AgID/AECA/wNfmv8Kr9r/C7fc/wu/3/8Lv9//DMfi/wAA
+        AP8AAAD/Ddfn/w3f6v8O5uz/Dubs/w7s7v8O5uz/Dubs/w3f6v8N1+f/Ddfn/wAAAP8AAAD/DMfi/wu/
+        3/8Lt9z/Cq/a/wqr1/8DX5r/AECA/wCAgP8AgID/AICA/wCAgP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgID/AECA/wBAgP8AQID/AECA/wNfmv8Kq9f/C7fc/wu/
+        3/8Lwt//DMfi/wzP5f8N1+f/Ddfn/w3Z5/8O5uz/Dubs/w7m7P8O5uz/Dd/q/w3Z5/8N1+f/DM/l/wzP
+        5f8Lwt//C7/f/wu33P8Lt9z/CqvX/wqr1/8DX5r/AECA/wBAgP8AQID/AECA/wadsv8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANnnf8Ebp//AECA/wBAgP8AQID/AECA/wNn
+        nf8Kp9f/C7fc/wu33P8Lv9//C7/f/wzP5f8Mz+X/DM/l/w3X5/8N2ef/Dd/q/w3f6v8N2ef/Ddnn/w3X
+        5/8Mz+X/DM/l/wvC3/8Lv9//C7/f/wu33P8Lt9z/Cq/a/wqn1/8DX5r/AECA/wBAgP8AQID/AECA/wRv
+        oP8AQID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8AQID/AECA/wBA
+        gP8AQID/AECA/wNfmv8Kr9r/Cq/a/wu33P8Lv9//C7/f/wzH4v8Mz+X/DM/l/wzP5f8N1+f/Ddfn/w3X
+        5/8N1+f/Ddfn/w3X5/8Mz+X/DM/l/wzH4v8Lv9//C7fc/wu33P8Kr9r/CqvX/wqn1/8DX5r/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARu
+        n/8AQID/AECA/wBAgP8AQID/AECA/wNfmv8DX5r/Cq/a/wu33P8Lt9z/C7/f/wzH4v8Lwt//DM/l/wzP
+        5f8Mz+X/Ddfn/w3X5/8N1+f/DM/l/wzP5f8Mx+L/DMfi/wvC3/8Lv9//C7fc/wu33P8Kr9r/CqvX/wNf
+        mv8DX5r/AECA/wBAgP8AQID/AECA/wBAgP8Ebp//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAARvoP8Eb6D/AECA/wBAgP8AQID/AECA/wCAgP8Fl7H/Cq/a/wu33P8Lt9z/C7fc/wu/
+        3/8Mx+L/DMfi/wzH4v8Mz+X/DM/l/wzP5f8Mz+X/DM/l/wzH4v8Mx+L/DMfi/wzH4v8Lt9z/C7fc/wqv
+        2v8Kr9r/BZex/wWUr/8AgID/AECA/wBAgP8AQID/AECA/wRun/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgID/AICA/wCAgP8AgID/AICA/wCAgP8AQID/AECA/wNn
+        nf8Kr9r/C7fc/wu33P8Lv9//C7/f/wu/3/8Mx+L/C8Lf/wzH4v8Mx+L/C8Lf/wu/3/8Lv9//C7/f/wu3
+        3P8Lt9z/Cq/a/wNfmv8DZ53/AICA/wBAgP8AgID/AICA/wCAgP8AgID/AICA/wadsv8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGnbL/AICA/wCAgP8AgID/AICA/wCA
+        gP8AQID/A2ed/wNfmv8Kq9f/Cq/a/wu33P8DZ53/C7/f/wu/3/8Lv9//C7/f/wu/3/8Lv9//C7/f/wu/
+        3/8Lt9z/C7fc/wNnnf8Kr9r/Cq/a/wqn1/8DX5r/AECA/wBAgP8AgID/AICA/wCAgP8AgID/AICA/wCA
+        gP8GnbL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgP8AgID/AICA/wCA
+        gP8AgID/AICA/wBAgP8AQID/A1+a/wqn1/8Kq9f/Cq/a/wu33P8DZ53/A2ed/wNnnf8Lv9//C7/f/wu/
+        3/8Lv9//C7/f/wu/3/8DZ53/A2ed/wNnnf8Kr9r/CqfX/wqn1/8Kp9f/AECA/wBAgP8AQID/AICA/wCA
+        gP8AgID/AICA/wCAgP8AQID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAad
+        sv8AgID/Bp2y/wCAgP8AgID/AECA/wBAgP8AQID/A1+a/wqn1/8Kp9f/CqfX/wqv2v8DX5r/AECA/wad
+        sv8DZ53/A2ed/wNnnf8DZ53/A2ed/wadsv8GnbL/AECA/wNnnf8Kp9f/CqfX/wqn1/8Kp9f/AECA/wBA
+        gP8AQID/AECA/wCAgP8AgID/Bp2y/wCAgP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABG6f/wBAgP8AQID/AECA/wRun/8DX5r/A2ed/wNn
+        nf8AgID/AICA/wCAgP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AgID/AICA/wCAgP8DX5r/A1+a/wNf
+        mv8Ebp//AECA/wBAgP8AQID/BG6f/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8AAAAABG+g/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wBAgP8AgID/AICA/wBAgP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/AICA/wCA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/BG6f/wRun/8Ebp//AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8Eb6D/BG+g/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wCAgP8AgID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wCAgP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/BG6f/wRvoP8Ebp//AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAEb6D/AECA/wBAgP8AQID/BG6f/wRvoP8Eb6D/AICA/wCAgP8AgID/AECA/wBAgP8AQID/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wCAgP8AgID/AICA/wCAgP8Eb6D/AECA/wBAgP8AQID/AECA/wRu
+        n/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGnbL/AICA/wCAgP8AgID/AICA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/AICA/wCAgP8AgID/AICA/wCAgP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWXsf8AgID/AICA/wCA
+        gP8FlK//AICA/wRun/8AQID/AECA/wBAgP8AQID/AECA/wBAgP8AQID/AICA/wCAgP8AgID/AICA/wWX
+        sf8AgID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABp2y/wCA
+        gP8AgID/BZex/wWUr////////////wRvoP8AQID/AECA/wBAgP8AAAAAAECA/wBAgP8AQID/AECA/wAA
+        AAAGnbL/AICA/wCAgP8GnbL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAadsv8AgID/BZex/wAAAAD/////BG+g/wRvoP8AQID/AECA/wAAAAAAAAAAAECA/wBA
+        gP8AQID/AECA/wRvoP8AAAAABp2y/wCAgP8Fl7H/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARun/8Ebp//AECA/wBAgP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAQID/AECA/wRvoP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP///////wAA////////AAD///////8AAP//
+        /D///wAA//94Pf//AAD/zggQc/8AAP/GAABj/wAA/8QAAAP/AAD/wAAAA/8AAP7AAAACfwAA/gAAAAD/
+        AAD+AAAAAH8AAP4AAAAAfwAA/wAAAAD/AAD5AAAAAL8AAPgAAAAAPwAA+AAAAAA/AAD4AAAAAD8AAPwA
+        AAAAPwAA/AAAAAA/AAD+AAAAAH8AAPAAAAAADwAA+AAAAAAfAAD4AAAAAB8AAPgAAAAAPwAA/AAAAAA/
+        AAD4AAAAAB8AAPgAAAAADwAA+AAAAAAfAAD4AAAAAD8AAPwAAAAAPwAA/AAAAAAfAAD4AAAAAB8AAPgA
+        AAAAPwAA/8AAAAP/AAD/QAAAAP8AAP8AAAAA/wAA/4AAAAH/AAD//gAAf/8AAP/8AAA//wAA//gAhD//
+        AAD//EGCP/8AAP//h+P//wAA////////AAD///////8AAP///////wAA////////AAAoAAAAIAAAAEAA
+        AAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg7fMgw9TjPcPU4z3g7fMgAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADz+fkMrtfXUQAAAAAAAAAA3evyI0OTt78BS4f/AUuI/3y0zYYAAAAAAAAAAMvl
+        5TTX6+soAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAh7rReWWmxJwAAAAAAAAAAFywsaMbmqTnS7C5tlKtr622zN1JAU2J/wBDgv8AQ4L/JXGh3Mzh
+        6zRSqamtKpWV1TGYmM5mwcycAAAAAAAAAABlpsSch7rReQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABYnr+qBWib/Wuqx5bi8/YeIaCt4gCBgv8AgYH/BI2e/gtglfYAQID/AECA/wBA
+        gP8CUoz/DGqc9gSMnv4AgID/AICA/x6TmOLP5ukxWZ/AqQVom/1Ynr+qAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFiev6oBSIb/OoKsxzucuscBbIb/AICA/wCAgP8AfYD/AECA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AH2A/wCAgP8AgID/AnSX/wJyk/8DYZf/AUiF/1iev6oAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH2+voIAAAAAWJ+/qgBEg/8BRoT/AU+K/wBEgf8AZID/AoiS/wON
+        of8Hhbr/B4W6/weFuv8Hhbr/B4W6/weFuv8DjaH/AnWS/wBVgP8ARIH/AU2K/wBFhP8ARIP/WJ+/qqDa
+        4mFesrWiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFJml7hiMjOcLkp/3AEiE/wBAgP8AQID/AECA/wJf
+        k/8GlrP/CaPO/wqn1/8Kp9f/CqfX/wqo1/8Kp9f/CqfX/wmjzv8Efqj/AUyK/wBAgP8AQID/AECA/wBI
+        hP8Mlqz3DZCY9aDQ0V8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjpjzAYWL/wCAgP8ARoD/AECA/wBA
+        gP8BTIr/BXeu/wqn1/8Kqdj/CqjX/wqr2P8HfOL/B33i/wqr2P8Kqdf/CqfX/wiUx/8EaKL/AUyK/wBA
+        gP8AQID/AEaA/wCAgP8AgID/Do2U8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIfO2nsDj5z/AICA/wBq
+        gP8AWYD/AUyK/wIxTv8FVnT/CqvY/waKu/8Hjr7/B3jm/wET+/8BFPv/BWTT/wZ+sv8GhLn/CqrY/wVV
+        dP8CMU7/AUyK/wBZgP8AaoD/AICA/wCAgP+GydB7AAAAAAAAAAAAAAAAAAAAAJnE2Ggog63bstjeTQGE
+        h/8AgID/AICA/wBqgP8CWZH/B4Cn/wIgJ/8CKjT/Aik1/wieyP8Eaaz/ARzk/wEd5P8Ggb7/CqzT/wIo
+        Nf8DLjj/AiMq/weAp/8Ca5H/AH2A/wCAgP8AgID/A42W/7Pb401lpsScAAAAAAAAAAAAAAAAh7rReQNj
+        mP8DZJf/AnOT/wBrgP8AboD/AICA/wOOnv8Gepb/B3aS/wd6k/8IhJv/C8Df/wmjyf8Eb6L/BHCj/wii
+        yP8Lv9//CIGa/wd6lf8HdZH/BniU/wOOnv8AgID/AG6A/wBrgP8Aa4D/AmGR/0uNtLYAAAAAAAAAAAAA
+        AACHutF5A2CW/wBBgf8AQID/AECA/wBEgP8AW4D/Am+X/wZrg/8Ga37/Bm9//wd5iv8KtNX/B5S8/wNh
+        mP8DY5j/CavN/wvC3/8HeIn/B2+C/wZpfv8GZ4L/AmyW/wBbgP8ARID/AECA/wBAgP8AQYH/SomxtgAA
+        AAAAAAAAAAAAAOjy9hc+kLXEAESD/wBAgP8AQID/AECA/wFKiP8DZJz/Cq3U/wvA3/8LxOD/DMvj/wqy
+        0P8CXJP/AEOC/wBDgv8GibT/DM3k/wzH4v8LwuD/C7nd/wqr0/8CWpT/AEGA/wBAgP8AQID/AECA/wBE
+        g/9Ml7q2AAAAAAAAAAAAAAAAAAAAAH+1zoIHaJv8AECA/wBAgP8AQID/AliS/wmhy/8Lvt//C8Lg/wzM
+        5P8Mz+X/C8LZ/wV+qv8CVY7/AlWO/wigwf8M0eb/DM3k/wvC3/8Lv9//C7fc/wiTwv8BTYr/AECA/wBA
+        gP8AQID/B2ib/H+1zoIAAAAAAAAAAN/v7yB5vLyGeby8hgdxjvkAQID/AECA/wBDgv8Feqz/C7rd/wq1
+        1P8FXGv/BmFs/wZoc/8N3en/C8bY/wmtx/8Jrcj/C8PX/w3V5/8GZ3P/Bl1r/wVbav8KrtH/CabQ/wRp
+        oP8AQ4L/AECA/wBAgP8HcY75eby8hnvDyobg8vUg8fj4Dmazs5kAgID/AH2A/wBcgP8AQID/AluV/waC
+        tP8LvN7/Cq3K/wAAAP8AAAD/AQsL/w3h6/8O5uz/Dunt/w7m7P8O4Or/Ddjn/wEKC/8AAAD/AAAA/wqq
+        yf8LtNv/Bn6z/wJXk/8AUID/AHGA/wB9gP8AgID/Zra5mfH5+w4AAAAAiM3VeQKLk/8AgIH/AICA/wB2
+        gP8Fja7/CrLb/wu83v8Ksc//Q2Bl/1NTU/8DMTX/Dd7p/w7o7f8O7O7/Dunt/w7j6/8N2ej/KFZa/29v
+        b/8CICT/CrDO/wu02/8Kq9j/BYyu/wB2gP8AgID/AICA/xOPlO6l2+NdAAAAAAAAAAC/399AJZyk3ABk
+        gf8AYoD/AEuA/wRnoP8Ksdr/C7ze/wvB3/8Kprv/BmVu/wzC0P8N3+r/Dubs/w7o7f8O5ez/DeDq/w3Y
+        5/8Lvs//BmBs/wmhuf8Lu97/C7Pb/wqs2P8EZ6D/AEuA/wBigP8AZIH/S661tgAAAAAAAAAAAAAAAKnL
+        3lcXfKDqAEKB/wBAgP8AQID/BGui/wqu2f8LuN3/C7/f/wzG4v8M0OX/DNLm/w3Z5/8N3+r/DeHr/w3c
+        6P8N2ef/DNPm/wzN5P8Lw+D/C7/f/wu43P8LtNv/CqrY/wRmoP8AQID/AECA/wBDgv8Ye6XqqL7UVwAA
+        AAAAAAAAh7rReQFPiv8AQID/AECA/wBAgP8EZp//CaXS/wu02/8Lvd7/C8Lg/wzK4/8Mz+X/DNHm/w3X
+        5/8N1+f/Ddfn/w3W5/8M0OX/DMzk/wvD4P8Lut3/C7bc/wqu2f8JoND/BGSf/wBAgP8AQID/AECA/wBE
+        g/8gXJPf0dzoLgAAAACHutF5AlyT/wBBgf8AQID/AECA/wJqkP8GjLj/C7Tb/wu33P8Lvt//C8Tg/wzK
+        4/8MzeT/DNHm/w3U5v8M0ub/DM3k/wzI4v8MxuL/C8Df/wu53f8Ls9v/CarT/wWHsf8CapD/AECA/wBA
+        gP8AQYH/IW2e4LvY5UUAAAAAAAAAANfo8Cgyk6POAGuB/wBrgP8Aa4D/AHmC/wJglv8Fd6r/CqvV/wu4
+        3P8Lvt//C8Lg/wzE4f8MyOL/DMnj/wzJ4/8LxOH/C8Lg/wvB4P8Lut3/C7Pb/waAtP8EgqX/Am2Q/wB5
+        gv8Aa4D/AGuA/wBsgv9NrsO2AAAAAAAAAAAAAAAA7vb2EUKvusEAgYL/AICA/wCAgP8AcID/AU2K/wRn
+        n/8JotD/CrLb/weOvP8Jpsz/CrbY/wvA3/8LwN//C8Df/wu/3/8Kstf/CaHK/waLu/8Krtr/CZrL/wJc
+        lv8AQoD/AHCA/wCAgP8AgID/AICA/wmJkviTztpuAAAAAAAAAACHyMx5AYOF/wKIj/8AgID/AHCA/wBE
+        gP8BTIr/B4zA/wqp1/8Kr9r/Boa3/wJclf8Fha7/CJ3G/widxv8Incb/CKfK/waLsf8CXZX/BoW3/wqp
+        2P8Kp9f/BoC2/wBAgP8ARID/AHCA/wCAgP8CiI//HIOO47TH2ksAAAAAAAAAANLt8S6f0tRhoNfdYZ7P
+        z2E2g6fKAEOC/wBEhP8EbqT/Bnyy/waAs/8Depz/AGyD/wJ6kf8BT4v/AU+L/wFPi/8CWY//AoCT/wBs
+        g/8DeJv/Bnqx/wZ8sv8EaqD/AECA/wBDgv82g6fKns/PYaDX3WG63NxFAAAAAAAAAAAAAAAAAAAAAAAA
+        AADW5+8qerLMh1CavbIARIP/AECA/wBEg/8ARYT/AEiE/wBqgv8AeYD/AEeA/wBAgP8AQID/AECA/wBA
+        gP8AR4D/AHmA/wBmgv8ARIT/AEWE/wBEg/8AQID/AESD/xB1pPMog63b1ufvKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAN/t8yA0irLOA2WZ/wBDgv8BRoT/AVCL/wFQiv8AZID/AICA/wBMgP8AQID/AECA/wBA
+        gP8AQID/AECA/wBAgP8ATID/AG6A/wBVgP8AVYL/AUqH/wBAgP8AQ4L/A2SY/zSKss7f7fMgAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANHl7i+StM1tkq3JbZK1zm2TwdZtGZCt6gCAgP8AgID/AGiA/wBA
+        gP8AQID/AECA/wBAgP8AQID/AECA/wBogP8AgID/AICA/xWJjOqTutFtkq3JbZKtyW2StM1t0eTtLwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+v3+BX3I1YQIipD4AIGC/wmN
+        mf8Mh47/AluS/wBAgP8AQID/CUeF9gBAgP8AQID/AnyB/QeEhPgAgIH/CpGg+H/AwYAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC75OpFHpuk4wGD
+        h/8doLjnst7n4LzZ5v8DYpf/AECA/zhqnMfC0uE9AECA/wBAgP8jXZPcisnYeBuZoucBhYj/ZcHPngAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC24uhLhsbIeYTF1X18s83LGWib/yhtntmGpMN54unxHeLp8R2GpMN5Jl2T2QFJhv9wrcmSsODnUYbF
+        yHm14OhLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA6/P3FMPc6D3C1OI91N/pKwAAAAAAAAAAAAAAAAAAAADU3+krwtTiPd3r
+        8iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/8P///mDP/+YABn/gA
+        AB/4AAAf6AAAB+AAAAfgAAAH4AAAB4AAAAOAAAADgAAAA4AAAAPAAAADAAAAAAAAAACAAAABgAAAA4AA
+        AAGAAAAAgAAAAYAAAAOAAAABgAAAAYAAAAPgAAAH4AAAB/AAAA/+AAD//gAA//8AAP//w8f/KAAAABgA
+        AAAwAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADw9vkQkrbObZK2zm3w9vkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC31uRJ9fn7CvX6+gpktrmct97hScvm5zRfmryhAU6K/wFO
+        iv+y0eBOy+XlNGOxsZy33uFJ9fv8CvX5+wq31uRJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAEa53/da7Kjcfn6zkCjJT/AYSG/xeOoeoVV4/qAECA/wBAgP8Xbp/qF4yf6gCAgP8BhYn/vN7iRGqo
+        xpcEa53/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWpL/IWqc4CKHq+AAcID/AICA/wBu
+        gP8AQID/AECA/wBAgP8AQID/AG6A/wCAgP8BdYn/Am6V/wJXkP8CWpL/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAX7a7oZLJyW0DZpf/AECA/wBAgP8AQID/A42g/wiexP8Kp9f/CqfX/wqn1/8Kp9f/CJ7E/wNs
+        m/8AQID/AECA/wBAgP8DZZb/VrjCrIjGx3gAAAAAAAAAAAAAAAAAAAAASquytgGDhv8AZ4T/AECA/wBB
+        gf8CU5D/CaTR/wqo1/8Kqdf/CZDe/wmR3v8Kqdj/CqfW/weIvP8CU5D/AEGB/wBAgP8AZoT/AIKE/16y
+        t6EAAAAAAAAAAAAAAADg7fMfqNniWAKKkv8AeID/AGGA/wJMhP8CLUL/CZK5/wZ5pv8Ij83/Ah30/wIg
+        9P8GfL3/BnSk/wmSuv8CLUL/Ak6E/wBjgP8AeID/AIKD/6jX3Vj1+fsKAAAAAAAAAAAog63bQZa2wQGG
+        jP8AgID/AHiA/wR+o/8Ihqf/Bml+/wiDmv8InMX/Ak61/wJOtf8Kr9T/CICZ/wZpgP8Ihaf/BIWj/wCA
+        gP8AgID/AYWJ/0GWtsG31uRJAAAAAAAAAAAne6jbAEaE/wBAgP8AQID/AF+A/wNykv8FTl7/BVNg/wd3
+        if8Jqs3/BXan/wV5qP8Lvdz/B3eJ/wVTYv8FTV7/A3CR/wBfgP8AQID/AECA/wBGhP+3zt9JAAAAAAAA
+        AACjytxeAlWO/wBAgP8AQID/AUiH/wV9r/8LvN7/DMbh/wzN5P8GhrD/AUmG/wFIhv8Lvtj/DMnj/wvB
+        3/8LuNz/BXWq/wBDgv8AQID/AECA/wJVjv+31uRJAAAAAO/39xDG4eU5LIKn1QBAgP8AQID/A1+Y/wqy
+        2P8Kr83/Cq7D/wu8zv8LvtT/BXil/wV4pv8Myd7/C7nN/wqmwP8KrMz/CaHM/wFQjf8AQID/AECA/yyC
+        p9XG4eY58Pn6ENDo6C8ViorqAHyA/wBQgP8BSof/BXms/wu93v8FUmD/AAAA/wRAQ/8O5Ov/Dujt/w7m
+        7P8N3Oj/BD1C/wAAAP8FUF//C7Xb/wV1q/8BSIb/AGWA/wB8gP8VjI3q0ezxLwAAAAAnn6nbAYSG/wCA
+        gP8CcJH/CarT/wu93v8Ig5f/U1NT/wdze/8O5Ov/Duvu/w7o7f8N3un/HIeP/z4+Pv8Ig5f/C7bc/wml
+        0f8CcJH/AICA/wCAgP9lu8KcAAAAAAAAAAB5t8WHAVmF/wBJgP8BToz/CaTQ/wu83v8Lw+D/C7PF/w3S
+        4v8O4Or/DuTs/w3h6v8N2ef/DM3h/wqpwf8Lvd7/C7Tb/wmgz/8BTYv/AEmA/wFci/+Ov9FyAAAAAAAA
+        AAAneKbbAESD/wBAgP8BToz/CZ3L/wu23P8Lv9//DMvj/wzP5f8N1ef/Ddno/w3X5/8N1Ob/DM3k/wvC
+        4P8LuNz/CrHa/wiYyv8BTYv/AECA/wBEg/8QU43vwdDgPgAAAAAnfqnbAUiF/wBAgP8BVYX/BYuy/wu1
+        2/8Lud3/C8Pg/wzK4/8MzuX/DNLm/wzR5f8MyuP/DMfi/wu/3/8Ltdz/CavT/wWFqv8BVYX/AECA/wFI
+        hf95rMiHAAAAAAAAAAC33uFJAYSG/wCAgP8AgID/AE6E/wRpoP8Ksdr/CqrR/wu62/8LwuD/C8Lg/wvC
+        4P8Lvt//C7ba/wmm0P8Imsr/A2iX/wBUgP8AgID/AICA/wGFiP96x9CHAAAAAAAAAAA6oqfGAYaK/wCA
+        gP8AXoD/AUqI/weNwf8Kq9j/B5LA/wRvov8InMP/CabM/wmmzP8IpMb/BG+i/wePv/8KqNf/B4S5/wBB
+        gP8AXoD/AICA/wGFiP9PlKuxAAAAAAAAAADC5eg+stzhTqfS1VgCU43/AEOC/wRpoP8Fcqn/A3ab/wF0
+        hf8BWor/AUuI/wFLiP8CY43/AXSF/wNzmv8Fb6j/BGee/wBAgP8CU43/ksbNbbLc4U7q9fUVAAAAAAAA
+        AAAAAAAA2+rxJEGSt8ECW5L/AECA/wBAgP8AQID/AHCA/wBZgP8AQID/AECA/wBAgP8AQID/AFmA/wBb
+        gP8AQID/AECA/wBAgP8CWpL/BG6f/9vq8SQAAAAAAAAAAAAAAAAAAAAAAAAAAK3Q4FNtkraSbpm7kmCn
+        xKECgZH/AICA/wBZgP8AQID/AECA/wBAgP8AQID/AFmA/wCAgP8AgID/X5+5oW2StpJtkraSrdDgUwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6/f5FUuvubYBhov/IZij/zWVpf8BS4j/AECA/ypf
+        ldUAQID/CmiF9SCUmOABhoz/X7W7oQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA6/f5FVGzu7EnnarbstnkrEuSt/8bX5XleJq8h6G50F4aU43lC02I9YrD1XgmnKLbZb3JnAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk8HWbZKw
+        ym3g6O8fAAAAAAAAAADg6O8fkrDLbdHl7i8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/D
+        /wDwAA8A8AAPAPAADwDAAAMAwAADAIAAAQCAAAEAgAABAIAAAQAAAAAAAAAAAIAAAQCAAAEAgAAAAIAA
+        AQCAAAEAgAABAIAAAQDAAAMA4AAHAPgAPwD4AD8A/xj/ACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/P7+A+v19RT2+vwJeajFh4iwy3gAAAAA6PPzFwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC31uRJda7JjJjQ1Wkak5jnRpmwuwBEg/8KUYz2S6C0theL
+        i+iVztNscavHkbfW5EkAAAAAAAAAAAAAAADf7+8gq8/fVQ9VjvEPZ5PxAHuE/wN0l/8DYp3/A2Kd/wN0
+        l/8Ac4T/AV6N/wFNif+Uxdht1+zsKAAAAAAAAAAAiMnPeAmJjvcARIH/AEOD/waFs/8Kp9X/CZ3a/wme
+        2v8KptX/BHGn/wBDg/8AQ4H/BoqR+qvX2VQAAAAA5fD1GpjK2WkBhYn/AGuA/wNVhP8FU2r/Bnie/wNE
+        3P8DRtz/BnWd/wVUbP8DWoT/AHCA/wGDhf+n0t5ZAAAAAMPc6D0CWpH/AFiF/wBjgP8EeZT/B3KJ/wmc
+        tv8GgrD/Boi0/wmeuf8Hcon/BHaT/wBjgP8AVYD/Jm6e2wAAAAD5/P0GMXyo0ABAgP8BSIb/CJzG/wvE
+        4f8LxNz/AlyT/wRwof8MzOT/C7/f/wiUwf8AQ4P/AECA/zR+qs0AAAAArNbWUyCLk98AR4D/A2ae/wu2
+        1v8DLzb/CIyU/wzR3v8Mzt3/CIiT/wMuNf8KrdH/A2Ca/wBQgP8gi5PfrNndU9Hr7C4Kg472AGmA/weW
+        wf8Lu9r/KW94/wqstv8O6e3/DuTr/xOxvv8gZG7/C7XZ/weSv/8AaYD/F4iS6Oj2+BfM4es0BlOL+gBA
+        gP8Hibv/C7rd/wzJ4/8M0+b/Ddvp/w3Y5/8Mz+X/C8Df/wu02/8Hhbr/AECA/wZQivqmvdNZ1+jwKA1n
+        jvMAVYD/A3SY/wmjzv8Lvt//DMfi/wzN5P8My+P/DMTh/wu63f8HmML/AnaV/wBVgP8ccpnl7vX4Ed3v
+        8CMRj5TvAHyA/wFThf8HkML/CJ3K/wePuv8Kr9P/CrHT/wePuv8Imsn/B4e7/wBNgP8AfID/CoWM9tHl
+        7C70+/wMxeToO2enwJkAQ4L/A12X/wJrlf8BaYX/AUeG/wFKhv8Ba4b/AmeU/wNclv8AQoH/Q5Kxvszm
+        6jQAAAAAAAAAAPf6/AhnosGaSXuntix8ptUAeYD/AE2A/wBAgP8AQID/AE2A/wBxgP8qeJnVSXeltmeh
+        wZr3+vwIAAAAAAAAAAAAAAAAAAAAAO34+RMpnKTYNqOu8TSHp/8OSofxM2aZzAlWhfYrmqDVPKauxQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzunsMavS4GZ2osGQ2ePsJtnj7CZvlrmQv97oQc7p
+        7DEAAAAAAAAAAAAAAAAAAAAA8F8AAMADAACAAQAAgAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAEAAIABAADgDwAA8A8AAA==
+</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>新試作手配システム Ver 1.00</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi_Sheet1.Name" xml:space="preserve">
+    <value>spdShutuzuTorikomi_Sheet1</value>
+  </data>
+  <data name="&gt;&gt;spdShutuzuTorikomi_Sheet1.Type" xml:space="preserve">
+    <value>FarPoint.Win.Spread.SheetView, FarPoint.Win.SpreadJ, Version=3.0.2010.2005, Culture=neutral, PublicKeyToken=a5fa960294d899e7</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Frm20ShutuzuTorikomi</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
